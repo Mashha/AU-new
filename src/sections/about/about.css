@@ -1,0 +1,94 @@
+.about-section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.background-split {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  z-index: 0;
+}
+
+.left-bg,
+.right-bg {
+  width: 50%;
+  height: 100%;
+}
+
+.left-bg {
+  background-color: var(--brand-red);
+}
+
+.right-bg {
+  background-color: var(--brand-white);
+}
+
+.content-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto auto auto;
+  gap: 0;
+  z-index: 1;
+  padding: 40px;
+}
+
+.who-we-are {
+  grid-column: 1 / 4;
+  grid-row: 1;
+  padding: 2rem 2rem 2rem 0;
+  color: white;
+  gap: 12px;
+}
+
+.who-we-are h2, .what-we-believe h2 {
+    padding-bottom: 12px;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.what-we-believe p, .who-we-are p {
+    font-weight: 300;
+}
+
+.image-area {
+  grid-column: 2 / 6;
+  grid-row: 2;
+}
+
+.image-area img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.what-we-believe {
+  grid-column: 4 / 7;
+  grid-row: 3;
+  padding: 2rem 0 2rem 2rem;
+  color: var(--brand-black);
+  text-align: right;
+}
+
+.values-floating {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  z-index: 2;
+  color: white;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding-bottom: 2rem;
+}
+
+.values-floating .value {
+  font-size: 5rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.2;
+  opacity: 0.15;
+}
