@@ -1,12 +1,16 @@
-import React from 'react';
-import './quote.css';
+import React from "react";
+import "./quote.css";
+import quoteImg from "../../assets/number.png";
+import { useTranslation } from "react-i18next";
 
 const QuoteSection = () => {
+  const { t } = useTranslation();
   return (
-    <section className="quote-section">
-      <div className="quote-container">
-        <blockquote className="quote-text">
-          Imagine being born into a world where your fate was already sealed. You were just a number — and your death, a scheduled event.
+    <section className='quote-section'>
+      <div className='quote-container'>
+        <img src={quoteImg} />
+        <blockquote className='quote-text'>
+          {t("quoteSection.quote")}
         </blockquote>
       </div>
     </section>

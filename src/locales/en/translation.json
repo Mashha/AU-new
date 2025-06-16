@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "title": "If they could speak, what would they say?",
+    "subtitle": "Raising awareness about animal exploitation through street activism and truth-based conversations",
+    "buttonOne": "Explore the truth",
+    "buttonTwo": "Join the movement"
+  },
+  "quoteSection": {
+    "imageAlt": "Ear tag 290",
+    "quote": "Imagine being born into a world where your fate was already sealed. You were just a number — and your death, a scheduled event."
+  },
+  "whoWeAre": {
+    "title": "Who we are",
+    "description": "We are a grassroots collective of animal rights <strong>activists</strong>. Since 2018, we've been educating the public with real footage from farms and slaughterhouses, showing the <strong>hidden cost</strong> of meat, dairy, eggs, leather, and more. In 2023, we formed <strong>Anonymous for the Unheard</strong>, a growing movement giving voice to the silenced and demanding justice for all animals."
+  },
+  "whatWeBelieve": {
+    "title": "What we believe in",
+    "description": "We envision a world where animals are no longer treated as commodities, but as <strong>sentient</strong> beings worthy of respect, freedom, and peace. Through education and peaceful activism, we challenge norms and offer a better way forward for all living beings.",
+    "values": ["Compassion", "Justice", "Liberation"]
+  },
+  "meatSection": {
+    "title": "Meat",
+    "description": "We see meat as food, not as someone's body. But every cut comes from a life that wanted to live — just like us.",
+    "button": "See more"
+  },
+  "fishSection": {
+    "title": "Fish",
+    "description": "Fish feel pain. They struggle, suffocate, and vanish by the billions — unseen, unheard.",
+    "button": "See more"
+  },
+  "eggsSection": {
+    "title": "Eggs",
+    "description": "Eggs seem harmless. But behind every carton is a story of suffering, silenced chirps, and discarded lives.",
+    "button": "See more"
+  },
+  "dairySection": {
+    "title": "Dairy",
+    "description": "Most of us grew up believing dairy was normal, necessary, and natural. We were never shown the reality behind the glass of milk.",
+    "button": "See more"
+  },
+  "interlude": {
+    "lineOne": "Where did the love go? The love you once felt for all animals?",
+    "lineTwo": "Who taught you to pet one and pay for another to be slaughtered?"
+  },
+  "factoryFarming": {
+    "question": "If factory farming is normal and humane, why does the industry go to such lengths to hide it?"
+  },
+  "cta": {
+    "heading": "IT STARTS WITH YOU",
+    "description": "Change doesn't begin in governments or big industries. It begins with a single person choosing to care — to act.",
+    "quote1": "It starts with what you eat.",
+    "quote2": "With what you wear.",
+    "quote3": "With what you stand for.",
+    "invitation": "Because every compassionate choice you make tells the world:",
+    "line": "Animals are not ours to use",
+    "vegan": "Try veg",
+    "help": "Help animals"
+  },
+  "footer": {
+    "navigation": ["About", "Meat", "Eggs", "Fish", "Dairy", "Resources"],
+    "copyright": "© 2025 Anonymous for the Unheard"
+  }
+}

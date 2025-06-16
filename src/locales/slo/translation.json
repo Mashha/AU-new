@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Če bi lahko spregovorile, kaj bi nam povedale?",
+    "subtitle": "Ozaveščamo o trpljenju živali skozi ulični aktivizem in pogovore, ki temeljijo na resnici.",
+    "buttonOne": "Razišči resnico",
+    "buttonTwo": "Pridruži se gibanju"
+  },
+  "quoteSection": {
+    "imageAlt": "Ušesna oznaka 290",
+    "quote": "Predstavljaj si, da se rodiš v svet, kjer je tvoja usoda že določena. Le številka si — in tvoja smrt, že načrtovan dogodek."
+  },
+  "whoWeAre": {
+    "title": "Kdo smo",
+    "description": "Smo skupnost aktivistov za pravice živali, ki se borimo proti izkoriščanju živih bitij. Na ulice prinašamo resnico in sočutje — za tiste, ki jih nihče ne sliši."
+  },
+  "whatWeBelieve": {
+    "title": "V kaj verjamemo",
+    "description": "Predstavljamo si svet, kjer živali niso več obravnavane kot stvari, temveč kot čuteča bitja — vredna svobode, spoštovanja in miru. Z izobraževanjem in nenasilnim aktivizmom izzivamo norme in ponujamo boljšo pot za vse nas.",
+    "values": ["Sočutje", "Pravičnost", "Osvoboditev"]
+  },
+  "meatSection": {
+    "title": "Meso",
+    "description": "Meso vidimo kot obrok. A v resnici je to telo nekoga, ki si je želel živeti — tako kot ti.",
+    "button": "Poglej več"
+  },
+  "fishSection": {
+    "title": "Ribe",
+    "description": "Ribe čutijo bolečino. Borijo se, dušijo in v milijardah izginjajo — nevidne in neslišane.",
+    "button": "Poglej več"
+  },
+  "eggsSection": {
+    "title": "Jajca",
+    "description": "Jajca se morda zdijo nedolžna, a za vsako škatlo se skriva zgodba o trpljenju, tihih čivkih in zavrženih življenjih.",
+    "button": "Poglej več"
+  },
+  "dairySection": {
+    "title": "Mlečni izdelki",
+    "description": "Večina nas je odraščala z mislijo, da je mleko nekaj naravnega in nujnega. Nihče pa nam ni pokazal, kaj se v resnici skriva za kozarcem mleka.",
+    "button": "Poglej več"
+  },
+  "interlude": {
+    "lineOne": "Kam je izginila ljubezen? Ljubezen, ki si jo nekoč čutil do vseh živali?",
+    "lineThree": "Kdo te je naučil, da eno božaš, za drugo pa plačaš, da jo ubijejo?"
+  },
+  "factoryFarming": {
+    "question": "Če je industrijska živinoreja res normalna in humana, zakaj si industrija tako prizadeva, da jo skriva?"
+  },
+  "cta": {
+    "heading": "ZAČNE SE S TEBOJ",
+    "description": "Spremembe ne začenjajo vladarji ali korporacije. Začnejo se z eno osebo, ki ji je mar — in ki se odloči nekaj narediti.",
+    "quote": "Začne se s tem, kaj ješ. S tem, kar nosiš. In s tem, za kar se zavzemaš.",
+    "invitation": "Kajti vsaka sočutna izbira, ki jo narediš, pove svetu:",
+    "line": "Živali niso tukaj za našo uporabo.",
+    "vegan": "Izberi rastlinsko",
+    "help": "Pomagaj živalim"
+  },
+  "footer": {
+    "navigation": ["O nas", "Meso", "Jajca", "Ribe", "Mlečni izdelki", "Viri"],
+    "copyright": "© 2025 Anonimni za neslišane"
+  }
+}

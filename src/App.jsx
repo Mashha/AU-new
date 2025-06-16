@@ -6,8 +6,9 @@ import About from "./sections/about/About";
 import CatOne from "./sections/categories/cat_one/CatOne";
 import CatTwo from "./sections/categories/cat_two/CatTwo";
 import Truth from "./sections/truth/Truth";
-
-// import Footer from './components/Footer';
+import AnimalLove from "./sections/animalLove/animalLove";
+import Support from "./sections/support/support";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -17,10 +18,11 @@ function App() {
       <QuoteSection />
       <About />
       <CatOne />
+      <AnimalLove />
       <CatTwo />
       <Truth />
-      {/*
-      <Footer /> */}
+      <Support />
+      <Footer />
     </div>
   );
 }

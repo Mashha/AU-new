@@ -1,41 +1,30 @@
-import React from 'react';
-import './hero.css';
-import bg from "../../assets/hero-bg.jpg"
+import React from "react";
+import "./hero.css";
+import bg from "../../assets/hero-bg.jpg";
+import { useTranslation } from "react-i18next";
 
 const HeroSection = () => {
+  const { t } = useTranslation();
   return (
-    <section className="heroSection">
-      {/* Background Image */}
+    <section className='heroSection'>
       <div
-        className="backgroundImage"
+        className='backgroundImage'
         style={{
-          backgroundImage: `url(${bg})`, // Make sure to import your bg variable
+          backgroundImage: `url(${bg})`,
         }}
       ></div>
-      
-      {/* Overlay */}
-      <div className="overlay"></div>
-      
-      {/* Content - Left Aligned */}
-      <div className="content">
-        <div className="contentInner">
-          <h1 className="title">
-            If they could speak,
-            <br />
-            what would they
-            <br />
-            <span className="titleAccent">say?</span>
+
+      <div className='overlay'></div>
+
+      <div className='content'>
+        <div className='contentInner'>
+          <h1 className='title'>
+            {t('hero.title')}
           </h1>
-          <p className="subtitle">
-            Raising awareness about animal exploitation through street activism and truth-based conversations
-          </p>
-          <div className="buttonContainer">
-            <button className="primaryButton">
-              Take Action Now
-            </button>
-            <button className="secondaryButton">
-              Join the Movement
-            </button>
+          <p className='subtitle'>{t("hero.subtitle")}</p>
+          <div className='buttonContainer'>
+            <button className='primaryButton'>{t("hero.buttonOne")}</button>
+            <button className='secondaryButton'>{t("hero.buttonTwo")}</button>
           </div>
         </div>
       </div>
