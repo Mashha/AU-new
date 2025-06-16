@@ -1,5 +1,6 @@
 import "./footer.css";
 import logoBig from "../../assets/logo_two.png";
+import heart from "../../assets/heart.png";
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
       <div className='footer-content'>
         <div className='logo-section'>
           <div className='logo-container'>
-              <img src={logoBig} />
+            <img src={logoBig} />
           </div>
         </div>
 
@@ -53,7 +54,8 @@ const Footer = () => {
           <span>© All right reserved</span>
         </div>
         <div className='created-by'>
-          <span>❤️ Created by Orelia</span>
+          <img src={heart} />
+          <span>Created by Orelia</span>
         </div>
       </div>
     </footer>

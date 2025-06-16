@@ -142,7 +142,7 @@
 /* Large desktop screens */
 @media (min-width: 1200px) {
   .animal-love-section {
-    padding: 4rem;
+    padding: 8rem 4rem;
   }
 
   .question-text {

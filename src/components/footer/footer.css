@@ -88,13 +88,15 @@
 }
 
 .created-by {
-  color: #fff;
+  display: flex;
+  gap: 4px;
 }
 
 .created-by span {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  color: #fff;
 }
 
 /* Responsive Design */
