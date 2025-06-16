@@ -38,7 +38,7 @@
 .who-we-are {
   grid-column: 1 / 4;
   grid-row: 1;
-  padding: 2rem 2rem 2rem 0;
+  padding: 2rem 3rem 2rem 0;
   color: white;
   gap: 12px;
 }
@@ -67,7 +67,7 @@
 .what-we-believe {
   grid-column: 4 / 7;
   grid-row: 3;
-  padding: 2rem 0 2rem 2rem;
+  padding: 2rem 0 2rem 3rem;
   color: var(--brand-black);
   text-align: right;
 }
