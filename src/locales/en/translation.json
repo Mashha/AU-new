@@ -57,6 +57,7 @@
       "invitation": "Because every compassionate choice you make tells the world:",
       "line": "Animals are not ours to use",
       "vegan": "Try veg",
+      "vegan-link": "https://challenge22.com/",
       "help": "Help animals"
     }
   },
@@ -356,8 +357,8 @@
       {
         "key": "about",
         "label": "About",
-        "type": "hash",
-        "href": "#about"
+        "type": "route",
+        "href": "/about"
       },
       {
         "key": "meat",
@@ -386,9 +387,297 @@
       {
         "key": "resources",
         "label": "Resources",
-        "type": "hash",
-        "href": "#resources"
+        "type": "route",
+        "href": "/resources"
       }
     ]
+  },
+  "resources": {
+    "title": "Resources",
+    "food": {
+      "title": "Food & Nutrition",
+      "items": [
+        {
+          "title": "How to Go Vegan - Minimalist Vegan",
+          "url": "https://theminimalistvegan.com/how-to-go-vegan/"
+        },
+        {
+          "title": "Beginner's Vegan Guide - The Green Loot",
+          "url": "https://thegreenloot.com/going-vegan-guide-beginners/"
+        },
+        {
+          "title": "Nutrition Overview - The Vegan Society",
+          "url": "https://www.vegansociety.com/resources/nutrition-and-health/nutrition-overview-0"
+        }
+      ]
+    },
+    "movies": {
+      "title": "Movies & Documentaries",
+      "items": [
+        {
+          "title": "The Game Changers (2018)",
+          "url": "https://www.imdb.com/title/tt7455754/"
+        },
+        {
+          "title": "Cowspiracy: The Sustainability Secret (2014)",
+          "url": "https://www.imdb.com/title/tt3302820/"
+        },
+        {
+          "title": "Meat the Truth (2007)",
+          "url": "https://www.imdb.com/title/tt1341746/"
+        },
+        {
+          "title": "Earthlings",
+          "url": "https://vimeo.com/237062854"
+        },
+        {
+          "title": "The Witness",
+          "url": "https://www.imdb.com/title/tt0264181/"
+        },
+        {
+          "title": "Seaspiracy",
+          "url": "https://www.seaspiracy.org/"
+        },
+        {
+          "title": "Food, Inc. (2008)",
+          "url": "https://www.imdb.com/title/tt1286537/"
+        },
+        {
+          "title": "The Milk System",
+          "url": "https://www.imdb.com/title/tt7274546/"
+        },
+        {
+          "title": "Eating Our Way to Extinction",
+          "url": "https://en.wikipedia.org/wiki/Eating_Our_Way_to_Extinction"
+        },
+        {
+          "title": "Dominion (2018)",
+          "url": "https://en.wikipedia.org/wiki/Dominion_(2018_film)"
+        }
+      ]
+    },
+    "lectures": {
+      "title": "Lectures & Talks",
+      "items": [
+        {
+          "title": "Dr. Oscar Horta: Veganism - Activism in Everyday Life",
+          "url": "http://www.youtube.com/watch?v=09-XOorJ7_8"
+        },
+        {
+          "title": "Dr. Steve Best: Everything You Know About Homo Sapiens is Wrong",
+          "url": "http://www.youtube.com/watch?v=JUQb99UA5Rs"
+        },
+        {
+          "title": "Dr. Melanie Joy: Why We Love Dogs, Eat Pigs and Wear Cows",
+          "url": "http://www.youtube.com/watch?v=uVpNuC3NmlM"
+        },
+        {
+          "title": "James Wildman: 101 Reasons to Go Vegan",
+          "url": "http://www.youtube.com/watch?v=e-F8whzJfJY"
+        },
+        {
+          "title": "Colleen Patrick-Goudreau: From Excuse-itarian to Vegan",
+          "url": "http://www.youtube.com/watch?v=xWD1Zze5Qo4"
+        },
+        {
+          "title": "Sea the Truth",
+          "url": "http://www.youtube.com/watch?v=V325y7QCg3c"
+        },
+        {
+          "title": "Are We Meat Eaters?",
+          "url": "http://www.youtube.com/watch?v=05zhL1YUd8Q"
+        },
+        {
+          "title": "Human",
+          "url": "http://www.youtube.com/watch?v=WfGMYdalClU"
+        },
+        {
+          "title": "Melanie Joy Interview on Carnism",
+          "url": "https://www.youtube.com/watch?v=7AQkgJtBwk8"
+        },
+        {
+          "title": "Paul McCartney: Glass Walls (PETA)",
+          "url": "http://www.youtube.com/watch?v=sTifP6idBPs"
+        },
+        {
+          "title": "Gary Yourofsky: The Most Important Speech",
+          "url": "https://www.youtube.com/watch?v=U5hGQDLprA8&t=105s"
+        },
+        {
+          "title": "Farm to Fridge - The Truth Behind Meat Production",
+          "url": "http://www.youtube.com/watch?v=THIODWTqx5E"
+        },
+        {
+          "title": "A Life Connected",
+          "url": "http://vimeo.com/13317130"
+        },
+        {
+          "title": "The Real Truth About Fur",
+          "url": "http://www.youtube.com/watch?v=HJTk4d3SPK4"
+        },
+        {
+          "title": "The Empathic Civilisation",
+          "url": "http://www.youtube.com/watch?v=l7AWnfFRc7g"
+        }
+      ]
+    },
+    "books": {
+      "title": "Books",
+      "items": [
+        {
+          "title": "Eating Animals - Jonathan Safran Foer",
+          "url": "https://www.goodreads.com/book/show/6604712-eating-animals"
+        },
+        {
+          "title": "Veganomicon",
+          "url": "https://www.goodreads.com/book/show/1059680.Veganomicon"
+        },
+        {
+          "title": "Why We Love Dogs, Eat Pigs, and Wear Cows",
+          "url": "https://www.goodreads.com/book/show/50915414-why-we-love-dogs-eat-pigs-and-wear-cows"
+        },
+        {
+          "title": "The China Study",
+          "url": "https://www.goodreads.com/book/show/178788.The_China_Study"
+        },
+        {
+          "title": "How Not to Die",
+          "url": "https://www.goodreads.com/book/show/25663961-how-not-to-die"
+        },
+        {
+          "title": "The Oh She Glows Cookbook",
+          "url": "https://www.goodreads.com/book/show/18079651-the-oh-she-glows-cookbook"
+        },
+        {
+          "title": "This is Vegan Propaganda",
+          "url": "https://www.amazon.co.uk/dp/1785043765"
+        },
+        {
+          "title": "Proteinaholic",
+          "url": "https://www.amazon.com/Proteinaholic-Obsession-Meat-Killing-About/dp/0062279319"
+        },
+        {
+          "title": "More on Goodreads",
+          "url": "https://www.goodreads.com/shelf/show/veganism"
+        }
+      ]
+    },
+    "articles": {
+      "title": "Articles & Guides",
+      "items": [
+        {
+          "title": "Forks Over Knives - Articles",
+          "url": "https://www.forksoverknives.com/articles/"
+        },
+        {
+          "title": "Plant-Based Primer",
+          "url": "https://www.forksoverknives.com/how-tos/plant-based-primer-beginners-guide-starting-plant-based-diet/"
+        },
+        {
+          "title": "Health Topics",
+          "url": "https://www.forksoverknives.com/health-topics/"
+        },
+        {
+          "title": "Vegan FTA Interviews",
+          "url": "https://veganfta.com/category/interviews/"
+        },
+        {
+          "title": "5 Vegan Myths Debunked",
+          "url": "https://selecthealth.org/blog/2019/10/breaking-5-myths-about-being-vegan"
+        },
+        {
+          "title": "Is Soy Really Vegan?",
+          "url": "https://www.vegansisters.org/lifestyle/is-soy-really-vegan/"
+        }
+      ]
+    },
+    "recipes": {
+      "title": "Vegan Recipes",
+      "items": [
+        { "title": "Oh She Glows", "url": "https://ohsheglows.com/" },
+        {
+          "title": "Forks Over Knives",
+          "url": "https://www.forksoverknives.com/recipes/"
+        },
+        {
+          "title": "BBC Good Food",
+          "url": "https://www.bbcgoodfood.com/recipes/collection/vegan-recipes"
+        },
+        { "title": "Nora Cooks", "url": "https://www.noracooks.com/" },
+        {
+          "title": "Feasting at Home",
+          "url": "https://www.feastingathome.com/vegan-dinner-recipes/"
+        },
+        {
+          "title": "Love & Lemons",
+          "url": "https://www.loveandlemons.com/vegan-recipes/"
+        },
+        {
+          "title": "Jamie Oliver - Vegan",
+          "url": "https://www.jamieoliver.com/recipes/category/special-diets/vegan/"
+        },
+        {
+          "title": "Skinnytaste",
+          "url": "https://www.skinnytaste.com/recipes/vegan/"
+        },
+        {
+          "title": "Rainbow Plant Life",
+          "url": "https://rainbowplantlife.com/category/recipes/dinner/"
+        }
+      ]
+    },
+    "restaurants": {
+      "title": "Vegan Restaurants",
+      "items": [{ "title": "Happy Cow", "url": "https://www.happycow.net/" }]
+    },
+    "stores": {
+      "title": "Vegan Stores",
+      "items": [
+        { "title": "Vegan Essentials", "url": "https://veganessentials.com/" },
+        { "title": "The Vegan Kind", "url": "https://vegankind.com/" },
+        {
+          "title": "Alternative Stores",
+          "url": "https://alternativestores.com/"
+        },
+        { "title": "Vegan Store UK", "url": "https://www.veganstore.co.uk/" }
+      ]
+    },
+    "crueltyFree": {
+      "title": "Cruelty-Free & Vegan Companies",
+      "items": [
+        {
+          "title": "Cruelty-Free Brands - Cruelty Free Kitty",
+          "url": "https://www.crueltyfreekitty.com/list-of-cruelty-free-brands/"
+        },
+        {
+          "title": "PETA's Cruelty-Free Companies",
+          "url": "https://crueltyfree.peta.org/companies-dont-test/"
+        },
+        {
+          "title": "PETA's Vegan Companies List",
+          "url": "https://crueltyfree.peta.org/vegan-companies/"
+        }
+      ]
+    },
+    "general": {
+      "title": "Other Useful Pages",
+      "items": [
+        {
+          "title": "The Vegan Society",
+          "url": "https://www.vegansociety.com/"
+        },
+        { "title": "Vegan Kit", "url": "https://www.vegankit.com/" },
+        { "title": "Vegan.org", "url": "https://vegan.org/" },
+        {
+          "title": "Forks Over Knives",
+          "url": "https://www.forksoverknives.com/"
+        },
+        { "title": "Carnism.org", "url": "https://carnism.org/" },
+        {
+          "title": "Minimalist Vegan",
+          "url": "https://theminimalistvegan.com/"
+        }
+      ]
+    }
   }
 }

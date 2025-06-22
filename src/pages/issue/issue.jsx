@@ -14,8 +14,6 @@ const CategoryPage = () => {
   const data = t(`categories.${category}`, { returnObjects: true });
   const choicesData = t("shared.choices", { returnObjects: true });
 
-  console.log("choice data", choicesData);
-
   return (
     <div>
       <Navigation />

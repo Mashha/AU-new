@@ -7,7 +7,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  height: 100vh;
   gap: 0;
 }
 
@@ -52,7 +51,7 @@
 }
 
 .category-title {
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 700;
   margin-bottom: 32px;
   line-height: 1.1;

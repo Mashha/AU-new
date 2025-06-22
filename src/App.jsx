@@ -10,6 +10,7 @@ import AnimalLove from "./sections/animalLove/animalLove";
 import Support from "./sections/support/support";
 import Footer from "./components/footer/footer";
 import CategoryPage from "./pages/issue/issue";
+import ResourcesPage from "./pages/resources/resources";
 
 // Home Page Component
 function HomePage() {
@@ -34,6 +35,7 @@ function App() {
     <Routes>
       <Route path='/' element={<HomePage />} />
       <Route path='/:category' element={<CategoryPage />} />
+      <Route path='/resources' element={<ResourcesPage />} />
       <Route path='*' element={<HomePage />} /> {/* Fallback route */}
     </Routes>
   );
