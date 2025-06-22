@@ -7,7 +7,7 @@ const BiggerPictureSection = ({ data }) => {
 
   return (
     <section className='bigger-picture-section'>
-      <div className='container'>
+      <div className='bg-section-container'>
         <h2 className='bigger-picture-title'>{data.biggerPicture.title}</h2>
 
         <div className='bigger-picture-grid'>

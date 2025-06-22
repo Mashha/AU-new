@@ -1,51 +1,51 @@
-/* Choice Section Container */
 .choice-section {
-  padding: 80px 20px;
+  padding: 4rem 1rem;
   background: var(--brand-black);
   text-align: center;
   color: white;
 }
 
 .choice-section h2 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   color: #ffffff;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  line-height: 1.2;
 }
 
 .choice-section p {
-  font-size: 1.2rem;
-  margin-bottom: 3rem;
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
   color: #cccccc;
-  max-width: 600px;
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  line-height: 1.6;
+  line-height: 1.5;
+  padding: 0 10px;
 }
 
-/* Choices Grid - No gaps, cards side by side */
+/* Choices Grid */
 .choices-grid {
   display: flex;
+  flex-direction: column;
 }
 
-/* Individual Choice Cards - No radius, no gaps */
+/* Individual Choice Cards */
 .choice-card {
   position: relative;
-  flex: 1;
   overflow: hidden;
   background: var(--brand-black);
   transition: all 0.4s ease;
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .choice-card:last-child {
-  border-right: none;
+  border-bottom: none;
 }
 
 .choice-card:hover {
-  flex: 1.2;
   z-index: 2;
 }
 
@@ -60,14 +60,14 @@
 /* Choice Images */
 .choice-image {
   width: 100%;
-  height: 350px;
+  height: 200px;
   object-fit: cover;
   transition: all 0.4s ease;
   filter: grayscale(0.7) brightness(0.8);
 }
 
 .choice-card:hover .choice-image {
-  transform: scale(1.1);
+  transform: scale(1.05);
   filter: grayscale(0) brightness(1);
 }
 
@@ -98,18 +98,18 @@
   );
 }
 
-/* Choice Text */
+/* Choice Text - Smaller on mobile */
 .choice-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 1.5rem;
-  font-size: 1.8rem;
+  padding: 0.8rem;
+  font-size: 0.85rem;
   font-weight: 700;
   color: white;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   z-index: 2;
   text-align: center;
   white-space: nowrap;
@@ -118,7 +118,7 @@
 }
 
 .choice-card:hover .choice-text {
-  transform: translate(-50%, -50%) scale(1.1);
+  transform: translate(-50%, -50%) scale(1.05);
   color: #ffffff;
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9);
 }
@@ -158,7 +158,7 @@
 .choice-card.text-below .choice-text {
   position: static;
   background: none;
-  padding: 1.5rem;
+  padding: 1rem;
   color: #333;
   border-top: 3px solid #e74c3c;
 }
@@ -167,77 +167,7 @@
   display: none;
 }
 
-/* Mobile Responsive */
-@media (max-width: 768px) {
-  .choice-section {
-    padding: 60px 15px;
-  }
-  
-  .choice-section h2 {
-    font-size: 2rem;
-  }
-  
-  .choice-section p {
-    font-size: 1rem;
-    margin-bottom: 2rem;
-  }
-  
-  .choices-grid {
-    flex-direction: column;
-    box-shadow: none;
-  }
-  
-  .choice-card {
-    border-right: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  }
-  
-  .choice-card:last-child {
-    border-bottom: none;
-  }
-  
-  .choice-card:hover {
-    flex: 1;
-  }
-  
-  .choice-image {
-    height: 250px;
-  }
-  
-  .choice-text {
-    font-size: 1.4rem;
-    padding: 1rem;
-  }
-}
-
-/* Additional connected cards animation */
-.choice-card::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(
-    to bottom,
-    transparent 0%,
-    rgba(231, 76, 60, 0.8) 50%,
-    transparent 100%
-  );
-  opacity: 0;
-  transition: opacity 0.4s ease;
-  z-index: 3;
-}
-
-.choice-card:hover::after {
-  opacity: 1;
-}
-
-.choice-card:last-child::after {
-  display: none;
-}
-
-/* Animation on Scroll (if using intersection observer) */
+/* Animation on Scroll */
 .choice-card.animate-in {
   opacity: 0;
   transform: translateY(30px);
@@ -265,11 +195,11 @@
 
 .choice-section.button-style .choice-link {
   display: inline-block;
-  padding: 15px 30px;
+  padding: 12px 25px;
   background: linear-gradient(45deg, #e74c3c, #c0392b);
   color: white;
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 20px;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
 }
@@ -288,6 +218,156 @@
   position: static;
   background: none;
   color: white;
-  font-size: 1rem;
+  font-size: 0.85rem;
   padding: 0;
+}
+
+/* Small Mobile - 480px and up */
+@media (min-width: 480px) {
+  .choice-section {
+    padding: 50px 20px;
+  }
+  
+  .choice-section h2 {
+    font-size: 1.75rem;
+    letter-spacing: 1.5px;
+  }
+  
+  .choice-section p {
+    font-size: 1rem;
+    max-width: 400px;
+  }
+  
+  .choice-image {
+    height: 220px;
+  }
+  
+  .choice-text {
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+}
+
+/* Tablet - 768px and up */
+@media (min-width: 768px) {
+  .choice-section {
+    padding: 60px 20px;
+  }
+  
+  .choice-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+  }
+  
+  .choice-section p {
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+    max-width: 500px;
+    line-height: 1.6;
+  }
+  
+  .choice-image {
+    height: 280px;
+  }
+  
+  .choice-text {
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    padding: 1.1rem;
+  }
+  
+  .choice-section.button-style .choice-link {
+    padding: 14px 28px;
+    border-radius: 22px;
+  }
+  
+  .choice-section.button-style .choice-text {
+    font-size: 0.9rem;
+  }
+}
+
+/* Desktop - 1024px and up */
+@media (min-width: 1024px) {
+  .choice-section {
+    padding: 6rem 3rem;
+  }
+  
+  .choice-section h2 {
+    font-size: 2.5rem;
+  }
+  
+  .choice-section p {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    max-width: 600px;
+  }
+  
+  .choices-grid {
+    flex-direction: row;
+  }
+  
+  .choice-card {
+    flex: 1;
+    border-bottom: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .choice-card:last-child {
+    border-right: none;
+  }
+  
+  .choice-card:hover {
+    flex: 1.2;
+  }
+  
+  .choice-image {
+    height: 350px;
+  }
+  
+  .choice-text {
+    letter-spacing: 2px;
+    padding: 1.2rem;
+    white-space: nowrap;
+  }
+  
+  .choice-card:hover .choice-text {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+  
+  /* Connected cards animation */
+  .choice-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba(231, 76, 60, 0.8) 50%,
+      transparent 100%
+    );
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    z-index: 3;
+  }
+  
+  .choice-card:hover::after {
+    opacity: 1;
+  }
+  
+  .choice-card:last-child::after {
+    display: none;
+  }
+  
+  .choice-section.button-style .choice-link {
+    padding: 15px 30px;
+    border-radius: 25px;
+  }
+  
+  .choice-section.button-style .choice-text {
+    font-size: 1rem;
+  }
 }

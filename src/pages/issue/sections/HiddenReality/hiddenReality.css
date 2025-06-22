@@ -1,5 +1,6 @@
 .hidden-reality-section {
   display: flex;
+  flex-direction: column;
   width: 100%;
   min-height: 100vh;
   background-color: var(--brand-red);
@@ -7,25 +8,26 @@
 }
 
 .hidden-reality-text {
-  flex: 1;
-  padding: 4rem;
+  padding: 2rem 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 24px;
+  gap: 1rem;
+  order: 2;
 }
 
 .hidden-reality-text h1 {
   font-size: 2rem;
   font-weight: 700;
   color: var(--brand-black);
+  line-height: 1.2;
 }
 
 .hidden-reality-text p {
   font-size: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
   color: var(--brand-white);
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .hidden-reality-text p strong {
@@ -33,19 +35,93 @@
 }
 
 .hidden-reality-text .end,
-.start {
-  font-size: 1.4rem;
+.hidden-reality-text .start {
+  font-size: 1.1rem;
   font-weight: 600;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .hidden-reality-image {
-  flex: 1;
+  min-height: 400px;
   overflow: hidden;
+  order: 1;
 }
 
 .hidden-reality-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .hidden-reality-text {
+    padding: 3rem 2.5rem;
+    gap: 1.5rem;
+  }
+
+  .hidden-reality-text h1 {
+    font-size: 1.75rem;
+  }
+
+  .hidden-reality-text p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .hidden-reality-text .end,
+  .hidden-reality-text .start {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+  }
+}
+
+/* Desktop styles - 1024px and up */
+@media (min-width: 1024px) {
+  .hidden-reality-section {
+    flex-direction: row; /* Side by side layout */
+  }
+
+  .hidden-reality-text {
+    flex: 1;
+    padding: 4rem;
+    gap: 24px;
+    order: 1; /* Text first on desktop */
+  }
+
+  .hidden-reality-text h1 {
+    font-size: 2rem;
+  }
+
+  .hidden-reality-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .hidden-reality-text .end,
+  .hidden-reality-text .start {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+  }
+
+  .hidden-reality-image {
+    flex: 1;
+    min-height: 100%;
+    order: 2;
+  }
+}
+
+/* Large desktop styles - 1440px and up */
+@media (min-width: 1440px) {
+  .hidden-reality-text {
+    padding: 5rem;
+  }
+
+  .hidden-reality-text h1 {
+    font-size: 2.25rem;
+  }
+
+  .hidden-reality-text .end,
+  .hidden-reality-text .start {
+    font-size: 1.5rem;
+  }
 }

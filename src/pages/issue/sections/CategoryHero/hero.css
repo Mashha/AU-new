@@ -30,7 +30,14 @@
 }
 
 .hero-title {
-  font-size: 4rem;
-  margin-bottom: 1rem;
+  font-size: 3rem;
   font-weight: bold;
+  line-height: 140%;
+  letter-spacing: 2px;
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 4rem;
+  }
 }

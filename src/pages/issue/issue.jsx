@@ -26,8 +26,6 @@ const CategoryPage = () => {
       {/* Hidden Reality Section */}
       <HiddenRealitySection data={data} />
 
-      {/* Images Section */}
-
       {/* Did You Know Section */}
       <DidYouKnowSection data={data} />
 
