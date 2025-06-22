@@ -1,6 +1,6 @@
 import React from "react";
 import "./hero.css";
-import bg from "../../assets/hero-bg.jpg";
+import bg from "/assets/hero-bg.jpg";
 import { useTranslation } from "react-i18next";
 
 const HeroSection = () => {
@@ -18,13 +18,15 @@ const HeroSection = () => {
 
       <div className='content'>
         <div className='contentInner'>
-          <h1 className='title'>
-            {t('hero.title')}
-          </h1>
-          <p className='subtitle'>{t("hero.subtitle")}</p>
+          <h1 className='title'>{t("homepage.hero.title")}</h1>
+          <p className='subtitle'>{t("homepage.hero.subtitle")}</p>
           <div className='buttonContainer'>
-            <button className='primaryButton'>{t("hero.buttonOne")}</button>
-            <button className='secondaryButton'>{t("hero.buttonTwo")}</button>
+            <button className='primaryButton'>
+              {t("homepage.hero.buttonOne")}
+            </button>
+            <button className='secondaryButton'>
+              {t("homepage.hero.buttonTwo")}
+            </button>
           </div>
         </div>
       </div>

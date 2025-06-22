@@ -1,6 +1,6 @@
 import "./footer.css";
-import logoBig from "../../assets/logo_two.png";
-import heart from "../../assets/heart.png";
+import logoBig from "/assets/logo_two.png"
+import heart from "/assets/heart.png";
 
 const Footer = () => {
   return (

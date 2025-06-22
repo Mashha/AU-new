@@ -1,63 +1,243 @@
 {
-  "hero": {
-    "title": "If they could speak, what would they say?",
-    "subtitle": "Raising awareness about animal exploitation through street activism and truth-based conversations",
-    "buttonOne": "Explore the truth",
-    "buttonTwo": "Join the movement"
+  "homepage": {
+    "hero": {
+      "title": "If they could speak, what would they say?",
+      "subtitle": "Raising awareness about animal exploitation through street activism and truth-based conversations",
+      "buttonOne": "Explore the truth",
+      "buttonTwo": "Join the movement"
+    },
+    "quoteSection": {
+      "imageAlt": "Ear tag 290",
+      "quote": "Imagine being born into a world where your fate was already sealed. You were just a number — and your death, a scheduled event."
+    },
+    "whoWeAre": {
+      "title": "Who we are",
+      "description": "We are a grassroots collective of animal rights <strong>activists</strong>. Since 2018, we've been educating the public with real footage from farms and slaughterhouses, showing the <strong>hidden cost</strong> of meat, dairy, eggs, leather, and more. In 2023, we formed <strong>Anonymous for the Unheard</strong>, a growing movement giving voice to the silenced and demanding justice for all animals."
+    },
+    "whatWeBelieve": {
+      "title": "What we believe in",
+      "description": "We envision a world where animals are no longer treated as commodities, but as <strong>sentient</strong> beings worthy of respect, freedom, and peace. Through education and peaceful activism, we challenge norms and offer a better way forward for all living beings.",
+      "values": ["Compassion", "Justice", "Liberation"]
+    },
+    "categoryPreview": {
+      "meat": {
+        "title": "Meat",
+        "description": "We see meat as food, not as someone's body. But every cut comes from a life that wanted to live — just like us.",
+        "button": "See more"
+      },
+      "fish": {
+        "title": "Fish",
+        "description": "Fish feel pain. They struggle, suffocate, and vanish by the billions — unseen, unheard.",
+        "button": "See more"
+      },
+      "eggs": {
+        "title": "Eggs",
+        "description": "Eggs seem harmless. But behind every carton is a story of suffering, silenced chirps, and discarded lives.",
+        "button": "See more"
+      },
+      "dairy": {
+        "title": "Dairy",
+        "description": "Most of us grew up believing dairy was normal, necessary, and natural. We were never shown the reality behind the glass of milk.",
+        "button": "See more"
+      }
+    },
+    "interlude": {
+      "lineOne": "Where did the love go? The love you once felt for all animals?",
+      "lineTwo": "Who taught you to pet one and pay for another to be slaughtered?"
+    },
+    "factoryFarming": {
+      "question": "If factory farming is normal and humane, why does the industry go to such lengths to hide it?"
+    },
+    "cta": {
+      "heading": "IT STARTS WITH YOU",
+      "description": "Change doesn't begin in governments or big industries. It begins with a single person choosing to care — to act.",
+      "quote1": "It starts with what you eat.",
+      "quote2": "With what you wear.",
+      "quote3": "With what you stand for.",
+      "invitation": "Because every compassionate choice you make tells the world:",
+      "line": "Animals are not ours to use",
+      "vegan": "Try veg",
+      "help": "Help animals"
+    }
   },
-  "quoteSection": {
-    "imageAlt": "Ear tag 290",
-    "quote": "Imagine being born into a world where your fate was already sealed. You were just a number — and your death, a scheduled event."
+  "categories": {
+    "meat": {
+      "title": "Meat",
+      "subtitle": "The Price of a Meal",
+      "heroImage": "meat-hero.jpg",
+      "previewDescription": "We see meat as food, not as someone's body. But every cut comes from a life that wanted to live — just like us.",
+      "hiddenReality": {
+        "title": "The Hidden Reality",
+        "content": [
+          "Can you imagine watching others taken from you, one by one?",
+          "You hear screams. You smell blood. You see panic. You don't understand what's happening — but you know something is terribly wrong.",
+          "If you try to resist, you're beaten or shocked with an electric prod. You're pushed forward, step by step, toward the same fate.",
+          "This is the reality for animals used for meat — all of them. Not just pigs, cows, or sheep — all beings bred for slaughter face fear, violence, and death.",
+          "Isn't it time to question that tradition?"
+        ]
+      },
+      "facts": {
+        "title": "Did You Know?",
+        "items": [
+          "Over 70 billion land animals are killed for meat each year.",
+          "Many are just babies when they're slaughtered.",
+          "Humane slaughter still ends in a terrified death.",
+          "Pigs are as smart as dogs — and scream just as loudly.",
+          "Animals often watch their companions die before them."
+        ]
+      },
+      "images": [
+        {
+          "src": "../../../../assets/fish/HR-image.jpg",
+          "alt": "Factory farming conditions",
+          "caption": "The reality behind closed doors"
+        },
+        {
+          "src": "meat-2.jpg",
+          "alt": "Animal in distress",
+          "caption": "Every life matters"
+        }
+      ]
+    },
+    "fish": {
+      "title": "Fish",
+      "subtitle": "The Silent Suffocation",
+      "heroImage": "fish-hero.jpg",
+      "previewDescription": "Fish feel pain. They struggle, suffocate, and vanish by the billions — unseen, unheard.",
+      "hiddenReality": {
+        "title": "The Hidden Reality",
+        "content": [
+          "Can you imagine suffocating while fully conscious?",
+          "That's what trillions of fish endure every year.",
+          "Dragged from the ocean in massive nets, they're crushed, injured, and left to slowly suffocate on ship decks — still conscious, still feeling pain.",
+          "Others spend their short lives trapped in filthy, overcrowded fish farms, swimming in circles, infected and unseen.",
+          "We never hear their screams. But that doesn't mean they don't suffer."
+        ]
+      },
+      "facts": {
+        "title": "Did You Know?",
+        "items": [
+          "Fish feel pain, just like cats or dogs.",
+          "More fish are killed each year than all other animals combined.",
+          "Most are not stunned before death — they suffocate or are cut alive.",
+          "Farmed fish live in filthy, crowded cages, filled with disease.",
+          "Fish have individual personalities and can even recognize faces."
+        ]
+      },
+      "images": [
+        {
+          "src": "fish-1.jpg",
+          "alt": "Commercial fishing nets",
+          "caption": "Billions trapped in nets"
+        },
+        {
+          "src": "fish-2.jpg",
+          "alt": "Fish farm conditions",
+          "caption": "Overcrowded and suffering"
+        }
+      ]
+    },
+    "eggs": {
+      "title": "Eggs",
+      "subtitle": "The Cost of Eggs",
+      "heroImage": "eggs-hero.jpg",
+      "previewDescription": "Eggs seem harmless. But behind every carton is a story of suffering, silenced chirps, and discarded lives.",
+      "hiddenReality": {
+        "title": "The Hidden Reality",
+        "content": [
+          "Can you imagine being born into a world where your worth is measured only by what you can produce?",
+          "For hens, life begins in darkness. If you're male, you're ground up or gassed on your first day — because you can't lay eggs.",
+          "If you're female, you're confined, mutilated, and pushed to your limit until your body gives out. Your beak is cut. Your wings never spread. Your song goes unheard.",
+          "Behind every carton of eggs is a life reduced to a machine — until it breaks."
+        ]
+      },
+      "facts": {
+        "title": "Did You Know?",
+        "items": [
+          "Male chicks are ground up alive on their first day of life.",
+          "Even free-range hens often live in overcrowded sheds.",
+          "Hens are genetically manipulated to lay far more eggs than is natural.",
+          "Their bodies often break down from overproduction.",
+          "Hens are killed when their egg production slows — long before old age."
+        ]
+      },
+      "images": [
+        {
+          "src": "eggs-1.jpg",
+          "alt": "Battery cage conditions",
+          "caption": "Life in confinement"
+        },
+        {
+          "src": "eggs-2.jpg",
+          "alt": "Free range reality",
+          "caption": "The truth behind labels"
+        }
+      ]
+    },
+    "dairy": {
+      "title": "Dairy",
+      "subtitle": "The Mother Behind the Milk",
+      "heroImage": "dairy-hero.jpg",
+      "previewDescription": "Most of us grew up believing dairy was normal, necessary, and natural. We were never shown the reality behind the glass of milk.",
+      "hiddenReality": {
+        "title": "The Hidden Reality",
+        "content": [
+          "Can you imagine having your baby taken from you, again and again, just so others can drink your milk?",
+          "In dairy, cows aren't just exploited — they're mothers robbed of motherhood.",
+          "They cry for days when their calves are taken. The milk meant for their babies is taken for humans.",
+          "Their bodies are pushed to extremes with constant cycles of forced pregnancy and loss.",
+          "When they're no longer profitable, they're sent to slaughter — treated like nothing, after giving everything."
+        ]
+      },
+      "facts": {
+        "title": "Did You Know?",
+        "items": [
+          "Cows only produce milk after giving birth, just like humans.",
+          "Calves are taken away from their mothers within hours.",
+          "Males are often killed for veal — a byproduct of dairy.",
+          "Dairy cows are repeatedly impregnated to keep milk flowing.",
+          "Most are slaughtered around age 5 — their natural lifespan is 20."
+        ]
+      },
+      "images": [
+        {
+          "src": "dairy-1.jpg",
+          "alt": "Dairy cow in facility",
+          "caption": "Separated from her calf"
+        },
+        {
+          "src": "dairy-2.jpg",
+          "alt": "Calf in veal crate",
+          "caption": "The cost of dairy"
+        }
+      ]
+    }
   },
-  "whoWeAre": {
-    "title": "Who we are",
-    "description": "We are a grassroots collective of animal rights <strong>activists</strong>. Since 2018, we've been educating the public with real footage from farms and slaughterhouses, showing the <strong>hidden cost</strong> of meat, dairy, eggs, leather, and more. In 2023, we formed <strong>Anonymous for the Unheard</strong>, a growing movement giving voice to the silenced and demanding justice for all animals."
-  },
-  "whatWeBelieve": {
-    "title": "What we believe in",
-    "description": "We envision a world where animals are no longer treated as commodities, but as <strong>sentient</strong> beings worthy of respect, freedom, and peace. Through education and peaceful activism, we challenge norms and offer a better way forward for all living beings.",
-    "values": ["Compassion", "Justice", "Liberation"]
-  },
-  "meatSection": {
-    "title": "Meat",
-    "description": "We see meat as food, not as someone's body. But every cut comes from a life that wanted to live — just like us.",
-    "button": "See more"
-  },
-  "fishSection": {
-    "title": "Fish",
-    "description": "Fish feel pain. They struggle, suffocate, and vanish by the billions — unseen, unheard.",
-    "button": "See more"
-  },
-  "eggsSection": {
-    "title": "Eggs",
-    "description": "Eggs seem harmless. But behind every carton is a story of suffering, silenced chirps, and discarded lives.",
-    "button": "See more"
-  },
-  "dairySection": {
-    "title": "Dairy",
-    "description": "Most of us grew up believing dairy was normal, necessary, and natural. We were never shown the reality behind the glass of milk.",
-    "button": "See more"
-  },
-  "interlude": {
-    "lineOne": "Where did the love go? The love you once felt for all animals?",
-    "lineTwo": "Who taught you to pet one and pay for another to be slaughtered?"
-  },
-  "factoryFarming": {
-    "question": "If factory farming is normal and humane, why does the industry go to such lengths to hide it?"
-  },
-  "cta": {
-    "heading": "IT STARTS WITH YOU",
-    "description": "Change doesn't begin in governments or big industries. It begins with a single person choosing to care — to act.",
-    "quote1": "It starts with what you eat.",
-    "quote2": "With what you wear.",
-    "quote3": "With what you stand for.",
-    "invitation": "Because every compassionate choice you make tells the world:",
-    "line": "Animals are not ours to use",
-    "vegan": "Try veg",
-    "help": "Help animals"
-  },
-  "footer": {
+  "shared": {
     "navigation": ["About", "Meat", "Eggs", "Fish", "Dairy", "Resources"],
-    "copyright": "© 2025 Anonymous for the Unheard"
+    "footer": {
+      "copyright": "© 2025 Anonymous for the Unheard"
+    },
+    "callToAction": {
+      "title": "What You Can Do",
+      "description": "Every compassionate choice you make tells the world: Animals are not ours to use",
+      "actions": [
+        {
+          "title": "Try veg",
+          "description": "Explore plant-based alternatives",
+          "link": "/resources/vegan-guide"
+        },
+        {
+          "title": "Help animals",
+          "description": "Support animal rights organizations",
+          "link": "/get-involved"
+        },
+        {
+          "title": "Spread awareness",
+          "description": "Share the truth with others",
+          "link": "/resources/activism"
+        }
+      ]
+    }
   }
 }

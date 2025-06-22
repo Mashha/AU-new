@@ -1,6 +1,6 @@
 import React from "react";
 import "./quote.css";
-import quoteImg from "../../assets/number.png";
+import quoteImg from "/assets/number.png";
 import { useTranslation } from "react-i18next";
 
 const QuoteSection = () => {
@@ -10,7 +10,7 @@ const QuoteSection = () => {
       <div className='quote-container'>
         <img src={quoteImg} />
         <blockquote className='quote-text'>
-          {t("quoteSection.quote")}
+          {t("homepage.quoteSection.quote")}
         </blockquote>
       </div>
     </section>

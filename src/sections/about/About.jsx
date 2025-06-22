@@ -1,10 +1,10 @@
 import "./about.css";
-import image from "../../assets/street_activism1.jpg";
+import image from "/assets/street_activism1.jpg";
 import { useTranslation, Trans } from "react-i18next";
 
 export default function AboutSection() {
   const { t } = useTranslation();
-  const values = t("whatWeBelieve.values", { returnObjects: true });
+  const values = t("homepage.whatWeBelieve.values", { returnObjects: true });
   return (
     <section className='about-section'>
       <div className='background-split'>
@@ -14,10 +14,10 @@ export default function AboutSection() {
 
       <div className='content-grid'>
         <div className='who-we-are'>
-          <h2>{t("whoWeAre.title")}</h2>
+          <h2>{t("homepage.whoWeAre.title")}</h2>
           <p>
             <Trans
-              i18nKey='whoWeAre.description'
+              i18nKey='homepage.whoWeAre.description'
               components={{ strong: <strong /> }}
             />
           </p>
@@ -36,10 +36,10 @@ export default function AboutSection() {
         </div>
 
         <div className='what-we-believe'>
-          <h2>{t("whatWeBelieve.title")}</h2>
+          <h2>{t("homepage.whatWeBelieve.title")}</h2>
           <p>
             <Trans
-              i18nKey='whatWeBelieve.description'
+              i18nKey='homepage.whatWeBelieve.description'
               components={{ strong: <strong /> }}
             />
           </p>

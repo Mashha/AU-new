@@ -1,8 +1,10 @@
 import React from "react";
 import "./cat_one.css";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
 const CategoriesSection = () => {
+  const navigate = useNavigate();
   const { t } = useTranslation();
   return (
     <section className='categories-section'>
@@ -10,10 +12,17 @@ const CategoriesSection = () => {
         {/* Meat Section - Top Left */}
         <div className='category-item meat-section'>
           <div className='category-content'>
-            <h2 className='category-title'>{t("meatSection.title")}</h2>
-            <p className='category-text'>{t("meatSection.description")}</p>
-            <button className='category-button'>
-              {t("meatSection.button")}
+            <h2 className='category-title'>
+              {t("homepage.categoryPreview.meat.title")}
+            </h2>
+            <p className='category-text'>
+              {t("homepage.categoryPreview.meat.description")}
+            </p>
+            <button
+              className='category-button'
+              onClick={() => navigate("/meat")}
+            >
+              {t("homepage.categoryPreview.meat.button")}
             </button>
           </div>
         </div>
@@ -39,10 +48,17 @@ const CategoriesSection = () => {
         {/* Fish Section - Bottom Right */}
         <div className='category-item fish-section'>
           <div className='category-content'>
-            <h2 className='category-title'>{t("fishSection.title")}</h2>
-            <p className='category-text'>{t("fishSection.description")}</p>
-            <button className='category-button'>
-              {t("fishSection.button")}
+            <h2 className='category-title'>
+              {t("homepage.categoryPreview.fish.title")}
+            </h2>
+            <p className='category-text'>
+              {t("homepage.categoryPreview.fish.description")}
+            </p>
+            <button
+              className='category-button'
+              onClick={() => navigate("/fish")}
+            >
+              {t("homepage.categoryPreview.fish.button")}
             </button>
           </div>
         </div>

@@ -1,0 +1,57 @@
+.hidden-reality-section {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--brand-red);
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.hidden-reality-text {
+  flex: 1;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hidden-reality-text h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: black;
+}
+
+.hidden-reality-text h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 1.5rem 0 1rem;
+  color: var(--brand-white);
+}
+
+.hidden-reality-text p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: var(--brand-white);
+  line-height: 1.6;
+}
+
+.hidden-reality-text p strong {
+  font-weight: 700;
+}
+
+.hidden-reality-text .closing {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.hidden-reality-image {
+  flex: 1;
+  overflow: hidden;
+}
+
+.hidden-reality-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

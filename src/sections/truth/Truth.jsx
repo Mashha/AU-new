@@ -1,6 +1,6 @@
 import React from "react";
 import "./truth.css";
-import truthImg from "../../assets/join-us.jpg";
+import truthImg from "/assets/join-us.jpg";
 import { useTranslation } from "react-i18next";
 
 const FactoryFarmingProtest = () => {
@@ -8,7 +8,7 @@ const FactoryFarmingProtest = () => {
   return (
     <div className='protest-container'>
       <div className='text-section'>
-        <h1 className='protest-heading'>{t("factoryFarming.question")}</h1>
+        <h1 className='protest-heading'>{t("homepage.factoryFarming.question")}</h1>
       </div>
 
       <div className='image-section'>

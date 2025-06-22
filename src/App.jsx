@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
 import Navigation from "./components/header/navigation";
 import HeroSection from "./sections/hero/HeroSection";
 import QuoteSection from "./sections/quote/QuoteSection";
@@ -9,8 +9,10 @@ import Truth from "./sections/truth/Truth";
 import AnimalLove from "./sections/animalLove/animalLove";
 import Support from "./sections/support/support";
 import Footer from "./components/footer/footer";
+import CategoryPage from "./pages/issue/issue";
 
-function App() {
+// Home Page Component
+function HomePage() {
   return (
     <div className='min-h-screen'>
       <Navigation />
@@ -24,6 +26,16 @@ function App() {
       <Support />
       <Footer />
     </div>
+  );
+}
+
+function App() {
+  return (
+    <Routes>
+      <Route path='/' element={<HomePage />} />
+      <Route path='/:category' element={<CategoryPage />} />
+      <Route path='*' element={<HomePage />} /> {/* Fallback route */}
+    </Routes>
   );
 }
 

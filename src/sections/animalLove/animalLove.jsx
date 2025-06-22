@@ -1,6 +1,6 @@
 import React from "react";
 import "./animalLove.css";
-import animalImg from "../../assets/dog-pig.png";
+import animalImg from "/assets/dog-pig.png";
 import { useTranslation } from "react-i18next";
 
 const AnimalLove = () => {
@@ -9,7 +9,7 @@ const AnimalLove = () => {
     <section className='animal-love-section'>
       <div className='content-wrapper'>
         <div className='top-left-text'>
-          <h2 className='question-text'>{t("interlude.lineOne")}</h2>
+          <h2 className='question-text'>{t("homepage.interlude.lineOne")}</h2>
         </div>
 
         <div className='center-image'>
@@ -21,7 +21,7 @@ const AnimalLove = () => {
         </div>
 
         <div className='bottom-right-text'>
-          <h2 className='question-text'>{t("interlude.lineTwo")}</h2>
+          <h2 className='question-text'>{t("homepage.interlude.lineTwo")}</h2>
         </div>
       </div>
     </section>
