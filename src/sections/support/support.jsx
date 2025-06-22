@@ -1,26 +1,44 @@
-import React from "react";
 import "./support.css";
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 
 const Support = () => {
   const { t } = useTranslation();
   return (
     <section className='it-starts-section'>
       <div className='text-content'>
-        <p className='intro-text'>{t("homepage.cta.description")}</p>
-
+        <p className='intro-text'>
+          <Trans
+            i18nKey='homepage.cta.description'
+            components={{ strong: <strong /> }}
+          />
+        </p>
         <h1 className='main-heading'>{t("homepage.cta.heading")}</h1>
 
         <div className='action-text'>
-          <p>{t("homepage.cta.quote1")}</p>
-          <p>{t("homepage.cta.quote2")}</p>
-          <p>{t("homepage.cta.quote3")}</p>
+          <p>
+            <Trans
+              i18nKey='homepage.cta.quote1'
+              components={{ strong: <strong /> }}
+            />
+          </p>
+          <p>
+            <Trans
+              i18nKey='homepage.cta.quote2'
+              components={{ strong: <strong /> }}
+            />
+          </p>
+          <p>
+            <Trans
+              i18nKey='homepage.cta.quote3'
+              components={{ strong: <strong /> }}
+            />
+          </p>
         </div>
 
-        <p className='closing-text'>
-          {t("homepage.cta.invitation")}
-          {t("homepage.cta.line")}
-        </p>
+        <div className="closing-div">
+          <p className='closing-text'>{t("homepage.cta.invitation")}</p>
+          <p className="closing-text-two">{t("homepage.cta.line")}</p>
+        </div>
       </div>
 
       <div className='action-panels'>

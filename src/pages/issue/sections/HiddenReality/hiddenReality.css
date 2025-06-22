@@ -4,7 +4,6 @@
   min-height: 100vh;
   background-color: var(--brand-red);
   color: white;
-  font-family: "Inter", sans-serif;
 }
 
 .hidden-reality-text {
@@ -13,19 +12,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 24px;
 }
 
-.hidden-reality-text h2 {
+.hidden-reality-text h1 {
   font-size: 2rem;
   font-weight: 700;
-  color: black;
-}
-
-.hidden-reality-text h3 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin: 1.5rem 0 1rem;
-  color: var(--brand-white);
+  color: var(--brand-black);
 }
 
 .hidden-reality-text p {
@@ -39,8 +32,9 @@
   font-weight: 700;
 }
 
-.hidden-reality-text .closing {
-  font-size: 1.2rem;
+.hidden-reality-text .end,
+.start {
+  font-size: 1.4rem;
   font-weight: 600;
   margin-top: 2rem;
 }

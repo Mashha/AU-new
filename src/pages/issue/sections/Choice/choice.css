@@ -1,0 +1,293 @@
+/* Choice Section Container */
+.choice-section {
+  padding: 80px 20px;
+  background: var(--brand-black);
+  text-align: center;
+  color: white;
+}
+
+.choice-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.choice-section p {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  color: #cccccc;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+/* Choices Grid - No gaps, cards side by side */
+.choices-grid {
+  display: flex;
+}
+
+/* Individual Choice Cards - No radius, no gaps */
+.choice-card {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+  background: var(--brand-black);
+  transition: all 0.4s ease;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.choice-card:last-child {
+  border-right: none;
+}
+
+.choice-card:hover {
+  flex: 1.2;
+  z-index: 2;
+}
+
+.choice-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  height: 100%;
+}
+
+/* Choice Images */
+.choice-image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  transition: all 0.4s ease;
+  filter: grayscale(0.7) brightness(0.8);
+}
+
+.choice-card:hover .choice-image {
+  transform: scale(1.1);
+  filter: grayscale(0) brightness(1);
+}
+
+/* Image Overlay */
+.choice-link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(231, 76, 60, 0.6) 100%
+  );
+  opacity: 0.9;
+  transition: all 0.4s ease;
+  z-index: 1;
+}
+
+.choice-card:hover .choice-link::before {
+  opacity: 0.3;
+  background: linear-gradient(
+    135deg,
+    rgba(231, 76, 60, 0.4) 0%,
+    rgba(192, 57, 43, 0.6) 100%
+  );
+}
+
+/* Choice Text */
+.choice-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  z-index: 2;
+  text-align: center;
+  white-space: nowrap;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  transition: all 0.4s ease;
+}
+
+.choice-card:hover .choice-text {
+  transform: translate(-50%, -50%) scale(1.1);
+  color: #ffffff;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9);
+}
+
+/* Alternative: Minimalist Style */
+.choice-section.minimalist {
+  background: #f8f8f8;
+  color: #333;
+}
+
+.choice-section.minimalist h2 {
+  color: #333;
+  font-weight: 400;
+}
+
+.choice-section.minimalist .choice-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.choice-section.minimalist .choice-card:hover {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.choice-section.minimalist .choice-text {
+  color: #333;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+/* Alternative: Card with Text Below Image */
+.choice-card.text-below {
+  background: white;
+  color: #333;
+}
+
+.choice-card.text-below .choice-text {
+  position: static;
+  background: none;
+  padding: 1.5rem;
+  color: #333;
+  border-top: 3px solid #e74c3c;
+}
+
+.choice-card.text-below .choice-link::before {
+  display: none;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .choice-section {
+    padding: 60px 15px;
+  }
+  
+  .choice-section h2 {
+    font-size: 2rem;
+  }
+  
+  .choice-section p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .choices-grid {
+    flex-direction: column;
+    box-shadow: none;
+  }
+  
+  .choice-card {
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .choice-card:last-child {
+    border-bottom: none;
+  }
+  
+  .choice-card:hover {
+    flex: 1;
+  }
+  
+  .choice-image {
+    height: 250px;
+  }
+  
+  .choice-text {
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+}
+
+/* Additional connected cards animation */
+.choice-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(231, 76, 60, 0.8) 50%,
+    transparent 100%
+  );
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 3;
+}
+
+.choice-card:hover::after {
+  opacity: 1;
+}
+
+.choice-card:last-child::after {
+  display: none;
+}
+
+/* Animation on Scroll (if using intersection observer) */
+.choice-card.animate-in {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: slideUp 0.6s ease forwards;
+}
+
+.choice-card:nth-child(1) { animation-delay: 0.1s; }
+.choice-card:nth-child(2) { animation-delay: 0.2s; }
+.choice-card:nth-child(3) { animation-delay: 0.3s; }
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Alternative: Button Style */
+.choice-section.button-style .choice-card {
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+  overflow: visible;
+}
+
+.choice-section.button-style .choice-link {
+  display: inline-block;
+  padding: 15px 30px;
+  background: linear-gradient(45deg, #e74c3c, #c0392b);
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+}
+
+.choice-section.button-style .choice-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(231, 76, 60, 0.4);
+  background: linear-gradient(45deg, #c0392b, #a93226);
+}
+
+.choice-section.button-style .choice-image {
+  display: none;
+}
+
+.choice-section.button-style .choice-text {
+  position: static;
+  background: none;
+  color: white;
+  font-size: 1rem;
+  padding: 0;
+}

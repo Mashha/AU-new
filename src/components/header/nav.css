@@ -1,4 +1,3 @@
-
 .nav {
   backdrop-filter: blur(8px);
   position: fixed;
@@ -43,6 +42,8 @@
   transition: color 0.3s ease;
   letter-spacing: 0.05em;
   text-decoration: none;
+  background: transparent;
+  border: none;
 }
 
 .navLink:hover {
@@ -86,7 +87,9 @@
   letter-spacing: 0.05em;
   transition: color 0.3s ease;
   text-decoration: none;
-  margin-bottom: 4px;
+  margin-bottom: 12px;
+  background: transparent;
+  border: none;
 }
 
 .mobileNavLink:hover {
@@ -104,11 +107,11 @@
   .desktopMenu {
     display: block;
   }
-  
+
   .mobileMenuButton {
     display: none;
   }
-  
+
   .mobileMenu {
     display: none;
   }

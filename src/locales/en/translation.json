@@ -50,10 +50,10 @@
     },
     "cta": {
       "heading": "IT STARTS WITH YOU",
-      "description": "Change doesn't begin in governments or big industries. It begins with a single person choosing to care — to act.",
-      "quote1": "It starts with what you eat.",
-      "quote2": "With what you wear.",
-      "quote3": "With what you stand for.",
+      "description": "Change doesn't begin in governments or big industries. It begins with a <strong>single person choosing to care</strong> — to act.",
+      "quote1": "It starts with what you <strong>eat</strong>.",
+      "quote2": "With what you <strong>wear</strong>.",
+      "quote3": "With what you <strong>stand for</strong>.",
       "invitation": "Because every compassionate choice you make tells the world:",
       "line": "Animals are not ours to use",
       "vegan": "Try veg",
@@ -68,36 +68,69 @@
       "previewDescription": "We see meat as food, not as someone's body. But every cut comes from a life that wanted to live — just like us.",
       "hiddenReality": {
         "title": "The Hidden Reality",
+        "start": "Can you imagine watching others taken from you, one by one?",
         "content": [
-          "Can you imagine watching others taken from you, one by one?",
           "You hear screams. You smell blood. You see panic. You don't understand what's happening — but you know something is terribly wrong.",
           "If you try to resist, you're beaten or shocked with an electric prod. You're pushed forward, step by step, toward the same fate.",
-          "This is the reality for animals used for meat — all of them. Not just pigs, cows, or sheep — all beings bred for slaughter face fear, violence, and death.",
-          "Isn't it time to question that tradition?"
-        ]
+          "This is the reality for animals used for meat — all of them. Not just pigs, cows, or sheep — all beings bred for slaughter face fear, violence, and death."
+        ],
+        "end": "Isn't it time to question that tradition?"
       },
       "facts": {
         "title": "Did You Know?",
-        "items": [
-          "Over 70 billion land animals are killed for meat each year.",
-          "Many are just babies when they're slaughtered.",
-          "Humane slaughter still ends in a terrified death.",
-          "Pigs are as smart as dogs — and scream just as loudly.",
-          "Animals often watch their companions die before them."
-        ]
+        "items": {
+          "left": [
+            "Over 70 billion land animals are killed for meat each year.",
+            "Many are just babies when they're slaughtered.",
+            "Humane slaughter still ends in a terrified death."
+          ],
+          "right": [
+            "Pigs are as smart as dogs — and scream just as loudly.",
+            "Animals often watch their companions die before them."
+          ]
+        }
       },
       "images": [
         {
           "src": "../../../../assets/fish/HR-image.jpg",
-          "alt": "Factory farming conditions",
-          "caption": "The reality behind closed doors"
+          "alt": "Factory farming conditions"
         },
         {
-          "src": "meat-2.jpg",
-          "alt": "Animal in distress",
-          "caption": "Every life matters"
+          "src": "../../../../assets/fish/facts-image.jpg",
+          "alt": "Animal in distress"
         }
-      ]
+      ],
+      "icons": [
+        {
+          "src": "../../../../assets/icons/environment.png",
+          "alt": "environment icon"
+        },
+        {
+          "src": "../../../../assets/icons/heath.png",
+          "alt": "health icon"
+        },
+        {
+          "src": "../../../../assets/icons/suffering.png",
+          "alt": "suffering icon"
+        }
+      ],
+      "biggerPicture": {
+        "title": "The bigger picture",
+        "items": {
+          "animalSuffering": {
+            "title": "Animal Suffering",
+            "text": "Animals raised for meat live in overcrowded, unnatural conditions. They are mutilated without pain relief, denied medical care, and killed while still conscious — all for a meal that lasts minutes."
+          },
+          "health": {
+            "title": "Health",
+            "text": "High meat consumption is linked to heart disease, cancer, and antibiotic resistance. Most meat today comes from animals pumped with drugs and hormones, affecting our health in unseen ways."
+          },
+          "environment": {
+            "title": "Environment",
+            "text": "Animal agriculture is a leading cause of deforestation, methane emissions, and water pollution. Forests are destroyed for animal feed, while millions of liters of water go into producing just one steak."
+          }
+        }
+      }
     },
     "fish": {
       "title": "Fish",
@@ -106,36 +139,55 @@
       "previewDescription": "Fish feel pain. They struggle, suffocate, and vanish by the billions — unseen, unheard.",
       "hiddenReality": {
         "title": "The Hidden Reality",
+        "start": "Can you imagine suffocating while fully conscious?",
         "content": [
-          "Can you imagine suffocating while fully conscious?",
           "That's what trillions of fish endure every year.",
           "Dragged from the ocean in massive nets, they're crushed, injured, and left to slowly suffocate on ship decks — still conscious, still feeling pain.",
-          "Others spend their short lives trapped in filthy, overcrowded fish farms, swimming in circles, infected and unseen.",
-          "We never hear their screams. But that doesn't mean they don't suffer."
-        ]
+          "Others spend their short lives trapped in filthy, overcrowded fish farms, swimming in circles, infected and unseen."
+        ],
+        "end": "We never hear their screams. But that doesn't mean they don't suffer."
       },
       "facts": {
         "title": "Did You Know?",
-        "items": [
-          "Fish feel pain, just like cats or dogs.",
-          "More fish are killed each year than all other animals combined.",
-          "Most are not stunned before death — they suffocate or are cut alive.",
-          "Farmed fish live in filthy, crowded cages, filled with disease.",
-          "Fish have individual personalities and can even recognize faces."
-        ]
+        "items": {
+          "left": [
+            "Fish feel pain, just like cats or dogs.",
+            "More fish are killed each year than all other animals combined.",
+            "Most are not stunned before death — they suffocate or are cut alive."
+          ],
+          "right": [
+            "Farmed fish live in filthy, crowded cages, filled with disease.",
+            "Fish have individual personalities and can even recognize faces."
+          ]
+        }
       },
       "images": [
         {
-          "src": "fish-1.jpg",
-          "alt": "Commercial fishing nets",
-          "caption": "Billions trapped in nets"
+          "src": "../../../../assets/fish/HR-image.jpg",
+          "alt": "Commercial fishing nets"
         },
         {
-          "src": "fish-2.jpg",
-          "alt": "Fish farm conditions",
-          "caption": "Overcrowded and suffering"
+          "src": "../../../../assets/fish/facts-image.jpg",
+          "alt": "Fish farm conditions"
         }
-      ]
+      ],
+      "biggerPicture": {
+        "title": "The bigger picture",
+        "items": {
+          "animalSuffering": {
+            "title": "Animal Suffering",
+            "text": "Fish are sensitive, intelligent beings — yet their suffering is rarely acknowledged. They are crushed by nets, sliced open while conscious, or left to slowly suffocate. In fish farms, they endure isolation, disease, and neglect."
+          },
+          "health": {
+            "title": "Health",
+            "text": "Fish absorb the toxins of the waters they live in. From mercury and heavy metals to microplastics and parasites — these pollutants enter your body too when you consume fish or seafood."
+          },
+          "environment": {
+            "title": "Environment",
+            "text": "Overfishing is destroying ocean ecosystems and pushing species to extinction. Massive trawlers tear up the ocean floor, while bycatch kills billions of non-target animals like turtles, dolphins, and seabirds."
+          }
+        }
+      }
     },
     "eggs": {
       "title": "Eggs",
@@ -144,35 +196,54 @@
       "previewDescription": "Eggs seem harmless. But behind every carton is a story of suffering, silenced chirps, and discarded lives.",
       "hiddenReality": {
         "title": "The Hidden Reality",
+        "start": "Can you imagine being born into a world where your worth is measured only by what you can produce?",
         "content": [
-          "Can you imagine being born into a world where your worth is measured only by what you can produce?",
           "For hens, life begins in darkness. If you're male, you're ground up or gassed on your first day — because you can't lay eggs.",
-          "If you're female, you're confined, mutilated, and pushed to your limit until your body gives out. Your beak is cut. Your wings never spread. Your song goes unheard.",
-          "Behind every carton of eggs is a life reduced to a machine — until it breaks."
-        ]
+          "If you're female, you're confined, mutilated, and pushed to your limit until your body gives out. Your beak is cut. Your wings never spread. Your song goes unheard."
+        ],
+        "end": "Behind every carton of eggs is a life reduced to a machine — until it breaks."
       },
       "facts": {
         "title": "Did You Know?",
-        "items": [
-          "Male chicks are ground up alive on their first day of life.",
-          "Even free-range hens often live in overcrowded sheds.",
-          "Hens are genetically manipulated to lay far more eggs than is natural.",
-          "Their bodies often break down from overproduction.",
-          "Hens are killed when their egg production slows — long before old age."
-        ]
+        "items": {
+          "left": [
+            "Male chicks are ground up alive on their first day of life.",
+            "Even free-range hens often live in overcrowded sheds.",
+            "Hens are genetically manipulated to lay far more eggs than is natural."
+          ],
+          "right": [
+            "Their bodies often break down from overproduction.",
+            "Hens are killed when their egg production slows — long before old age."
+          ]
+        }
       },
       "images": [
         {
-          "src": "eggs-1.jpg",
-          "alt": "Battery cage conditions",
-          "caption": "Life in confinement"
+          "src": "../../../../assets/eggs/HR-image.jpg",
+          "alt": "Battery cage conditions"
         },
         {
           "src": "eggs-2.jpg",
-          "alt": "Free range reality",
-          "caption": "The truth behind labels"
+          "alt": "Free range reality"
         }
-      ]
+      ],
+      "biggerPicture": {
+        "title": "The bigger picture",
+        "items": {
+          "animalSuffering": {
+            "title": "Animal Suffering",
+            "text": "Egg-laying hens live confined in battery cages or crowded sheds, often unable to stretch their wings. Males are killed at birth, and females are pushed to the limit until their bodies give out."
+          },
+          "health": {
+            "title": "Health",
+            "text": "Eggs are high in cholesterol and may increase the risk of heart disease. They also carry risks of salmonella and other bacterial infections, especially in factory-farmed conditions."
+          },
+          "environment": {
+            "title": "Environment",
+            "text": "Industrial egg farms contribute to ammonia pollution and waste runoff. The production of feed for hens consumes vast resources, while manure pollutes soil and waterways."
+          }
+        }
+      }
     },
     "dairy": {
       "title": "Dairy",
@@ -181,36 +252,55 @@
       "previewDescription": "Most of us grew up believing dairy was normal, necessary, and natural. We were never shown the reality behind the glass of milk.",
       "hiddenReality": {
         "title": "The Hidden Reality",
+        "start": "Can you imagine having your baby taken from you, again and again, just so others can drink your milk?",
         "content": [
-          "Can you imagine having your baby taken from you, again and again, just so others can drink your milk?",
           "In dairy, cows aren't just exploited — they're mothers robbed of motherhood.",
           "They cry for days when their calves are taken. The milk meant for their babies is taken for humans.",
-          "Their bodies are pushed to extremes with constant cycles of forced pregnancy and loss.",
-          "When they're no longer profitable, they're sent to slaughter — treated like nothing, after giving everything."
-        ]
+          "Their bodies are pushed to extremes with constant cycles of forced pregnancy and loss."
+        ],
+        "end": "When they're no longer profitable, they're sent to slaughter — treated like nothing, after giving everything."
       },
       "facts": {
         "title": "Did You Know?",
-        "items": [
-          "Cows only produce milk after giving birth, just like humans.",
-          "Calves are taken away from their mothers within hours.",
-          "Males are often killed for veal — a byproduct of dairy.",
-          "Dairy cows are repeatedly impregnated to keep milk flowing.",
-          "Most are slaughtered around age 5 — their natural lifespan is 20."
-        ]
+        "items": {
+          "left": [
+            "Cows only produce milk after giving birth, just like humans.",
+            "Calves are taken away from their mothers within hours.",
+            "Males are often killed for veal — a byproduct of dairy."
+          ],
+          "right": [
+            "Dairy cows are repeatedly impregnated to keep milk flowing.",
+            "Most are slaughtered around age 5 — their natural lifespan is 20."
+          ]
+        }
       },
       "images": [
         {
-          "src": "dairy-1.jpg",
-          "alt": "Dairy cow in facility",
-          "caption": "Separated from her calf"
+          "src": "../../../../assets/dairy/HR-image.jpg",
+          "alt": "Dead calf taken from mother"
         },
         {
           "src": "dairy-2.jpg",
-          "alt": "Calf in veal crate",
-          "caption": "The cost of dairy"
+          "alt": "Calf in veal crate"
         }
-      ]
+      ],
+      "biggerPicture": {
+        "title": "The bigger picture",
+        "items": {
+          "animalSuffering": {
+            "title": "Animal Suffering",
+            "text": "Cows in the dairy industry endure repeated forced pregnancies and the trauma of losing their calves. Their bodies are pushed to unnatural limits and they are slaughtered when no longer profitable."
+          },
+          "health": {
+            "title": "Health",
+            "text": "Dairy consumption has been linked to acne, inflammation, and hormone disruption. Many adults are lactose intolerant, yet continue to consume dairy because of marketing, not necessity."
+          },
+          "environment": {
+            "title": "Environment",
+            "text": "Dairy farms use enormous amounts of water and produce methane, a potent greenhouse gas. Waste from large-scale operations pollutes rivers and groundwater, harming ecosystems and communities."
+          }
+        }
+      }
     }
   },
   "shared": {
@@ -238,6 +328,67 @@
           "link": "/resources/activism"
         }
       ]
+    },
+    "choices": {
+      "title": "You Have A Choice",
+      "subtitle": "Because every compassionate choice you make tells the world:",
+      "buttons": [
+        {
+          "text": "Plant based",
+          "link": "https://challenge22.com/",
+          "image": "https://images.pexels.com/photos/8230023/pexels-photo-8230023.jpeg"
+        },
+        {
+          "text": "Watch documentary",
+          "link": "https://youtu.be/8gqwpfEcBjI?si=U3fVqSqeNXmHis4c",
+          "image": "https://images.squarespace-cdn.com/content/v1/55eb2900e4b079d8e4aebba2/1441569732837-PPUKG0IQM1GHBTHHEXHK/image-asset.jpeg"
+        },
+        {
+          "text": "Join movement",
+          "link": "https://docs.google.com/forms/d/e/1FAIpQLSfQlRnnPz06qrr-316pQa94KfcV0SKBOKUhqGIOEQACZAkkkA/viewform",
+          "image": "../../../../assets/join-us.png"
+        }
+      ]
     }
+  },
+  "navigation": {
+    "items": [
+      {
+        "key": "about",
+        "label": "About",
+        "type": "hash",
+        "href": "#about"
+      },
+      {
+        "key": "meat",
+        "label": "Meat",
+        "type": "route",
+        "href": "/meat"
+      },
+      {
+        "key": "dairy",
+        "label": "Dairy",
+        "type": "route",
+        "href": "/dairy"
+      },
+      {
+        "key": "eggs",
+        "label": "Eggs",
+        "type": "route",
+        "href": "/eggs"
+      },
+      {
+        "key": "fish",
+        "label": "Fish",
+        "type": "route",
+        "href": "/fish"
+      },
+      {
+        "key": "resources",
+        "label": "Resources",
+        "type": "hash",
+        "href": "#resources"
+      }
+    ]
   }
 }

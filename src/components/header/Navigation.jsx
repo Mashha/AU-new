@@ -1,29 +1,64 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { useNavigate } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import "./nav.css";
 import logo from "/assets/logo.png";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const navItems = ["About", "Meat", "Dairy", "Eggs", "Fish", "Resources"];
+  const navigate = useNavigate();
+  const { t } = useTranslation();
+
+  // Get navigation items from translation
+  const navItems = t("navigation.items", { returnObjects: true });
+
+  const handleNavClick = (item) => {
+    if (item.type === "hash") {
+      // Hash link - scroll to section on homepage
+      if (window.location.pathname !== "/") {
+        // If not on homepage, navigate to homepage first then scroll
+        navigate("/");
+        setTimeout(() => {
+          const element = document.querySelector(item.href);
+          if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+          }
+        }, 100);
+      } else {
+        // Already on homepage, just scroll
+        const element = document.querySelector(item.href);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+    } else if (item.type === "route") {
+      // Route navigation
+      navigate(item.href);
+    }
+    setIsMenuOpen(false);
+  };
 
   return (
     <nav className='nav'>
       <div className='container'>
         <div className='navInner'>
-          <img src={logo} alt='Logo' className='logo' />
+          <a href='/'>
+            <img src={logo} alt='Logo' className='logo' />
+          </a>
 
           {/* Desktop Menu */}
           <div className='desktopMenu'>
             <div className='menuList'>
               {navItems.map((item) => (
-                <a
-                  key={item}
-                  href={`#${item.toLowerCase().replace(" ", "-")}`}
+                <button
+                  key={item.key}
+                  onClick={() => handleNavClick(item)}
                   className='navLink'
+                  type='button'
                 >
-                  {item}
-                </a>
+                  {item.label}
+                </button>
               ))}
             </div>
           </div>
@@ -44,14 +79,14 @@ const Navigation = () => {
           <div className='mobileMenu'>
             <div className='mobileMenuContent'>
               {navItems.map((item) => (
-                <a
-                  key={item}
-                  href={`#${item.toLowerCase().replace(" ", "-")}`}
+                <button
+                  key={item.key}
+                  onClick={() => handleNavClick(item)}
                   className='mobileNavLink'
-                  onClick={() => setIsMenuOpen(false)}
+                  type='button'
                 >
-                  {item}
-                </a>
+                  {item.label}
+                </button>
               ))}
             </div>
           </div>

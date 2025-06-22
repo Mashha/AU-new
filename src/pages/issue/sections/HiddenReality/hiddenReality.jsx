@@ -9,13 +9,14 @@ const HiddenRealitySection = ({ data }) => {
   return (
     <section className='hidden-reality-section'>
       <div className='hidden-reality-text'>
-        <h2>{data.hiddenReality.title}</h2>
+        <h1>{data.hiddenReality.title}</h1>
+        <div className='start'>{data.hiddenReality.start}</div>
         <div>
           {hiddenRealityData.map((text, i) => {
             return <p key={i}>{text}</p>;
           })}
         </div>
-        <p className='closing'></p>
+        <p className='end'>{data.hiddenReality.end}</p>
       </div>
       <div className='hidden-reality-image'>
         <img src={hiddenRealityImage} alt={data.images[0].alt} />

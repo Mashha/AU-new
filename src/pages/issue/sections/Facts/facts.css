@@ -1,0 +1,187 @@
+.did-you-know-section {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 2rem;
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(0, 0, 0, 0.2) 80%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  z-index: 0;
+}
+
+.did-you-know-title {
+  position: relative;
+  z-index: 1;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.zigzag-grid {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.fact-row {
+  display: grid;
+  grid-template-columns: 1fr 40px 1fr;
+  align-items: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+
+/* Animate rows in sequence */
+.zigzag-grid.animate .fact-row {
+  animation: fadeInUp 0.8s ease forwards;
+  animation-delay: calc(var(--row-index) * 0.3s);
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fact-box {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--brand-red);
+  border-radius: 10px;
+  padding: 1.5rem;
+  font-size: 1rem;
+  max-width: 320px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.fact-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(255, 77, 77, 0.3);
+  border-color: var(--brand-red);
+}
+
+.fact-box.left {
+  justify-self: end;
+}
+
+.fact-box.right {
+  justify-self: start;
+}
+
+.line-container {
+  position: relative;
+  width: 2px;
+  height: 120px;
+  justify-self: center;
+}
+
+.line {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 77, 77, 0.3);
+  position: absolute;
+}
+
+.line-fill {
+  width: 100%;
+  height: 0%;
+  background: linear-gradient(to bottom, #ff4d4d, #ff6b6b);
+  position: absolute;
+  top: 0;
+  box-shadow: 0 0 10px rgba(255, 77, 77, 0.5);
+  transition: height 0.8s ease;
+}
+
+/* Animate line fill in sequence */
+.zigzag-grid.animate .fact-row .line-fill {
+  animation: fillLine 1.2s ease forwards;
+  animation-delay: calc(var(--row-index) * 0.3s + 0.4s);
+}
+
+@keyframes fillLine {
+  0% {
+    height: 0%;
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    height: 100%;
+    opacity: 1;
+  }
+}
+
+.restart-btn {
+  position: relative;
+  z-index: 1;
+  margin-top: 3rem;
+  padding: 12px 24px;
+  background: linear-gradient(45deg, #ff4d4d, #ff6b6b);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 77, 77, 0.3);
+}
+
+.restart-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 77, 77, 0.4);
+  background: linear-gradient(45deg, #ff6b6b, #ff8a8a);
+}
+
+.restart-btn:active {
+  transform: translateY(0);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .did-you-know-section {
+    padding: 4rem 1rem;
+  }
+
+  .did-you-know-title {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .fact-row {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .fact-box {
+    max-width: 100%;
+    justify-self: center !important;
+  }
+
+  .line-container {
+    height: 60px;
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./truth.css";
-import truthImg from "/assets/join-us.jpg";
+import truthImg from "/assets/truth.jpg";
 import { useTranslation } from "react-i18next";
 
 const FactoryFarmingProtest = () => {

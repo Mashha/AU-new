@@ -1,4 +1,3 @@
-/* Mobile First - Base styles for mobile devices */
 .animal-love-section {
   width: 100%;
   min-height: 100vh;
@@ -17,7 +16,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto;
   align-items: center;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .top-left-text {
@@ -53,8 +52,7 @@
   font-size: clamp(1.2rem, 4.5vw, 1.6rem);
   font-weight: bold;
   color: white;
-  line-height: 1.3;
-  letter-spacing: -0.5px;
+  line-height: 1.4;
   text-align: center;
 }
 

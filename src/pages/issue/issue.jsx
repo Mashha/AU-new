@@ -1,18 +1,25 @@
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import categories from "../../data/categories";
 import HeroSection from "./sections/CategoryHero/hero";
 import HiddenRealitySection from "./sections/HiddenReality/hiddenReality";
+import DidYouKnowSection from "./sections/Facts/facts";
+import BiggerPictureSection from "./sections/BiggerPicture/biggerPicture";
+import ChoiceSection from "./sections/Choice/choice";
+import Footer from "../../components/footer/footer";
+import Navigation from "../../components/header/Navigation";
 
 const CategoryPage = () => {
   const { category } = useParams();
   const { t } = useTranslation();
   const data = t(`categories.${category}`, { returnObjects: true });
+  const choicesData = t("shared.choices", { returnObjects: true });
 
-  console.log(data);
+  console.log("choice data", choicesData);
 
   return (
     <div>
+      <Navigation />
+
       {/* Hero Section */}
       <HeroSection data={data} />
 
@@ -22,16 +29,15 @@ const CategoryPage = () => {
       {/* Images Section */}
 
       {/* Did You Know Section */}
-      <section className='did-you-know'>
-        <h3>{data.facts.title}</h3>
-        <ul>
-          {data.facts.items.map((fact, index) => (
-            <li key={index}>{fact}</li>
-          ))}
-        </ul>
-      </section>
+      <DidYouKnowSection data={data} />
 
-      {/* Call to Action Section */}
+      {/* Bigger Picture */}
+      <BiggerPictureSection data={data} />
+
+      {/* Choice Section */}
+      <ChoiceSection data={choicesData} />
+
+      <Footer />
     </div>
   );
 };

@@ -30,7 +30,7 @@ const CategoriesSectionTwo = () => {
         {/* Eggs Image - Top Right */}
         <div className='category-item eggs-image'>
           <img
-            src='/api/placeholder/600/400'
+            src='https://images.pexels.com/photos/4530413/pexels-photo-4530413.jpeg'
             alt='Young lambs in natural farm setting'
             className='category-img'
           />
@@ -39,7 +39,7 @@ const CategoriesSectionTwo = () => {
         {/* Dairy Image - Bottom Left */}
         <div className='category-item dairy-image'>
           <img
-            src='/api/placeholder/600/400'
+            src='https://images.pexels.com/photos/13223618/pexels-photo-13223618.jpeg'
             alt='Farm animals in natural environment'
             className='category-img'
           />
