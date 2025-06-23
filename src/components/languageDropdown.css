@@ -1,0 +1,188 @@
+.language-dropdown {
+  position: relative;
+}
+
+.language-trigger {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #333;
+  transition: all 0.2s ease;
+}
+
+.language-trigger:hover {
+  background: #e9ecef;
+  border-color: #dee2e6;
+}
+
+.language-trigger .flag {
+  display: flex;
+  align-items: center;
+}
+
+.language-trigger .flag img {
+  width: 20px;
+  height: auto;
+  border-radius: 2px;
+}
+
+.language-trigger .language-code {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.language-trigger .chevron {
+  transition: transform 0.2s ease;
+}
+
+.language-trigger .chevron.open {
+  transform: rotate(180deg);
+}
+
+.language-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  min-width: 200px;
+  margin-top: 0.25rem;
+  overflow: hidden;
+  z-index: 1000;
+}
+
+.language-option {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.language-option:hover {
+  background: #f8f9fa;
+}
+
+.language-option.active {
+  background: rgba(210, 32, 39, 0.1); /* light red tint */
+  color: var(--brand-red);
+}
+
+.language-option .flag {
+  display: flex;
+  align-items: center;
+}
+
+.language-option .flag img {
+  width: 24px;
+  height: auto;
+  border-radius: 2px;
+}
+
+.language-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.language-name {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.language-code-small {
+  font-size: 0.75rem;
+  color: #666;
+  margin-top: 0.1rem;
+}
+
+.checkmark {
+  color: var(--brand-red);
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+/* Mobile Language Section Styles */
+.mobile-language-section {
+  padding-top: 1rem;
+  margin-top: 1.5rem;
+  border-top: 1px solid rgba(234, 234, 234, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile-language-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.mobile-language-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.mobile-language-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+  position: relative;
+  flex: 1;
+  color: var(--brand-white);
+}
+
+.mobile-language-option:hover {
+  background: #f8f9fa;
+}
+
+.mobile-language-option.active {
+  background: rgba(210, 32, 39, 0.1);
+  color: var(--brand-red);
+}
+
+.mobile-language-option .flag {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-language-option .flag img {
+  width: 20px;
+  height: auto;
+  border-radius: 2px;
+}
+
+.mobile-language-option .checkmark {
+  margin-left: auto;
+  color: var(--brand-red);
+  font-weight: bold;
+}

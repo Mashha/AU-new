@@ -105,7 +105,9 @@
 
 @media (min-width: 768px) {
   .desktopMenu {
-    display: block;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
   }
 
   .mobileMenuButton {

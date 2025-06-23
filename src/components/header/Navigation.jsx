@@ -4,6 +4,8 @@ import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "./nav.css";
 import logo from "/assets/logo.png";
+import LanguageSwitcher from "../LanguageDropdown";
+import LanguageDropdown from "../LanguageDropdown";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -61,6 +63,7 @@ const Navigation = () => {
                 </button>
               ))}
             </div>
+            <LanguageDropdown />
           </div>
 
           {/* Mobile menu button */}
@@ -88,6 +91,9 @@ const Navigation = () => {
                   {item.label}
                 </button>
               ))}
+
+              {/* Language dropdown rendered in mobile version */}
+              <LanguageDropdown isMobile={true} />
             </div>
           </div>
         )}
