@@ -1,0 +1,107 @@
+.why-section {
+  background-color: var(--brand-black);
+  padding: 4rem 1rem;
+  overflow: hidden;
+}
+
+.why-wrapper {
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-right: 6rem; /* Gives space for right-positioned card */
+}
+
+.why-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+}
+
+/* Default card (desktop) */
+.why-card {
+  position: absolute;
+  top: 50%;
+  right: -3rem;
+  transform: translateY(-50%);
+  background-color: var(--brand-red);
+  color: white;
+  padding: 2rem;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Screens ≥ 1400px */
+@media (min-width: 1400px) {
+  .why-card {
+    right: -1.5rem;
+  }
+}
+
+/* Screens ≥ 1600px */
+@media (min-width: 1600px) {
+  .why-card {
+    right: -6rem;
+  }
+}
+
+/* Screens ≥ 1800px */
+@media (min-width: 1800px) {
+  .why-card {
+    right: -8rem;
+  }
+}
+
+/* Slightly earlier shift for mid-size screens */
+@media (max-width: 1300px) {
+  .why-card {
+    right: 1rem;
+    max-width: 500px;
+  }
+
+  .why-wrapper {
+    padding-right: 1rem;
+  }
+}
+
+/* Responsive: Small tablets / large phones */
+@media (max-width: 1024px) {
+  .why-card {
+    right: 0;
+    max-width: 90%;
+    padding: 1.5rem;
+  }
+}
+
+/* Responsive: Mobile */
+@media (max-width: 768px) {
+  .why-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .why-card {
+    position: static;
+    transform: none;
+    margin-top: 1.5rem;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+/* Typography */
+.why-card h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.why-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}

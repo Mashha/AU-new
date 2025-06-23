@@ -679,5 +679,35 @@
         }
       ]
     }
+  },
+  "about_us": {
+    "hero": {
+      "title": "We speak for the unheard"
+    },
+    "whatWeDo": {
+      "title": "What We Do",
+      "sections": [
+        {
+          "title": "Cube of Truth",
+          "text": "A peaceful street demonstration using real footage and open conversations to show what animal industries hide — and to imagine a different future."
+        },
+        {
+          "title": "Street Activism",
+          "text": "We talk to passers-by with compassion, challenging norms and offering resources to support ethical choices like veganism."
+        }
+      ]
+    },
+    "whyThisExists": {
+      "title": "Why This Exists",
+      "text": "Every day, billions of animals suffer in silence. We exist to disrupt that silence — through education, presence, and peaceful resistance. We believe animals are not products, and their lives deserve more than convenience-based traditions."
+    },
+    "team": {
+      "title": "Our Approach",
+      "text1": "We don't shout. We don't shame. We invite, inform, and inspire.",
+      "text2": "With truth, kindness, and empathy, we help people connect their values with their choices."
+    },
+    "mask": {
+      "text": "The mask represents solidarity — with the animals, with the truth, and with every fight against injustice. It redirects focus from the activist to the message: animals are individuals, not commodities."
+    }
   }
 }

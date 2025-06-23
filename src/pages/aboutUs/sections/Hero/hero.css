@@ -1,0 +1,43 @@
+.category-hero {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  background-color: var(--brand-black);
+  color: var(--brand-white);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.25;
+  z-index: 1;
+}
+
+.hero-overlay {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 2rem;
+  max-width: 800px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 140%;
+  letter-spacing: 2px;
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 4rem;
+  }
+}
