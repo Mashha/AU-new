@@ -1,10 +1,9 @@
 import "./hiddenReality.css";
-import categories from "../../../../data/categories";
+import { Trans } from "react-i18next";
 
 const HiddenRealitySection = ({ data }) => {
   const hiddenRealityData = data.hiddenReality.content;
   const hiddenRealityImage = data.images[0].src;
-  console.log(hiddenRealityImage);
 
   return (
     <section className='hidden-reality-section'>
@@ -13,7 +12,11 @@ const HiddenRealitySection = ({ data }) => {
         <div className='start'>{data.hiddenReality.start}</div>
         <div>
           {hiddenRealityData.map((text, i) => {
-            return <p key={i}>{text}</p>;
+            return (
+              <p key={i}>
+                <Trans i18nKey={text} components={{ strong: <strong /> }} />
+              </p>
+            );
           })}
         </div>
         <p className='end'>{data.hiddenReality.end}</p>

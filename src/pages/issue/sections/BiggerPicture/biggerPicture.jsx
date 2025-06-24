@@ -1,4 +1,4 @@
-import React from "react";
+import { Trans } from "react-i18next";
 import "./biggerPicture.css";
 import biggerPictureIcons from "../../../../data/biggerPictureIcons";
 
@@ -16,7 +16,7 @@ const BiggerPictureSection = ({ data }) => {
               <div className='icon-container'>
                 <img src={biggerPictureIcons[key]} alt={key} />
               </div>
-              <p className='card-text'>{item.text}</p>
+              <Trans i18nKey={item.text} components={{ strong: <strong /> }} />
             </div>
           ))}
         </div>

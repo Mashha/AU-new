@@ -1,0 +1,56 @@
+.resources-page {
+  background-color: var(--brand-black);
+}
+
+.resources-inner {
+  padding: 4rem 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: var(--brand-white);
+}
+
+.resources-page h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--brand-red);
+}
+
+.resource-category {
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  border-radius: 6px;
+  background-color: #1f1f1f;
+}
+
+.resource-category h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--brand-red);
+  padding-bottom: 0.5rem;
+  color: var(--brand-white);
+}
+
+.resource-category ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.resource-category li {
+  margin: 0.8rem 0;
+  font-size: 1rem;
+}
+
+.resource-category a {
+  color: var(--brand-white);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.resource-category a:hover {
+  border-bottom: 1px solid var(--brand-red);
+  color: var(--brand-red-hover);
+}

@@ -12,7 +12,10 @@ const WhyThisExists = () => {
         <img className='why-image' src={WhyImage} alt='Activists' />
         <div className='why-card'>
           <h2>{t("about_us.whyThisExists.title")}</h2>
-          <p>{t("about_us.whyThisExists.text")}</p>
+          <div className='card-content'>
+            <p>{t("about_us.whyThisExists.text1")}</p>
+            <p>{t("about_us.whyThisExists.text2")}</p>
+          </div>
         </div>
       </div>
     </section>

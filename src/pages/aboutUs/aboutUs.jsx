@@ -4,6 +4,8 @@ import Navigation from "../../components/header/Navigation";
 import WhatWeDo from "./sections/What/WhatWeDo";
 import AboutHero from "./sections/Hero/Hero";
 import WhyThisExists from "./sections/Why/whyThisExists";
+import TeamSection from "./sections/Team/Team";
+import MaskSection from "./sections/Mask/Mask";
 
 const AboutUsPage = () => {
   const { t } = useTranslation();
@@ -22,8 +24,10 @@ const AboutUsPage = () => {
       <WhyThisExists />
 
       {/* Team */}
+      <TeamSection />
 
       {/* Mask */}
+      <MaskSection />
 
       <Footer />
     </div>

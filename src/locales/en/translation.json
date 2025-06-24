@@ -71,9 +71,9 @@
         "title": "The Hidden Reality",
         "start": "Can you imagine watching others taken from you, one by one?",
         "content": [
-          "You hear screams. You smell blood. You see panic. You don't understand what's happening — but you know something is terribly wrong.",
-          "If you try to resist, you're beaten or shocked with an electric prod. You're pushed forward, step by step, toward the same fate.",
-          "This is the reality for animals used for meat — all of them. Not just pigs, cows, or sheep — all beings bred for slaughter face fear, violence, and death."
+          "You hear <strong>screams</strong>. You smell <strong>blood</strong>. You see <strong>panic</strong>. You don't understand what's happening — but you know something is terribly wrong.",
+          "If you try to resist, you're <strong>beaten or shocked</strong> with an electric prod. You're pushed forward, step by step, toward the same fate.",
+          "This is the reality for animals used for meat — <strong>all of them</strong>. Not just pigs, cows, or sheep — all beings bred for slaughter <Strong>face fear, violence, and death</strong>."
         ],
         "end": "Isn't it time to question that tradition?"
       },
@@ -120,15 +120,15 @@
         "items": {
           "animalSuffering": {
             "title": "Animal Suffering",
-            "text": "Animals raised for meat live in overcrowded, unnatural conditions. They are mutilated without pain relief, denied medical care, and killed while still conscious — all for a meal that lasts minutes."
+            "text": "Animals raised for meat live in <strong>overcrowded, unnatural conditions</strong>. They are mutilated without pain relief, denied medical care, and <strong>killed while still conscious</strong> — all for a meal that lasts minutes."
           },
           "health": {
             "title": "Health",
-            "text": "High meat consumption is linked to heart disease, cancer, and antibiotic resistance. Most meat today comes from animals pumped with drugs and hormones, affecting our health in unseen ways."
+            "text": "High meat consumption is linked to <strong>heart disease, cancer, and antibiotic resistance.</strong> Most meat today comes from animals pumped with <strong>drugs and hormones,</strong> affecting our health in unseen ways."
           },
           "environment": {
             "title": "Environment",
-            "text": "Animal agriculture is a leading cause of deforestation, methane emissions, and water pollution. Forests are destroyed for animal feed, while millions of liters of water go into producing just one steak."
+            "text": "Animal agriculture is a leading cause of <strong>deforestation, methane emissions, and water pollution.</strong> Forests are destroyed for animal feed, while millions of liters of water go into producing <strong>just one steak.</strong>"
           }
         }
       }
@@ -142,9 +142,9 @@
         "title": "The Hidden Reality",
         "start": "Can you imagine suffocating while fully conscious?",
         "content": [
-          "That's what trillions of fish endure every year.",
-          "Dragged from the ocean in massive nets, they're crushed, injured, and left to slowly suffocate on ship decks — still conscious, still feeling pain.",
-          "Others spend their short lives trapped in filthy, overcrowded fish farms, swimming in circles, infected and unseen."
+          "That's what <strong>trillions</strong> of fish endure every year.",
+          "Dragged from the ocean in massive nets, they're crushed, injured, and left to <strong>slowly suffocate</strong> on ship decks — still conscious, still feeling pain.",
+          "Others spend their short lives trapped <strong>in filthy, overcrowded fish farms</strong>, swimming in circles, infected and unseen."
         ],
         "end": "We never hear their screams. But that doesn't mean they don't suffer."
       },
@@ -177,15 +177,15 @@
         "items": {
           "animalSuffering": {
             "title": "Animal Suffering",
-            "text": "Fish are sensitive, intelligent beings — yet their suffering is rarely acknowledged. They are crushed by nets, sliced open while conscious, or left to slowly suffocate. In fish farms, they endure isolation, disease, and neglect."
+            "text": "Fish are <strong>sensitive, intelligent beings</strong> — yet their suffering is rarely acknowledged. They are crushed by nets, <strong>sliced open while conscious</strong>, or left to slowly suffocate. In fish farms, they endure isolation, disease, and neglect."
           },
           "health": {
             "title": "Health",
-            "text": "Fish absorb the toxins of the waters they live in. From mercury and heavy metals to microplastics and parasites — these pollutants enter your body too when you consume fish or seafood."
+            "text": "Fish absorb the <strong>toxins</strong> of the waters they live in. From <strong>mercury and heavy metals</strong> to <strong>microplastics and parasites</strong> — these pollutants enter your body too when you consume fish or seafood."
           },
           "environment": {
             "title": "Environment",
-            "text": "Overfishing is destroying ocean ecosystems and pushing species to extinction. Massive trawlers tear up the ocean floor, while bycatch kills billions of non-target animals like turtles, dolphins, and seabirds."
+            "text": "Overfishing is <strong>destroying ocean ecosystem</strong>s and pushing species to <strong>extinction</strong>. Massive trawlers tear up the ocean floor, while bycatch kills billions of non-target animals like turtles, dolphins, and seabirds."
           }
         }
       }
@@ -199,8 +199,8 @@
         "title": "The Hidden Reality",
         "start": "Can you imagine being born into a world where your worth is measured only by what you can produce?",
         "content": [
-          "For hens, life begins in darkness. If you're male, you're ground up or gassed on your first day — because you can't lay eggs.",
-          "If you're female, you're confined, mutilated, and pushed to your limit until your body gives out. Your beak is cut. Your wings never spread. Your song goes unheard."
+          "For hens, life begins in <strong>darkness</strong>. If you're male, you're <strong>ground up or gassed on your first day</strong> — because you can't lay eggs.",
+          "If you're female, you're <strong>confined, mutilated</strong>, and pushed to your limit until your body gives out. Your beak is cut. Your wings never spread. Your song goes unheard."
         ],
         "end": "Behind every carton of eggs is a life reduced to a machine — until it breaks."
       },
@@ -233,15 +233,15 @@
         "items": {
           "animalSuffering": {
             "title": "Animal Suffering",
-            "text": "Egg-laying hens live confined in battery cages or crowded sheds, often unable to stretch their wings. Males are killed at birth, and females are pushed to the limit until their bodies give out."
+            "text": "Egg-laying hens live <strong>confined</strong> in battery cages or crowded sheds, often unable to stretch their wings. Males are <strong>killed at birth</strong>, and females are <strong>pushed to the limit</strong> until their bodies give out."
           },
           "health": {
             "title": "Health",
-            "text": "Eggs are high in cholesterol and may increase the risk of heart disease. They also carry risks of salmonella and other bacterial infections, especially in factory-farmed conditions."
+            "text": "Eggs are high in <strong>cholesterol</strong> and may increase the risk of <strong>heart disease</strong>. They also carry risks of <strong>salmonella and other bacterial infections</strong>, especially in factory-farmed conditions."
           },
           "environment": {
             "title": "Environment",
-            "text": "Industrial egg farms contribute to ammonia pollution and waste runoff. The production of feed for hens consumes vast resources, while manure pollutes soil and waterways."
+            "text": "Industrial egg farms contribute to <strong>ammonia pollution and waste runoff</strong>. The production of feed for hens consumes vast resources, while manure pollutes soil and waterways."
           }
         }
       }
@@ -256,8 +256,8 @@
         "start": "Can you imagine having your baby taken from you, again and again, just so others can drink your milk?",
         "content": [
           "In dairy, cows aren't just exploited — they're mothers robbed of motherhood.",
-          "They cry for days when their calves are taken. The milk meant for their babies is taken for humans.",
-          "Their bodies are pushed to extremes with constant cycles of forced pregnancy and loss."
+          "They <strong>cry for days on end</strong> when their calves are taken. The milk meant for their babies is <strong>taken for humans</strong>.",
+          "Their bodies are <strong>pushed to extremes</strong> with constant cycles of <strong>forced pregnancy</strong> and loss."
         ],
         "end": "When they're no longer profitable, they're sent to slaughter — treated like nothing, after giving everything."
       },
@@ -290,15 +290,15 @@
         "items": {
           "animalSuffering": {
             "title": "Animal Suffering",
-            "text": "Cows in the dairy industry endure repeated forced pregnancies and the trauma of losing their calves. Their bodies are pushed to unnatural limits and they are slaughtered when no longer profitable."
+            "text": "Cows in the dairy industry endure <strong>repeated forced pregnancies</strong> and the <strong>trauma of losing their calves.</strong> Their bodies are pushed to <strong>unnatural limits</strong> and they are <strong>slaughtered</strong when no longer profitable."
           },
           "health": {
             "title": "Health",
-            "text": "Dairy consumption has been linked to acne, inflammation, and hormone disruption. Many adults are lactose intolerant, yet continue to consume dairy because of marketing, not necessity."
+            "text": "Dairy consumption has been linked to <strong>acne, inflammation, and hormone disruption.</strong> Many adults are lactose intolerant, yet continue to consume dairy because of marketing, <strong>not necessity</strong>."
           },
           "environment": {
             "title": "Environment",
-            "text": "Dairy farms use enormous amounts of water and produce methane, a potent greenhouse gas. Waste from large-scale operations pollutes rivers and groundwater, harming ecosystems and communities."
+            "text": "Dairy farms use enormous amounts of water and produce methane, a potent greenhouse gas. Waste from large-scale operations <strong>pollutes rivers and groundwater, harming ecosystems and communities.</strong>"
           }
         }
       }
@@ -699,7 +699,8 @@
     },
     "whyThisExists": {
       "title": "Why This Exists",
-      "text": "Every day, billions of animals suffer in silence. We exist to disrupt that silence — through education, presence, and peaceful resistance. We believe animals are not products, and their lives deserve more than convenience-based traditions."
+      "text1": "Every day, billions of animals suffer in silence. We exist to disrupt that silence — through education, presence, and peaceful resistance.",
+      "text2": "We believe animals are not products, and their lives deserve more than convenience-based traditions."
     },
     "team": {
       "title": "Our Approach",
