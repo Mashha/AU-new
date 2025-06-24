@@ -51,14 +51,15 @@
     "cta": {
       "heading": "IT STARTS WITH YOU",
       "description": "Change doesn't begin in governments or big industries. It begins with a <strong>single person choosing to care</strong> — to act.",
-      "quote1": "It starts with what you <strong>eat</strong>.",
-      "quote2": "With what you <strong>wear</strong>.",
-      "quote3": "With what you <strong>stand for</strong>.",
+      "quote1": "It starts with what you <strong>eat</strong>",
+      "quote2": "With what you <strong>wear</strong>",
+      "quote3": "With what you <strong>stand for</strong>",
       "invitation": "Because every compassionate choice you make tells the world:",
       "line": "Animals are not ours to use",
       "vegan": "Try veg",
       "vegan-link": "https://challenge22.com/",
-      "help": "Help animals"
+      "help": "Vegan lifestyle",
+      "resources": "https://www.vegansociety.com/lifestyle"
     }
   },
   "categories": {
@@ -332,7 +333,7 @@
     },
     "choices": {
       "title": "You Have A Choice",
-      "subtitle": "Because every compassionate choice you make tells the world:",
+      "subtitle": "Because every compassionate choice you make tells the world",
       "buttons": [
         {
           "text": "Plant based",

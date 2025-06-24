@@ -35,22 +35,36 @@ const Support = () => {
           </p>
         </div>
 
-        <div className="closing-div">
+        <div className='closing-div'>
           <p className='closing-text'>{t("homepage.cta.invitation")}</p>
-          <p className="closing-text-two">{t("homepage.cta.line")}</p>
+          <p className='closing-text-two'>{t("homepage.cta.line")}</p>
         </div>
       </div>
 
       <div className='action-panels'>
         <div className='panel veg-panel'>
           <div className='panel-overlay'>
-            <button className='action-button'>{t("homepage.cta.vegan")}</button>
+            <a
+              href={t("homepage.cta.vegan-link")}
+              className='action-button'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              {t("homepage.cta.vegan")}
+            </a>
           </div>
         </div>
 
         <div className='panel help-panel'>
           <div className='panel-overlay'>
-            <button className='action-button'>{t("homepage.cta.help")}</button>
+            <a
+              href={t("homepage.cta.resources")}
+              className='action-button'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              {t("homepage.cta.help")}
+            </a>
           </div>
         </div>
       </div>

@@ -11,9 +11,6 @@ const Footer = () => {
   // Get navigation items from translation (same as main nav)
   const navItems = t("navigation.items", { returnObjects: true });
 
-  // Filter out "About" for footer, or use all items if you want
-  const footerNavItems = navItems.filter((item) => item.key !== "about");
-
   const handleNavClick = (item) => {
     if (item.href.startsWith("#")) {
       // Hash link - scroll to section on homepage
@@ -81,7 +78,7 @@ const Footer = () => {
         </div>
 
         <nav className='footer-nav'>
-          {footerNavItems.map((item) => (
+          {navItems.map((item) => (
             <button
               key={item.key}
               onClick={() => handleNavClick(item)}

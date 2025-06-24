@@ -74,11 +74,11 @@
 }
 
 .veg-panel {
-  background-image: url("https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80");
+  background-image: url("../../../public//assets/vegan_challenge.png");
 }
 
 .help-panel {
-  background-image: url("https://images.unsplash.com/photo-1425082661705-1834bfd09dca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80");
+  background-image: url("../../../public//assets/vegan_life.png");
 }
 
 .panel-overlay {
@@ -109,6 +109,7 @@
   transition: all 0.3s ease;
   text-transform: uppercase;
   letter-spacing: 1px;
+  text-decoration: none;
 }
 
 .action-button:hover {
