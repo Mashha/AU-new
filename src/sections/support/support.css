@@ -74,11 +74,11 @@
 }
 
 .veg-panel {
-  background-image: url("../../../public//assets/vegan_challenge.png");
+  background-image: url("/assets/vegan_challenge.png");
 }
 
 .help-panel {
-  background-image: url("../../../public//assets/vegan_life.png");
+  background-image: url("/assets/vegan_life.png");
 }
 
 .panel-overlay {

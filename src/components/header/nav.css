@@ -124,3 +124,10 @@
     padding: 0 32px;
   }
 }
+
+.navLink.active,
+.mobileNavLink.active {
+  color: var(--brand-red);
+  font-weight: bold;
+  border-bottom: 2px solid var(--brand-red);
+}

@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "./nav.css";
 import logo from "/assets/logo.png";
-import LanguageSwitcher from "../LanguageDropdown";
 import LanguageDropdown from "../LanguageDropdown";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navigate = useNavigate();
   const { t } = useTranslation();
+  const location = useLocation();
 
   // Get navigation items from translation
   const navItems = t("navigation.items", { returnObjects: true });
@@ -56,7 +56,11 @@ const Navigation = () => {
                 <button
                   key={item.key}
                   onClick={() => handleNavClick(item)}
-                  className='navLink'
+                  className={`navLink ${
+                    item.type === "route" && location.pathname === item.href
+                      ? "active"
+                      : ""
+                  }`}
                   type='button'
                 >
                   {item.label}
@@ -85,7 +89,11 @@ const Navigation = () => {
                 <button
                   key={item.key}
                   onClick={() => handleNavClick(item)}
-                  className='mobileNavLink'
+                  className={`mobileNavLink ${
+                    item.type === "route" && location.pathname === item.href
+                      ? "active"
+                      : ""
+                  }`}
                   type='button'
                 >
                   {item.label}

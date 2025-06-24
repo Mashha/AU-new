@@ -1,6 +1,6 @@
 .masked-hero {
   background-color: var(--brand-black);
-  background-image: url("../../../../../public/assets/mask.png");
+  background-image: url("/assets/mask.png");
   background-position: left center;
   background-repeat: no-repeat;
   background-size: 500px;

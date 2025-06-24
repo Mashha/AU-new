@@ -1,6 +1,4 @@
-import React from "react";
 import "./mask.css";
-import mask from "/assets/mask.png";
 
 const MaskSection = () => {
   return (
