@@ -12,6 +12,7 @@ import Footer from "./components/footer/footer";
 import CategoryPage from "./pages/issue/issue";
 import ResourcesPage from "./pages/resources/resources";
 import AboutUsPage from "./pages/aboutUs/aboutUs";
+import PageTransition from "./components/pageTransition/pageTransition";
 
 // Home Page Component
 function HomePage() {
@@ -33,13 +34,15 @@ function HomePage() {
 
 function App() {
   return (
-    <Routes>
-      <Route path='/' element={<HomePage />} />
-      <Route path='/:category' element={<CategoryPage />} />
-      <Route path='/resources' element={<ResourcesPage />} />
-      <Route path='/about' element={<AboutUsPage />} />
-      <Route path='*' element={<HomePage />} /> {/* Fallback route */}
-    </Routes>
+    <PageTransition>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/:category' element={<CategoryPage />} />
+        <Route path='/resources' element={<ResourcesPage />} />
+        <Route path='/about' element={<AboutUsPage />} />
+        <Route path='*' element={<HomePage />} /> {/* Fallback route */}
+      </Routes>
+    </PageTransition>
   );
 }
 

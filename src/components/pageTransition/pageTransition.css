@@ -1,0 +1,8 @@
+.page-wrapper {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.page-wrapper.fade-out {
+  opacity: 0;
+}

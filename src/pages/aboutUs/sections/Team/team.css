@@ -54,7 +54,7 @@
 .overlay-box {
   background-color: var(--brand-black);
   color: white;
-  padding: 2rem;
+  padding: 2rem 2rem 4rem 2rem;
   border-radius: 0 0 4px 0;
   text-align: center;
   width: 100%;
