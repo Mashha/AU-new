@@ -23,7 +23,7 @@
   animation-delay: 0.3s;
 }
 
-.panel {
+.loader-panel {
   position: absolute;
   width: 100%;
   height: 50%;

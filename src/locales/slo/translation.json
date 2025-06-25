@@ -1,63 +1,65 @@
 {
   "homepage": {
     "hero": {
-      "title": "Če bi lahko spregovorile, kaj bi nam povedale?",
-      "subtitle": "Ozaveščamo o trpljenju živali skozi ulični aktivizem in pogovore, ki temeljijo na resnici.",
-      "buttonOne": "Razišči resnico",
-      "buttonTwo": "Pridruži se gibanju"
+      "title": "Če bi lahko govorile, kaj bi rekle?",
+      "subtitle": "Ozaveščamo o izkoriščanju živali z ulično aktivnostjo in pogovori, temelječimi na resnici",
+      "buttonOne": "Raziščite resnico",
+      "buttonTwo": "Pridružite se gibanju"
     },
     "quoteSection": {
-      "imageAlt": "Ušesna oznaka 290",
-      "quote": "Predstavljaj si, da se rodiš v svet, kjer je tvoja usoda že določena. Le številka si — in tvoja smrt, že načrtovan dogodek."
+      "imageAlt": "Ušesna znamka 290",
+      "quote": "Predstavljajte si, da bi se rodili v svet, kjer bi bila vaša usoda že zapečatena. Bili bi le številka — vaša smrt pa načrtovan dogodek."
     },
     "whoWeAre": {
       "title": "Kdo smo",
-      "description": "Smo skupnost aktivistov za pravice živali, ki se borimo proti izkoriščanju živih bitij. Na ulice prinašamo resnico in sočutje — za tiste, ki jih nihče ne sliši."
+      "description": "Smo oddolno gibanje <strong>aktivistov</strong> za pravice živali. Od leta 2018 izobražujemo javnost z resnično dokumentacijo iz farm in klavnic, prikazujemo <strong>skrito ceno</strong> mesa, mlečnih izdelkov, jajc, usnja in več. Leta 2023 smo ustanovili <strong>Anonimni za neslišane</strong>, rastoče gibanje, ki daje glas utišanim in zahteva pravičnost za vse živali."
     },
     "whatWeBelieve": {
       "title": "V kaj verjamemo",
-      "description": "Predstavljamo si svet, kjer živali niso več obravnavane kot stvari, temveč kot čuteča bitja — vredna svobode, spoštovanja in miru. Z izobraževanjem in nenasilnim aktivizmom izzivamo norme in ponujamo boljšo pot za vse nas.",
+      "description": "Vizijo imamo sveta, kjer živali niso več obravnavane kot blago, temveč kot <strong>čuteča</strong> bitja, vredna spoštovanja, svobode in miru. Z izobraževanjem in mirnim aktivizmom izzivamo norme in ponujamo boljšo pot naprej za vsa živa bitja.",
       "values": ["Sočutje", "Pravičnost", "Osvoboditev"]
     },
-    "categoryPreviews": {
+    "categoryPreview": {
       "meat": {
         "title": "Meso",
-        "description": "Meso vidimo kot obrok. A v resnici je to telo nekoga, ki si je želel živeti — tako kot ti.",
-        "button": "Poglej več"
+        "description": "Meso vidimo kot hrano, ne kot nečje telo. Toda vsak kos prihaja iz življenja, ki je hotelo živeti — ravno tako kot mi.",
+        "button": "Poglejte več"
       },
       "fish": {
         "title": "Ribe",
-        "description": "Ribe čutijo bolečino. Borijo se, dušijo in v milijardah izginjajo — nevidne in neslišane.",
-        "button": "Poglej več"
+        "description": "Ribe čutijo bolečino. Borijo se, zadušijo in izginjajo v milijardah — nevidne, neslišane.",
+        "button": "Poglejte več"
       },
       "eggs": {
         "title": "Jajca",
-        "description": "Jajca se morda zdijo nedolžna, a za vsako škatlo se skriva zgodba o trpljenju, tihih čivkih in zavrženih življenjih.",
-        "button": "Poglej več"
+        "description": "Jajca se zdijo nedolžna. Toda za vsako škatlo se skriva zgodba o trpljenju, utišanih cvrgoljenjih in zavrženih življenjih.",
+        "button": "Poglejte več"
       },
       "dairy": {
         "title": "Mlečni izdelki",
-        "description": "Večina nas je odraščala z mislijo, da je mleko nekaj naravnega in nujnega. Nihče pa nam ni pokazal, kaj se v resnici skriva za kozarcem mleka.",
-        "button": "Poglej več"
+        "description": "Večina nas je odraščala z vero, da so mlečni izdelki običajni, potrebni in naravni. Nikoli nam niso pokazali resničnosti za kozarcem mleka.",
+        "button": "Poglejte več"
       }
     },
     "interlude": {
-      "lineOne": "Kam je izginila ljubezen? Ljubezen, ki si jo nekoč čutil do vseh živali?",
-      "lineTwo": "Kdo te je naučil, da eno božaš, za drugo pa plačaš, da jo ubijejo?"
+      "lineOne": "Kam se je izgubila ljubezen? Ljubezen, ki ste jo nekoč čutili do vseh živali?",
+      "lineTwo": "Kdo vas je naučil, da eno žival božate, za drugo pa plačate, da jo zakoljejo?"
     },
     "factoryFarming": {
-      "question": "Če je industrijska živinoreja res normalna in humana, zakaj si industrija tako prizadeva, da jo skriva?"
+      "question": "Če je tovarniška reja običajna in humana, zakaj se industrija tako trudi, da bi jo skrivala?"
     },
     "cta": {
-      "heading": "ZAČNE SE S TEBOJ",
-      "description": "Spremembe ne začenjajo vladarji ali korporacije. Začnejo se z eno osebo, ki ji je mar — in ki se odloči nekaj narediti.",
-      "quote1": "Začne se s tem, kaj ješ.",
-      "quote2": "S tem, kar nosiš.",
-      "quote3": "In s tem, za kar se zavzemaš.",
-      "invitation": "Kajti vsaka sočutna izbira, ki jo narediš, pove svetu:",
-      "line": "Živali niso tukaj za našo uporabo.",
-      "vegan": "Izberi rastlinsko",
-      "help": "Pomagaj živalim"
+      "heading": "ZAČNE SE PRI VAS",
+      "description": "Sprememba se ne začne v vladah ali velikih industrijah. Začne se z <strong>eno osebo, ki se odloči, da ji je mar</strong> — da bo delovala.",
+      "quote1": "Začne se s tem, kaj <strong>jeste</strong>",
+      "quote2": "S tem, kaj <strong>nosite</strong>",
+      "quote3": "S tem, za kaj se <strong>zavzemate</strong>",
+      "invitation": "Ker vsaka sočutna izbira, ki jo naredite, pove svetu:",
+      "line": "Živali niso naše za uporabo",
+      "vegan": "Poskusite rastlinski način",
+      "vegan-link": "https://challenge22.com/",
+      "help": "Rastlinski življenjski slog",
+      "resources": "https://www.vegansociety.com/lifestyle"
     }
   },
   "categories": {
@@ -65,152 +67,242 @@
       "title": "Meso",
       "subtitle": "Cena obroka",
       "heroImage": "meat-hero.jpg",
-      "previewDescription": "Meso vidimo kot obrok. A v resnici je to telo nekoga, ki si je želel živeti — tako kot ti.",
+      "previewDescription": "Meso vidimo kot hrano, ne kot nečje telo. Toda vsak kos prihaja iz življenja, ki je hotelo živeti — ravno tako kot mi.",
       "hiddenReality": {
         "title": "Skrita resničnost",
+        "start": "Si lahko predstavljate, da gledate, kako odvajajo druge od vas, enega za drugim?",
         "content": [
-          "Si lahko predstavljaš, da gledaš, kako enega za drugim odvzamejo tvoje bližnje?",
-          "Slišiš krike. Vonjaš kri. Vidiš paniko. Ne razumeš, kaj se dogaja — a veš, da je nekaj strašno narobe.",
-          "Če poskušaš upreti, te udarijo ali šokirajo z električno palico. Potiskajo te naprej, korak za korakom, proti istemu koncu.",
-          "To je realnost vseh živali, ki jih vzrejajo za meso. Ne le prašičev, krav ali ovc — vse živali, namenjene zakolu, se srečajo s strahom, nasiljem in smrtjo.",
-          "Ni čas, da se vprašamo, zakaj to sploh sprejemamo?"
-        ]
+          "Slišite <strong>krike</strong>. Vonjate <strong>kri</strong>. Vidite <strong>paniko</strong>. Ne razumete, kaj se dogaja — toda veste, da je nekaj hudo narobe.",
+          "Če se poskušate upreti, vas <strong>pretepejo ali šokirajo</strong> z električno palico. Potiskajo vas naprej, korak za korakom, proti isti usodi.",
+          "To je resničnost za živali, ki se uporabljajo za meso — <strong>za vse</strong>. Ne le prašiči, krave ali ovce — vsa bitja, vzrejena za zakol, <strong>se soočajo s strahom, nasiljem in smrtjo</strong>."
+        ],
+        "end": "Ni končno čas, da postavimo pod vprašaj to tradicijo?"
       },
       "facts": {
-        "title": "Ali si vedel?",
-        "items": [
-          "Vsako leto zakoljejo več kot 70 milijard kopenskih živali.",
-          "Mnoge so še mladički, ko jih usmrtijo.",
-          "Tudi \"humani zakol\" se konča v strahu in bolečini.",
-          "Prašički so pametni kot psi — in kričijo enako glasno.",
-          "Živali pogosto gledajo, kako njihovi bližnji umirajo pred njimi."
-        ]
+        "title": "Ali ste vedeli?",
+        "items": {
+          "left": [
+            "Vsako leto je za meso ubitih več kot 70 milijard kopenskih živali",
+            "Mnoge so le mladiči, ko jih zakoljejo",
+            "\"Humanen zakol\" se še vedno konča z ustrahnjeno smrtjo"
+          ],
+          "right": [
+            "Prašiči so tako pametni kot psi — in kričijo ravno tako glasno",
+            "Živali pogosto gledajo, kako umirajo njihovi tovariši pred njimi"
+          ]
+        }
       },
       "images": [
         {
-          "src": "meat-1.jpg",
-          "alt": "Razmere v industrijski živinoreji",
-          "caption": "Resničnost za zaprtimi vrati"
+          "src": "../../../../assets/fish/HR-image.jpg",
+          "alt": "Razmere v tovarniški reji"
         },
         {
-          "src": "meat-2.jpg",
-          "alt": "Žival v stiski",
-          "caption": "Vsako življenje šteje"
+          "src": "../../../../assets/fish/facts-image.jpg",
+          "alt": "Žival v stiski"
         }
-      ]
+      ],
+      "icons": [
+        {
+          "src": "../../../../assets/icons/environment.png",
+          "alt": "ikona okolja"
+        },
+        {
+          "src": "../../../../assets/icons/heath.png",
+          "alt": "ikona zdravja"
+        },
+        {
+          "src": "../../../../assets/icons/suffering.png",
+          "alt": "ikona trpljenja"
+        }
+      ],
+      "biggerPicture": {
+        "title": "Širša slika",
+        "items": {
+          "animalSuffering": {
+            "title": "Trpljenje živali",
+            "text": "Živali, vzrejene za meso, živijo v <strong>prenatrpanih, nenaravnih razmerah</strong>. Pohabljajo jih brez lajšanja bolečine, jim odrekajo zdravstveno oskrbo in jih <strong>ubijajo, ko so še pri zavesti</strong> — vse za obrok, ki traja nekaj minut."
+          },
+          "health": {
+            "title": "Zdravje",
+            "text": "Visoka poraba mesa je povezana s <strong>srčnimi boleznimi, rakom in odpornostjo proti antibiotikom.</strong> Večina današnjega mesa prihaja od živali, napolnjenih z <strong>zdravili in hormoni,</strong> kar vpliva na naše zdravje na nevidne načine."
+          },
+          "environment": {
+            "title": "Okolje",
+            "text": "Živinoreja je glavni vzrok <strong>krčenja gozdov, izpustov metana in onesnaženosti vode</strong>. Gozdovi so uničeni za krmo za živali, medtem ko gredo milijoni litrov vode v proizvodnjo <strong>samo enega zrezka</strong>."
+          }
+        }
+      }
     },
     "fish": {
       "title": "Ribe",
-      "subtitle": "Tiho dušenje",
+      "subtitle": "Tiho zadušev​anje",
       "heroImage": "fish-hero.jpg",
-      "previewDescription": "Ribe čutijo bolečino. Borijo se, dušijo in v milijardah izginjajo — nevidne in neslišane.",
+      "previewDescription": "Ribe čutijo bolečino. Borijo se, zadušijo in izginjajo v milijardah — nevidne, neslišane.",
       "hiddenReality": {
         "title": "Skrita resničnost",
+        "start": "Si lahko predstavljate, da se dušite pri polni zavesti?",
         "content": [
-          "Si lahko predstavljaš, da se dušiš — popolnoma pri zavesti?",
-          "To vsako leto doživijo trilijoni rib.",
-          "Iz morja jih izvlečejo z ogromnimi mrežami, stisnjene so, ranjene in prepuščene počasnemu zadušitvi na krovu – še vedno čutijo, še vedno trpijo.",
-          "Druge svoj kratek čas preživijo ujete v umazanih, prenatrpanih ribogojnicah, kjer krožijo v krogih – bolne in pozabljene.",
-          "Njihovih krikov ne slišimo. A to ne pomeni, da ne trpijo."
-        ]
+          "To je tisto, kar <strong>triljoni</strong> rib prestanejo vsako leto.",
+          "Izvlečene iz oceana v velikih mrežah so pomečkane, poškodovane in prepuščene <strong>počasnemu zadušev​anju</strong> na krovih ladij — še vedno pri zavesti, še vedno čutijo bolečino.",
+          "Druge preživijo svoja kratka življenja ujete <strong>v umazanih, prenatrpanih ribjih farmah</strong>, plavajo v krogih, okužene in nevidne."
+        ],
+        "end": "Nikoli ne slišimo njihovih krikov. Toda to ne pomeni, da ne trpijo."
       },
       "facts": {
-        "title": "Ali si vedel?",
-        "items": [
-          "Ribe čutijo bolečino, tako kot mačke ali psi.",
-          "Vsako leto umre več rib kot vseh drugih živali skupaj.",
-          "Večine pred smrtjo ne omamijo — zadušijo se ali jih razrežejo žive.",
-          "Rejne ribe živijo v umazanih, prenatrpanih bazenih, polnih bolezni.",
-          "Ribe imajo svoje osebnosti in si celo zapomnijo obraze."
-        ]
+        "title": "Ali ste vedeli?",
+        "items": {
+          "left": [
+            "Ribe čutijo bolečino, ravno tako kot mačke ali psi",
+            "Vsako leto je ubitih več rib kot vseh drugih živali skupaj",
+            "Večina ni omamljena pred smrtjo — zadušijo se ali so razrezane žive"
+          ],
+          "right": [
+            "Vzrejene ribe živijo v umaznih, prenatrpanih kletkah, polnih bolezni",
+            "Ribe imajo posamezne osebnosti in lahko celo prepoznajo obraze"
+          ]
+        }
       },
       "images": [
         {
-          "src": "fish-1.jpg",
-          "alt": "Komercialne ribiške mreže",
-          "caption": "Milijarde ujetih v mreže"
+          "src": "../../../../assets/fish/HR-image.jpg",
+          "alt": "Komercialne ribiške mreže"
         },
         {
-          "src": "fish-2.jpg",
-          "alt": "Razmere v ribogojnicah",
-          "caption": "Prenatrpano in trpeče"
+          "src": "../../../../assets/fish/facts-image.jpg",
+          "alt": "Razmere na ribjih farmah"
         }
-      ]
+      ],
+      "biggerPicture": {
+        "title": "Širša slika",
+        "items": {
+          "animalSuffering": {
+            "title": "Trpljenje živali",
+            "text": "Ribe so <strong>občutljiva, inteligentna bitja</strong> — vendar njihovo trpljenje redko priznamo. Zmečkajo jih mreže, <strong>razrežejo jih pri zavesti</strong> ali jih pustijo počasi dušiti. Na ribjih farmah prenašajo osamitev, bolezni in zanemarjanje."
+          },
+          "health": {
+            "title": "Zdravje",
+            "text": "Ribe absorbirajo <strong>strupene snovi</strong> iz voda, v katerih živijo. Od <strong>živega srebra in težkih kovin</strong> do <strong>mikroplastike in parazitov</strong> — ti onesnaževalci vstopijo tudi v vaše telo, ko uživate ribe ali morske sadeže."
+          },
+          "environment": {
+            "title": "Okolje",
+            "text": "Prekomeren ribolov <strong>uničuje oceanske ekosisteme</strong> in potiska vrste v <strong>izumrtje</strong>. Ogromni ribiški čolni trgajo morsko dno, medtem ko prilovek ubije milijarde netargentnih živali, kot so želve, delfini in morski ptički."
+          }
+        }
+      }
     },
     "eggs": {
       "title": "Jajca",
-      "subtitle": "Skrita cena",
+      "subtitle": "Cena jajc",
       "heroImage": "eggs-hero.jpg",
-      "previewDescription": "Jajca se morda zdijo nedolžna, a za vsako škatlo se skriva zgodba o trpljenju, tihih čivkih in zavrženih življenjih.",
+      "previewDescription": "Jajca se zdijo nedolžna. Toda za vsako škatlo se skriva zgodba o trpljenju, utišanih cvrgoljenjih in zavrženih življenjih.",
       "hiddenReality": {
         "title": "Skrita resničnost",
+        "start": "Si lahko predstavljate, da bi se rodili v svet, kjer se vaša vrednost meri le po tem, kar lahko proizvedete?",
         "content": [
-          "Si lahko predstavljaš, da se rodiš v svet, kjer je tvoja vrednost merjena samo po tem, kaj lahko proizvedeš?",
-          "Za kokoši se življenje začne v temi. Če si samec, te prvi dan zmeljejo ali zadušijo – ker ne moreš nositi jajc.",
-          "Če si samica, te zaprejo, pohabijo in izčrpavajo, dokler telo ne odpove. Kljun ti odrežejo. Kril nikoli ne razpreš. Tvoj glas ostane neslišan.",
-          "Za vsakim paketom jajc je življenje, spremenjeno v stroj — dokler ne razpade."
-        ]
+          "Za kokoši se življenje začne v <strong>temi</strong>. Če ste samec, vas <strong>zmeljejo ali zastrupijo prvi dan</strong> — ker ne morete nesti jajc.",
+          "Če ste samica, vas <strong>omejijo, pohabijo</strong> in potisnejo do skrajnih meja, dokler vaše telo ne odda. Odřežejo vam kljun. Nikoli ne razprostrete kril. Vaša pesem ostane neslišana."
+        ],
+        "end": "Za vsako škatlo jajc se skriva življenje, ki je zmanjšano na stroj — dokler se ne pokvari."
       },
       "facts": {
-        "title": "Ali si vedel?",
-        "items": [
-          "Samec piščanca je prvega dne zmlet ali zadušen — ker ne nosi jajc.",
-          "Tudi \"proste reje\" pogosto pomenijo prenatrpane hale.",
-          "Kokoši so genetsko spremenjene, da nosijo veliko več jajc kot naravno.",
-          "Njihova telesa pogosto odpovejo zaradi prekomernega izčrpavanja.",
-          "Ko ne znesejo več dovolj, jih zakoljejo — dolgo pred starostjo."
-        ]
+        "title": "Ali ste vedeli?",
+        "items": {
+          "left": [
+            "Moški piščanci so živi zmeljeni prvi dan življenja",
+            "Tudi prosto gojene kokoši pogosto živijo v prenatrpanih hlevih",
+            "Kokoši so gensko prirejene, da nesejo daleč več jajc, kot je naravno"
+          ],
+          "right": [
+            "Njihova telesa se pogosto porušijo zaradi prekomerne proizvodnje",
+            "Kokoši ubijejo, ko se njihova proizvodnja jajc upočasni — daleč pred starostostjo"
+          ]
+        }
       },
       "images": [
         {
-          "src": "eggs-1.jpg",
-          "alt": "Razmere v baterijskih kletkah",
-          "caption": "Življenje v ujetništvu"
+          "src": "../../../../assets/eggs/HR-image.jpg",
+          "alt": "Razmere v baterijskih kletkah"
         },
         {
           "src": "eggs-2.jpg",
-          "alt": "Resničnost proste reje",
-          "caption": "Resnica za oznakami"
+          "alt": "Resničnost prosto gojenih"
         }
-      ]
+      ],
+      "biggerPicture": {
+        "title": "Širša slika",
+        "items": {
+          "animalSuffering": {
+            "title": "Trpljenje živali",
+            "text": "Kokoši nesnice živijo <strong>zaprt​e</strong> v baterijskih kletkah ali prenatrpanih hlevih, pogosto ne morejo razprostreti kril. Samci so <strong>ubiti ob rojstvu</strong>, samice pa <strong>potisnjene do skrajnih meja</strong>, dokler njihova telesa ne odpovejo."
+          },
+          "health": {
+            "title": "Zdravje",
+            "text": "Jajca so bogata s <strong>holesterolom</strong> in lahko povečajo tveganje za <strong>srčne bolezni</strong>. Prav tako prinašajo tveganja za <strong>salmonelo in drugih bakterijskih okužb</strong>, zlasti v pogojih tovarniške reje."
+          },
+          "environment": {
+            "title": "Okolje",
+            "text": "Industrijske farme jajc prispevajo k <strong>onesnaženosti z amoniakom in odpadnim materialom</strong>. Proizvodnja krme za kokoši porablja ogromne vire, medtem ko gnoj onesnažuje prst in vodotoke."
+          }
+        }
+      }
     },
     "dairy": {
       "title": "Mlečni izdelki",
-      "subtitle": "Mama v ozadju",
+      "subtitle": "Mati za mlekom",
       "heroImage": "dairy-hero.jpg",
-      "previewDescription": "Večina nas je odraščala z mislijo, da je mleko nekaj naravnega in nujnega. Nihče pa nam ni pokazal, kaj se v resnici skriva za kozarcem mleka.",
+      "previewDescription": "Večina nas je odraščala z vero, da so mlečni izdelki običajni, potrebni in naravni. Nikoli nam niso pokazali resničnosti za kozarcem mleka.",
       "hiddenReality": {
         "title": "Skrita resničnost",
+        "start": "Si lahko predstavljate, da vam vzamejo vaše otroke, ponovno in ponovno, le zato, da lahko drugi pijejo vaše mleko?",
         "content": [
-          "Si lahko predstavljaš, da ti znova in znova vzamejo otroka — samo zato, da lahko drugi pijejo tvoje mleko?",
           "V mlečni industriji krave niso le izkoriščane — so matere, oropane materinstva.",
-          "Ko jim vzamejo teličke, jokajo dneve. Mleko, namenjeno njihovim otrokom, se odvzame ljudem.",
-          "Njihova telesa so izčrpana z neprekinjenimi cikli prisilne brejosti in izgube.",
-          "Ko niso več \"koristne\", jih pošljejo v zakol — kot da niso nikoli nič vredile, čeprav so dale vse."
-        ]
+          "Cele dneve <strong>jokajo</strong>, ko jim vzamejo teleta. Mleko, namenjeno njihovim otrokom, je <strong>vzeto za ljudi</strong>.",
+          "Njihova telesa so <strong>potisnjena do skrajnosti</stro​ng> z nenehnimi cikli <strong>prisilne nosečnosti</strong> in izgube."
+        ],
+        "end": "Ko niso več dobičkonosne, jih pošljejo v klavnice — obravnavane kot nič, potem ko so dale vse."
       },
       "facts": {
-        "title": "Ali si vedel?",
-        "items": [
-          "Tako kot ljudje krave proizvajajo mleko šele po porodu.",
-          "Teličke jim odvzamejo v nekaj urah po rojstvu.",
-          "Moški telički so pogosto usmrčeni za telečje meso — stranski produkt mleka.",
-          "Krave znova in znova umetno oplodijo, da ohranijo mlečni tok.",
-          "Zakoljejo jih pri približno 5 letih — čeprav bi lahko živele več kot 20."
-        ]
+        "title": "Ali ste vedeli?",
+        "items": {
+          "left": [
+            "Krave proizvajajo mleko šele po porodu, ravno tako kot ljudje",
+            "Teleta odvzamejo materam v nekaj urah",
+            "Samci so pogosto ubiti za teletino — stranski proizvod mlečne industrije"
+          ],
+          "right": [
+            "Mlečne krave so vedno znova oplojevane, da mleko teče naprej",
+            "Večina jih je zaklanih okoli 5. leta — njihova naravna življenjska doba je 20 let"
+          ]
+        }
       },
       "images": [
         {
-          "src": "dairy-1.jpg",
-          "alt": "Molzna krava v obrati",
-          "caption": "Ločena od svojega telička"
+          "src": "../../../../assets/dairy/HR-image.jpg",
+          "alt": "Mrtvo tele, vzeto od matere"
         },
         {
           "src": "dairy-2.jpg",
-          "alt": "Teliček v kletki za telečje meso",
-          "caption": "Cena mleka"
+          "alt": "Tele v kletki za teletino"
         }
-      ]
+      ],
+      "biggerPicture": {
+        "title": "Širša slika",
+        "items": {
+          "animalSuffering": {
+            "title": "Trpljenje živali",
+            "text": "Krave v mlečni industriji prenašajo <strong>ponovne prisilne nosečnosti</strong> in <strong>travmo izgube telet</strong>. Njihova telesa so potisnjena k <strong>nenaravnim mejam</strong> in so <strong>zaklane</strong>, ko niso več dobičkonosne."
+          },
+          "health": {
+            "title": "Zdravje",
+            "text": "Uživanje mlečnih izdelkov je povezano z <strong>akni, vnetji in motnjami hormonov</strong>. Mnogi odrasli so laktoznointolerantni, vendar še vedno uživajo mlečne izdelke zaradi marketinga, <strong>ne potrebe</strong>."
+          },
+          "environment": {
+            "title": "Okolje",
+            "text": "Mlečne farme porabljajo ogromne količine vode in proizvajajo metan, močan toplogredni plin. Odpadki velikih obratov <strong>onesnažujejo reke in podtalnico ter škodijo ekosistemom in skupnostim</strong>."
+          }
+        }
+      }
     }
   },
   "shared": {
@@ -219,25 +311,468 @@
       "copyright": "© 2025 Anonimni za neslišane"
     },
     "callToAction": {
-      "title": "Kaj lahko narediš",
-      "description": "Vsaka sočutna izbira, ki jo narediš, pove svetu: Živali niso tukaj za našo uporabo",
+      "title": "Kaj lahko storite",
+      "description": "Vsaka sočutna izbira, ki jo naredite, pove svetu: Živali niso naše za uporabo",
       "actions": [
         {
-          "title": "Izberi rastlinsko",
-          "description": "Razišči rastlinske alternative",
-          "link": "/viri/veganstvo"
+          "title": "Poskusite rastlinski način",
+          "description": "Raziščite rastlinske alternative",
+          "link": "/resources/vegan-guide"
         },
         {
-          "title": "Pomagaj živalim",
-          "description": "Podpri organizacije za pravice živali",
-          "link": "/vkljuci-se"
+          "title": "Pomagajte živalim",
+          "description": "Podprite organizacije za pravice živali",
+          "link": "/get-involved"
         },
         {
-          "title": "Razširi ozaveščenost",
-          "description": "Deli resnico z drugimi",
-          "link": "/viri/aktivizem"
+          "title": "Širite zavest",
+          "description": "Delite resnico z drugimi",
+          "link": "/resources/activism"
         }
       ]
+    },
+    "choices": {
+      "title": "Imate izbiro",
+      "subtitle": "Ker vsaka sočutna izbira, ki jo naredite, pove svetu",
+      "buttons": [
+        {
+          "text": "Rastlinska prehrana",
+          "link": "https://challenge22.com/",
+          "image": "https://images.pexels.com/photos/8230023/pexels-photo-8230023.jpeg"
+        },
+        {
+          "text": "Poglejte dokumentarec",
+          "link": "https://youtu.be/8gqwpfEcBjI?si=U3fVqSqeNXmHis4c",
+          "image": "https://images.squarespace-cdn.com/content/v1/55eb2900e4b079d8e4aebba2/1441569732837-PPUKG0IQM1GHBTHHEXHK/image-asset.jpeg"
+        },
+        {
+          "text": "Pridružite se gibanju",
+          "link": "https://docs.google.com/forms/d/e/1FAIpQLSfQlRnnPz06qrr-316pQa94KfcV0SKBOKUhqGIOEQACZAkkkA/viewform",
+          "image": "../../../../assets/join-us.png"
+        }
+      ]
+    }
+  },
+  "navigation": {
+    "items": [
+      {
+        "key": "about",
+        "label": "O nas",
+        "type": "route",
+        "href": "/o-nas"
+      },
+      {
+        "key": "meat",
+        "label": "Meso",
+        "type": "route",
+        "href": "/meso"
+      },
+      {
+        "key": "dairy",
+        "label": "Mlečni izdelki",
+        "type": "route",
+        "href": "/mleko"
+      },
+      {
+        "key": "eggs",
+        "label": "Jajca",
+        "type": "route",
+        "href": "/jajca"
+      },
+      {
+        "key": "fish",
+        "label": "Ribe",
+        "type": "route",
+        "href": "/ribe"
+      },
+      {
+        "key": "resources",
+        "label": "Viri",
+        "type": "route",
+        "href": "/viri"
+      }
+    ]
+  },
+  "resources": {
+    "title": "Viri",
+    "food": {
+      "title": "Prehrana",
+      "items": [
+        {
+          "title": "Tovarnia zdrave hrane - Kako postati vegan",
+          "url": "https://www.tovarnazdravehrane.si/zdrav-koticek/postati-vegan-preprosto-izvedi-kako-vse-o-veganstvu-69085/"
+        },
+        {
+          "title": "Vegan.si - Prehrana",
+          "url": "https://vegan.si/prehrana/"
+        },
+        {
+          "title": "Vegan.si - Veganska živila",
+          "url": "https://vegan.si/prehrana/veganska-zivila/"
+        }
+      ]
+    },
+    "movies": {
+      "title": "Filmi in dokumentarci",
+      "items": [
+        {
+          "title": "The Game Changers",
+          "url": "https://www.imdb.com/title/tt7455754/"
+        },
+        {
+          "title": "Cowspiracy",
+          "url": "https://www.imdb.com/title/tt3302820/"
+        },
+        {
+          "title": "Zemlja naš dom",
+          "url": "https://www.imdb.com/title/tt1341746/"
+        },
+        {
+          "title": "Meat the Truth",
+          "url": "https://www.imdb.com/title/tt1341746/"
+        },
+        {
+          "title": "Earthlings",
+          "url": "https://vimeo.com/237062854"
+        },
+        {
+          "title": "The Witness",
+          "url": "https://www.imdb.com/title/tt0264181/"
+        },
+        {
+          "title": "Seaspiracy",
+          "url": "https://www.seaspiracy.org/"
+        },
+        {
+          "title": "Food, Inc.",
+          "url": "https://www.imdb.com/title/tt1286537/"
+        },
+        {
+          "title": "The Milk System",
+          "url": "https://www.imdb.com/title/tt7274546/"
+        }
+      ]
+    },
+    "lectures": {
+      "title": "Predavanja",
+      "items": [
+        {
+          "title": "Gary Yourofsky: Najpomembnejši govor",
+          "url": "https://www.youtube.com/watch?v=eNDzhhodmdA"
+        },
+        {
+          "title": "Veganska prehrana - predavanje",
+          "url": "https://www.youtube.com/watch?v=ijqlqrzS02c"
+        },
+        {
+          "title": "Zakaj ljubimo pse, jemo pujše in nosimo krave",
+          "url": "https://www.youtube.com/watch?v=vYE4zeFbdac"
+        },
+        {
+          "title": "101 razlogov za veganstvo",
+          "url": "https://www.youtube.com/watch?v=0iT1-RsyYzw"
+        },
+        {
+          "title": "Od farme do hladilnika",
+          "url": "https://www.youtube.com/watch?v=DxZWGGdglvU"
+        },
+        {
+          "title": "Resnica o krznu",
+          "url": "https://www.youtube.com/watch?v=v3buNUfcqwU"
+        },
+        {
+          "title": "Empatična civilizacija",
+          "url": "https://www.youtube.com/watch?v=URR8xLUTmMQ"
+        },
+        {
+          "title": "Življenje povezano",
+          "url": "https://www.youtube.com/watch?v=5aG_hPHQeEQ"
+        },
+        {
+          "title": "Dr. Oscar Horta: Veganstvo - Aktivizem v vsakdanjem življenju",
+          "url": "http://www.youtube.com/watch?v=09-XOorJ7_8"
+        },
+        {
+          "title": "Dr. Steve Best: Vse, kar veste o Homo Sapiens, je narobe",
+          "url": "http://www.youtube.com/watch?v=JUQb99UA5Rs"
+        },
+        {
+          "title": "Dr. Melanie Joy: Zakaj ljubimo pse, jemo prašiče in nosimo krave",
+          "url": "http://www.youtube.com/watch?v=uVpNuC3NmlM"
+        },
+        {
+          "title": "James Wildman: 101 razlogov za veganstvo",
+          "url": "http://www.youtube.com/watch?v=e-F8whzJfJY"
+        },
+        {
+          "title": "Colleen Patrick-Goudreau: Od izgovarjanja do veganstva",
+          "url": "http://www.youtube.com/watch?v=xWD1Zze5Qo4"
+        },
+        {
+          "title": "Morska resnica",
+          "url": "http://www.youtube.com/watch?v=V325y7QCg3c"
+        },
+        {
+          "title": "Smo res mesojedci?",
+          "url": "http://www.youtube.com/watch?v=05zhL1YUd8Q"
+        },
+        {
+          "title": "Človek",
+          "url": "http://www.youtube.com/watch?v=WfGMYdalClU"
+        },
+        {
+          "title": "Paul McCartney: Stekleni zidovi (PETA)",
+          "url": "http://www.youtube.com/watch?v=sTifP6idBPs"
+        },
+        {
+          "title": "Gary Yourofsky: Najpomembnejši govor",
+          "url": "https://www.youtube.com/watch?v=U5hGQDLprA8&t=105s"
+        }
+      ]
+    },
+    "books": {
+      "title": "Knjige",
+      "items": [
+        {
+          "title": "Veganski recepti",
+          "url": "https://www.scribd.com/doc/103674583/VEGANSKI-RECEPTI"
+        },
+        {
+          "title": "Veganske knjige",
+          "url": "https://theveganharmony-shop.com/product-category/knjige/"
+        },
+        {
+          "title": "T.C. Campbell - Kitajska študija",
+          "url": "https://sitis.si/izdelek/t-c-campbell-kitajska-studija/"
+        },
+        {
+          "title": "Proteinoholik",
+          "url": "https://www.bukla.si/knjigarna/sport-in-zdravje/zdravo-zivljenje-in-alternativna-medicina/proteinoholik.html"
+        },
+        {
+          "title": "John A. McDougall - Škrob je rešitev",
+          "url": "https://sitis.si/izdelek/john-a-mcdougall-skrob-je-resitev/"
+        },
+        {
+          "title": "Hrana za mir",
+          "url": "https://www.hram-narave.si/default.asp?mid=sl&pid=modul_it&wid=13873&detailid=90510"
+        },
+        {
+          "title": "Zakaj ljubimo pse, nosimo krave...",
+          "url": "https://emka.si/products/zakaj-ljubimo-pse-jemo-pujse-in-nosimo-krave?srsltid=AfmBOoqpdcreOgiku6LlWR4SXLhsbczjBZqzO3Vmtsywa9esvwkb_xv_"
+        },
+        {
+          "title": "Večna Treblinka",
+          "url": "https://www.sanje.si/si/vecna-treblinka.html"
+        },
+        {
+          "title": "Kako ozdravimo s hrano",
+          "url": "https://emka.si/products/kako-ozdravimo-s-hrano-1?gad_source=1&gad_campaignid=14655065738&gclid=CjwKCAjwvO7CBhAqEiwA9q2YJXPM_uSUDFLcP0V38kxDolKLWLKJjgPwshfAM4OuD1JH1uulIypyOhoCwrgQAvD_BwE"
+        },
+        {
+          "title": "Veganska kuhinja",
+          "url": "https://theveganharmony-shop.com/product/veganski-recepti-od-a-do-z-zajtrki-kosila-in-sladice/"
+        },
+        {
+          "title": "88 prigod v kuhinji",
+          "url": "https://www.om-ezoterika.com/88-prigod-v-kuhinji-ali-vegani-ne-jedo-samo-solate.html"
+        },
+        {
+          "title": "Simpl sladice",
+          "url": "https://mojaknjiga.si/knjigarna/simpl-sladice/"
+        },
+        {
+          "title": "Vegansko preprosto okusno",
+          "url": "https://www.primus.si/vegansko-preprosto-okusno?gad_source=1&gad_campaignid=22363020640&gclid=CjwKCAjwvO7CBhAqEiwA9q2YJfeMZ8s6ITBLs5PHyWB4ehm7RNqUuH4kX9dfJnMkyL58cvJNWncKkBoCbFsQAvD_BwE"
+        }
+      ]
+    },
+    "articles": {
+      "title": "Članki in vodniki",
+      "items": [
+        {
+          "title": "Jej zelenje, ne življenje",
+          "url": "https://www.misteriji.si/blog/Jej_zelenje_ne_zivljenje/"
+        },
+        {
+          "title": "Razbijanje mitov - veganska prehrana, beljakovine, železo in več",
+          "url": "https://cruelty.farm/sl/razbijanje-mitov-veganska-prehrana-beljakovine-zelezo-in-vec/"
+        }
+      ]
+    },
+    "recipes": {
+      "title": "Veganski recepti",
+      "items": [
+        {
+          "title": "Izziv.si recepti",
+          "url": "https://izziv.si/recepti/"
+        },
+        {
+          "title": "Veganska kuharija blog",
+          "url": "http://veganskakuharija.blogspot.com/"
+        },
+        {
+          "title": "Veganski recepti (Scribd)",
+          "url": "https://www.scribd.com/doc/103674583/VEGANSKI-RECEPTI"
+        },
+        {
+          "title": "Veganska kuhinjica",
+          "url": "http://veganskakuhinjica.blogspot.com/"
+        },
+        {
+          "title": "Veganski gurman",
+          "url": "https://veganskigurman.wordpress.com/"
+        },
+        {
+          "title": "Vegansko.si recepti",
+          "url": "https://vegansko.si/kategorija/recepti/"
+        },
+        {
+          "title": "Preprosto vegansko",
+          "url": "https://preprostovegansko.si/"
+        },
+        {
+          "title": "Presnica recepti",
+          "url": "http://www.presnica.com/recepti/"
+        }
+      ]
+    },
+    "restaurants": {
+      "title": "Veganske restavracije",
+      "items": [
+        {
+          "title": "Veganske restavracije Slovenije",
+          "url": "https://www.veganske-restavracije.si/seznam"
+        },
+        {
+          "title": "Vegan.si - restavracije in kavarne",
+          "url": "https://vegan.si/prehrana/restavracije-in-kavarne/"
+        }
+      ]
+    },
+    "stores": {
+      "title": "Veganske trgovine",
+      "items": [
+        {
+          "title": "Vegansko.si",
+          "url": "https://vegansko.si/"
+        },
+        {
+          "title": "Norma - veganska hrana",
+          "url": "https://www.norma.si/veganska-hrana"
+        },
+        {
+          "title": "Grashka",
+          "url": "https://grashka.co/sl/trgovina"
+        },
+        {
+          "title": "Avemed - Terranova",
+          "url": "https://www.avemed.si/trgovina/all/brand/terranova"
+        },
+        {
+          "title": "Or-ca.si",
+          "url": "https://or-ca.si/"
+        },
+        {
+          "title": "Vila Natura",
+          "url": "https://vila-natura.si/"
+        },
+        {
+          "title": "Vege Dobro",
+          "url": "https://www.vege-dobro.com/"
+        },
+        {
+          "title": "Kalček",
+          "url": "https://www.kalcek.si/"
+        }
+      ]
+    },
+    "crueltyFree": {
+      "title": "Brez krutosti in veganska podjetja",
+      "items": [
+        {
+          "title": "Seznam certificiranih veganskih izdelkov",
+          "url": "https://vegan.si/ziveti-vegansko/veganski-certifikati/seznam-certificiranih-veganskih-izdelkov/"
+        },
+        {
+          "title": "Črna in bela lista - podjetja ki ne/testirajo na živalih",
+          "url": "http://www.zverce.si/katera-podjetja-so-zivalim-prijaznah"
+        }
+      ]
+    },
+    "general": {
+      "title": "Druge koristne strani",
+      "items": [
+        {
+          "title": "Lacna bucka",
+          "url": "http://lacna-bucka.com/"
+        },
+        {
+          "title": "Vegan.si knjižnica",
+          "url": "https://vegan.si/ziveti-vegansko/knjiznica/"
+        },
+        {
+          "title": "The Vegan Society",
+          "url": "https://www.vegansociety.com/"
+        },
+        {
+          "title": "Vegan Kit",
+          "url": "https://www.vegankit.com/"
+        },
+        {
+          "title": "Vegan.org",
+          "url": "https://vegan.org/"
+        },
+        {
+          "title": "Forks Over Knives",
+          "url": "https://www.forksoverknives.com/"
+        },
+        {
+          "title": "Carnism.org",
+          "url": "https://carnism.org/"
+        },
+        {
+          "title": "Vegan FTA intervjuji",
+          "url": "https://veganfta.com/category/interviews/"
+        },
+        {
+          "title": "Minimalist Vegan",
+          "url": "https://theminimalistvegan.com/veganism/"
+        }
+      ]
+    }
+  },
+  "about_us": {
+    "hero": {
+      "title": "Govorimo za neslišane"
+    },
+    "whatWeDo": {
+      "title": "Kaj počnemo",
+      "sections": [
+        {
+          "title": "Kocka resnice",
+          "text": "Miroljuben ulični protest z uporabo resničnih posnetkov in odprtih pogovorov, da pokažemo, kaj skrivajo živalske industrije — in si predstavljamo drugačno prihodnost."
+        },
+        {
+          "title": "Ulični aktivizem",
+          "text": "S sočutjem se pogovarjamo s mimoidočimi, izzivamo norme in ponujamo vire za podporo etičnim odločitvam, kot je veganstvo."
+        }
+      ]
+    },
+    "whyThisExists": {
+      "title": "Zakaj to obstaja",
+      "text1": "Vsak dan milijarde živali trpijo v tišini. Obstajamo, da prekinemo to tišino — preko izobraževanja, prisotnosti in miroljubnega upora.",
+      "text2": "Verjamemo, da živali niso izdelki, in njihova življenja si zaslužijo več kot tradicije, temelječe na priložnosti."
+    },
+    "team": {
+      "title": "Naš pristop",
+      "text1-first": "Ne kričimo. Ne sramotimo.",
+      "text1-sec": "Vabimo, obveščamo in navdihujemo",
+      "text2": "Z resnico, prijaznostjo in sočutjem pomagamo ljudem povezati njihove vrednote z njihovimi odločitvami."
+    },
+    "mask": {
+      "text1": "Maska predstavlja solidarnost — z živalmi, z resnico in z vsakim bojem proti krivici. Usmerja pozornost z aktivista na sporočilo:",
+      "text2": "živali so posamezniki, ne blago"
     }
   }
 }

@@ -16,8 +16,8 @@ const Loader = ({ onFinish }) => {
       <div className='logo-wrapper'>
         <img src={logo} alt='Logo' className='loader-logo' />
       </div>
-      <div className='panel top-panel'></div>
-      <div className='panel bottom-panel'></div>
+      <div className='loader-panel top-panel'></div>
+      <div className='loader-panel bottom-panel'></div>
     </div>
   );
 };

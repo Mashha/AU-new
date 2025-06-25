@@ -705,11 +705,13 @@
     },
     "team": {
       "title": "Our Approach",
-      "text1": "We don't shout. We don't shame. We invite, inform, and inspire.",
+      "text1-first": "We don't shout. We don't shame.",
+      "text1-sec": "We invite, inform, and inspire.",
       "text2": "With truth, kindness, and empathy, we help people connect their values with their choices."
     },
     "mask": {
-      "text": "The mask represents solidarity — with the animals, with the truth, and with every fight against injustice. It redirects focus from the activist to the message: animals are individuals, not commodities."
+      "text1": "The mask represents solidarity — with the animals, with the truth, and with every fight against injustice. It redirects focus from the activist to the message:",
+      "text2": "animals are individuals, not commodities"
     }
   }
 }

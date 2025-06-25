@@ -2,8 +2,10 @@ import React from "react";
 import "./team.css";
 import teamImage from "/assets/team.png";
 import heart from "/assets/heart_team.png";
+import { useTranslation } from "react-i18next";
 
 const TeamSection = () => {
+  const { t } = useTranslation();
   return (
     <section className='team-section'>
       <div className='team-wrapper'>
@@ -18,8 +20,7 @@ const TeamSection = () => {
           <div className='overlay-box'>
             <img src={heart} alt='' />
             <p>
-              With truth, kindness, and empathy, we help people connect their
-              values with their choices
+              {t("about_us.team.text2")}
             </p>
           </div>
         </div>

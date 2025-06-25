@@ -1,16 +1,16 @@
 import "./mask.css";
+import { useTranslation } from "react-i18next";
 
 const MaskSection = () => {
+  const { t } = useTranslation();
   return (
     <section className='masked-hero'>
       <div className='mask-content'>
         <p className='main-text'>
-          The mask represents solidarity, with the animals, with the truth, and
-          with every fight against injustice. It redirects focus from the
-          activist to the message:
+          {t("about_us.mask.text1")}
           <span className='highlight'>
             {" "}
-            animals are individuals, not commodities.
+            {t("about_us.mask.text2")}
           </span>
         </p>
       </div>
