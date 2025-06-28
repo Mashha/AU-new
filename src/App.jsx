@@ -14,7 +14,6 @@ import ResourcesPage from "./pages/resources/resources";
 import AboutUsPage from "./pages/aboutUs/aboutUs";
 import PageTransition from "./components/pageTransition/pageTransition";
 
-// Home Page Component
 function HomePage() {
   return (
     <div className='min-h-screen'>
@@ -37,9 +36,9 @@ function App() {
     <PageTransition>
       <Routes>
         <Route path='/' element={<HomePage />} />
-        <Route path='/:category' element={<CategoryPage />} />
         <Route path='/resources' element={<ResourcesPage />} />
         <Route path='/about' element={<AboutUsPage />} />
+         <Route path='/:category' element={<CategoryPage />} />
         <Route path='*' element={<HomePage />} /> {/* Fallback route */}
       </Routes>
     </PageTransition>

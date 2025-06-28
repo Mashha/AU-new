@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -100,7 +100,6 @@ const Navigation = () => {
                 </button>
               ))}
 
-              {/* Language dropdown rendered in mobile version */}
               <LanguageDropdown isMobile={true} />
             </div>
           </div>

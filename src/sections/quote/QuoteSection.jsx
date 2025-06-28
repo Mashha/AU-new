@@ -1,4 +1,3 @@
-import React from "react";
 import "./quote.css";
 import quoteImg from "/assets/number.png";
 import { useTranslation } from "react-i18next";

@@ -1,4 +1,3 @@
-import React from "react";
 import "./hero.css";
 import bg from "/assets/hero-bg.jpg";
 import { useTranslation } from "react-i18next";

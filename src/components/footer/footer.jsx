@@ -15,7 +15,6 @@ const Footer = () => {
     if (item.href.startsWith("#")) {
       // Hash link - scroll to section on homepage
       if (window.location.pathname !== "/") {
-        // If not on homepage, navigate to homepage first then scroll
         navigate("/");
         setTimeout(() => {
           const element = document.querySelector(item.href);

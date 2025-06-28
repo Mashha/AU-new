@@ -1,4 +1,3 @@
-import React from "react";
 import "./truth.css";
 import truthImg from "/assets/truth.jpg";
 import { useTranslation } from "react-i18next";

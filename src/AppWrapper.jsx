@@ -8,7 +8,6 @@ const AppWrapper = () => {
   useEffect(() => {
     const alreadyVisited = sessionStorage.getItem("visited");
 
-    // Only show loader if it's the user's first full page load
     const isFirstVisit = !alreadyVisited;
     const fromExternal =
       document.referrer === "" ||
@@ -20,7 +19,7 @@ const AppWrapper = () => {
 
       setTimeout(() => {
         setShowLoader(false);
-      }, 4000); // Match total animation duration
+      }, 4000);
     }
   }, []);
 

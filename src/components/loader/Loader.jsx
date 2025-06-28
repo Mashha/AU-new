@@ -6,7 +6,7 @@ const Loader = ({ onFinish }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       onFinish();
-    }, 4000); // same as animation duration
+    }, 4000);
 
     return () => clearTimeout(timer);
   }, [onFinish]);

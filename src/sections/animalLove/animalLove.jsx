@@ -1,4 +1,3 @@
-import React from "react";
 import "./animalLove.css";
 import animalImg from "/assets/dog-pig.png";
 import { useTranslation } from "react-i18next";

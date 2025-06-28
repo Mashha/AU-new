@@ -1,10 +1,8 @@
-import React from "react";
 import "./choice.css";
 import { useTranslation } from "react-i18next";
 
 const ChoiceSection = ({ data }) => {
   const cards = data.buttons;
-  console.log(data);
   const { t } = useTranslation();
   return (
     <section className='choice-section'>

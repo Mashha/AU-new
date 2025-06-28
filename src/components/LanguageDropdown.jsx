@@ -1,6 +1,6 @@
 // LanguageDropdown.jsx
-import React, { useState, useRef, useEffect } from "react";
-import { ChevronDown, Globe } from "lucide-react";
+import { useState, useRef, useEffect } from "react";
+import { ChevronDown } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import "./languageDropdown.css";
 import SLO from "/assets/SI.png";
