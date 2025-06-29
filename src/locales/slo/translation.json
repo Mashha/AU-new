@@ -132,6 +132,13 @@
             "text": "Živinoreja je glavni vzrok <strong>krčenja gozdov, izpustov metana in onesnaženosti vode</strong>. Gozdovi so uničeni za krmo za živali, medtem ko gredo milijoni litrov vode v proizvodnjo <strong>samo enega zrezka</strong>."
           }
         }
+      },
+      "AnimalStories": {
+        "title": "Srečne zgodbe rejnih živali",
+        "link": "https://www.youtube.com/embed/aDfyA9WDncc?si=JvC2hOrMqwarp1vU",
+        "sanctuary_name": "Sisu Refuge",
+        "sanctuary_link": "https://sisurefuge.org/",
+        "support": "Podpri"
       }
     },
     "ribe": {
@@ -189,6 +196,13 @@
             "text": "Prekomeren ribolov <strong>uničuje oceanske ekosisteme</strong> in potiska vrste v <strong>izumrtje</strong>. Ogromni ribiški čolni trgajo morsko dno, medtem ko prilovek ubije milijarde netargentnih živali, kot so želve, delfini in morski ptički."
           }
         }
+      },
+      "AnimalStories": {
+        "title": "Srečne zgodbe rejnih živali",
+        "link": "https://www.youtube.com/embed/B3eiM8fL720?si=VuoL1op07XhGdXT_",
+        "sanctuary_name": "Friends of Philip",
+        "sanctuary_link": "https://www.friendsofphilipfishsanctuary.org/",
+        "support": "Podpri"
       }
     },
     "jajca": {
@@ -245,6 +259,13 @@
             "text": "Industrijske farme jajc prispevajo k <strong>onesnaženosti z amoniakom in odpadnim materialom</strong>. Proizvodnja krme za kokoši porablja ogromne vire, medtem ko gnoj onesnažuje prst in vodotoke."
           }
         }
+      },
+      "AnimalStories": {
+        "title": "Srečne zgodbe rejnih živali",
+        "link": "https://www.youtube.com/embed/8ihf7pRRwXY?si=QYbZwpl6_upTpAjc",
+        "sanctuary_name": "Belle & Fleur",
+        "sanctuary_link": "https://www.belleandfleur.org/supporting-the-gurls",
+        "support": "Podpri"
       }
     },
     "mleko": {
@@ -304,8 +325,11 @@
         }
       },
       "AnimalStories": {
-        "title": "Farm Animal Stories With Happy Endings",
-        "link": "https://www.youtube.com/embed/fp5KJQ_xakU?si=CrKYrnAt6MzCBm_o"
+        "title": "Srečne zgodbe rejnih živali",
+        "link": "https://www.youtube.com/embed/fp5KJQ_xakU?si=CrKYrnAt6MzCBm_o",
+        "sanctuary_name": "The Gentle Barn",
+        "sanctuary_link": "https://www.gentlebarn.org/",
+        "support": "Podpri"
       }
     }
   },

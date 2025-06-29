@@ -132,6 +132,13 @@
             "text": "Animal agriculture is a leading cause of <strong>deforestation, methane emissions, and water pollution.</strong> Forests are destroyed for animal feed, while millions of liters of water go into producing <strong>just one steak.</strong>"
           }
         }
+      },
+      "AnimalStories": {
+        "title": "Farm Animal Stories With Happy Endings",
+        "link": "https://www.youtube.com/embed/aDfyA9WDncc?si=JvC2hOrMqwarp1vU",
+        "sanctuary_name": "Sisu Refuge",
+        "sanctuary_link": "https://sisurefuge.org/",
+        "support": "Support"
       }
     },
     "fish": {
@@ -190,7 +197,13 @@
           }
         }
       },
-      "AnimalStories": "Farm Animal Stories With Happy Endings"
+      "AnimalStories": {
+        "title": "Farm Animal Stories With Happy Endings",
+        "link": "https://www.youtube.com/embed/B3eiM8fL720?si=VuoL1op07XhGdXT_",
+        "sanctuary_name": "Friends of Philip",
+        "sanctuary_link": "https://www.friendsofphilipfishsanctuary.org/",
+        "support": "Support"
+      }
     },
     "eggs": {
       "title": "Eggs",
@@ -247,7 +260,13 @@
           }
         }
       },
-      "AnimalStories": "Farm Animal Stories With Happy Endings"
+      "AnimalStories": {
+        "title": "Farm Animal Stories With Happy Endings",
+        "link": "https://www.youtube.com/embed/8ihf7pRRwXY?si=QYbZwpl6_upTpAjc",
+        "sanctuary_name": "Belle & Fleur",
+        "sanctuary_link": "https://www.belleandfleur.org/supporting-the-gurls",
+        "support": "Support"
+      }
     },
     "dairy": {
       "title": "Dairy",
@@ -307,7 +326,10 @@
       },
       "AnimalStories": {
         "title": "Farm Animal Stories With Happy Endings",
-        "link": "https://www.youtube.com/embed/fp5KJQ_xakU?si=CrKYrnAt6MzCBm_o"
+        "link": "https://www.youtube.com/embed/fp5KJQ_xakU?si=CrKYrnAt6MzCBm_o",
+        "sanctuary_name": "The Gentle Barn",
+        "sanctuary_link": "https://www.gentlebarn.org/",
+        "support": "Support"
       }
     }
   },

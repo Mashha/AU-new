@@ -1,0 +1,19 @@
+.sanctuary-support {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sanctuary-link {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #28a745;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.sanctuary-link:hover {
+  background-color: #218838;
+}
