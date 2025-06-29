@@ -63,7 +63,7 @@
     }
   },
   "categories": {
-    "meat": {
+    "meso": {
       "title": "Meso",
       "subtitle": "Cena obroka",
       "heroImage": "meat-hero.jpg",
@@ -134,7 +134,7 @@
         }
       }
     },
-    "fish": {
+    "ribe": {
       "title": "Ribe",
       "subtitle": "Tiho zaduševanje",
       "heroImage": "fish-hero.jpg",
@@ -191,7 +191,7 @@
         }
       }
     },
-    "eggs": {
+    "jajca": {
       "title": "Jajca",
       "subtitle": "Cena jajc",
       "heroImage": "eggs-hero.jpg",
@@ -247,7 +247,7 @@
         }
       }
     },
-    "dairy": {
+    "mleko": {
       "title": "Mlečni izdelki",
       "subtitle": "Mati za mlekom",
       "heroImage": "dairy-hero.jpg",
@@ -359,37 +359,37 @@
         "key": "about",
         "label": "O nas",
         "type": "route",
-        "href": "/about"
+        "href": "/o-nas"
       },
       {
         "key": "meat",
         "label": "Meso",
         "type": "route",
-        "href": "/meat"
+        "href": "/meso"
       },
       {
         "key": "dairy",
         "label": "Mlečni izdelki",
         "type": "route",
-        "href": "/dairy"
+        "href": "/mleko"
       },
       {
         "key": "eggs",
         "label": "Jajca",
         "type": "route",
-        "href": "/eggs"
+        "href": "/jajca"
       },
       {
         "key": "fish",
         "label": "Ribe",
         "type": "route",
-        "href": "/fish"
+        "href": "/ribe"
       },
       {
         "key": "resources",
         "label": "Viri",
         "type": "route",
-        "href": "/resources"
+        "href": "/viri"
       }
     ]
   },
