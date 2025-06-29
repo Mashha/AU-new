@@ -13,6 +13,7 @@ import CategoryPage from "./pages/issue/issue";
 import ResourcesPage from "./pages/resources/resources";
 import AboutUsPage from "./pages/aboutUs/aboutUs";
 import PageTransition from "./components/pageTransition/pageTransition";
+import StoriesOfHopeSection from "./sections/video/Rescue";
 
 function HomePage() {
   return (
@@ -25,6 +26,7 @@ function HomePage() {
       <AnimalLove />
       <CatTwo />
       <Truth />
+      <StoriesOfHopeSection />
       <Support />
       <Footer />
     </div>
@@ -38,7 +40,7 @@ function App() {
         <Route path='/' element={<HomePage />} />
         <Route path='/resources' element={<ResourcesPage />} />
         <Route path='/about' element={<AboutUsPage />} />
-         <Route path='/:category' element={<CategoryPage />} />
+        <Route path='/:category' element={<CategoryPage />} />
         <Route path='*' element={<HomePage />} /> {/* Fallback route */}
       </Routes>
     </PageTransition>
