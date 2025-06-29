@@ -63,7 +63,7 @@
     }
   },
   "categories": {
-    "meat": {
+    "meso": {
       "title": "Meso",
       "subtitle": "Cena obroka",
       "heroImage": "meat-hero.jpg",
@@ -134,7 +134,7 @@
         }
       }
     },
-    "fish": {
+    "ribe": {
       "title": "Ribe",
       "subtitle": "Tiho zaduševanje",
       "heroImage": "fish-hero.jpg",
@@ -191,7 +191,7 @@
         }
       }
     },
-    "eggs": {
+    "jajca": {
       "title": "Jajca",
       "subtitle": "Cena jajc",
       "heroImage": "eggs-hero.jpg",
@@ -247,7 +247,7 @@
         }
       }
     },
-    "dairy": {
+    "mleko": {
       "title": "Mlečni izdelki",
       "subtitle": "Mati za mlekom",
       "heroImage": "dairy-hero.jpg",

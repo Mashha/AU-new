@@ -3,7 +3,7 @@ import Footer from "../../components/footer/footer";
 import Navigation from "../../components/header/Navigation";
 import WhatWeDo from "./sections/What/WhatWeDo";
 import AboutHero from "./sections/Hero/Hero";
-import WhyThisExists from "./sections/Why/whyThisExists";
+import WhyThisExists from "./sections/Why/WhyThisExists";
 import TeamSection from "./sections/Team/Team";
 import MaskSection from "./sections/Mask/Mask";
 
