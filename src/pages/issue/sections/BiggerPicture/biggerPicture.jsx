@@ -16,7 +16,12 @@ const BiggerPictureSection = ({ data }) => {
               <div className='icon-container'>
                 <img src={biggerPictureIcons[key]} alt={key} />
               </div>
-              <Trans i18nKey={item.text} components={{ strong: <strong /> }} />
+              <div className='card-text'>
+                <Trans
+                  i18nKey={item.text}
+                  components={{ strong: <strong /> }}
+                />
+              </div>
             </div>
           ))}
         </div>

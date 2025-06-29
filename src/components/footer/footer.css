@@ -60,7 +60,7 @@
 }
 
 .nav-link {
-  color: #333;
+  color: var(--text-muted);
   text-decoration: none;
   font-size: 1rem;
   font-weight: 500;
@@ -80,13 +80,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #fff;
   font-size: 0.9rem;
   margin-top: 3rem;
 }
 
 .copyright {
-  color: #ccc;
+  color: var(--text-secondary);
 }
 
 .created-by {
@@ -98,7 +97,7 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: #fff;
+  color: var(--text-secondary);
 }
 
 /* Responsive Design */

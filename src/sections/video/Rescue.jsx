@@ -11,18 +11,16 @@ const StoriesOfHopeSection = () => {
             reminds us that every life matters.
           </p>
         </div>
-
         <div className='video-wrapper'>
           <iframe
             width='100%'
             height='500'
             src='https://www.youtube.com/embed/nuF-eRe7eHs?si=ylxnk_LQoP_Grzv6'
             title='Stories of Hope and Healing'
-            frameBorder='0'
-            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+            allow='web-share'
             referrerPolicy='strict-origin-when-cross-origin'
             allowFullScreen
-          ></iframe>
+          />
         </div>
       </div>
     </section>

@@ -18,7 +18,7 @@
 .choice-section p {
   font-size: 0.9rem;
   margin-bottom: 2rem;
-  color: #cccccc;
+  color: var(--text-secondary);
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -73,7 +73,7 @@
 
 /* Image Overlay */
 .choice-link::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -174,9 +174,15 @@
   animation: slideUp 0.6s ease forwards;
 }
 
-.choice-card:nth-child(1) { animation-delay: 0.1s; }
-.choice-card:nth-child(2) { animation-delay: 0.2s; }
-.choice-card:nth-child(3) { animation-delay: 0.3s; }
+.choice-card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.choice-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.choice-card:nth-child(3) {
+  animation-delay: 0.3s;
+}
 
 @keyframes slideUp {
   to {
@@ -227,21 +233,21 @@
   .choice-section {
     padding: 50px 20px;
   }
-  
+
   .choice-section h2 {
     font-size: 1.75rem;
     letter-spacing: 1.5px;
   }
-  
+
   .choice-section p {
     font-size: 1rem;
     max-width: 400px;
   }
-  
+
   .choice-image {
     height: 220px;
   }
-  
+
   .choice-text {
     font-size: 0.9rem;
     padding: 1rem;
@@ -253,35 +259,35 @@
   .choice-section {
     padding: 60px 20px;
   }
-  
+
   .choice-section h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
     letter-spacing: 2px;
   }
-  
+
   .choice-section p {
     font-size: 1.1rem;
     margin-bottom: 2.5rem;
     max-width: 500px;
     line-height: 1.6;
   }
-  
+
   .choice-image {
     height: 280px;
   }
-  
+
   .choice-text {
     font-size: 1.5rem;
     letter-spacing: 1.5px;
     padding: 1.1rem;
   }
-  
+
   .choice-section.button-style .choice-link {
     padding: 14px 28px;
     border-radius: 22px;
   }
-  
+
   .choice-section.button-style .choice-text {
     font-size: 0.9rem;
   }
@@ -292,52 +298,52 @@
   .choice-section {
     padding: 6rem 3rem;
   }
-  
+
   .choice-section h2 {
     font-size: 2.5rem;
   }
-  
+
   .choice-section p {
     font-size: 1.2rem;
     margin-bottom: 3rem;
     max-width: 600px;
   }
-  
+
   .choices-grid {
     flex-direction: row;
   }
-  
+
   .choice-card {
     flex: 1;
     border-bottom: none;
     border-right: 1px solid rgba(255, 255, 255, 0.1);
   }
-  
+
   .choice-card:last-child {
     border-right: none;
   }
-  
+
   .choice-card:hover {
     flex: 1.2;
   }
-  
+
   .choice-image {
     height: 350px;
   }
-  
+
   .choice-text {
     letter-spacing: 2px;
     padding: 1.2rem;
     white-space: nowrap;
   }
-  
+
   .choice-card:hover .choice-text {
     transform: translate(-50%, -50%) scale(1.1);
   }
-  
+
   /* Connected cards animation */
   .choice-card::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     right: 0;
@@ -353,20 +359,20 @@
     transition: opacity 0.4s ease;
     z-index: 3;
   }
-  
+
   .choice-card:hover::after {
     opacity: 1;
   }
-  
+
   .choice-card:last-child::after {
     display: none;
   }
-  
+
   .choice-section.button-style .choice-link {
     padding: 15px 30px;
     border-radius: 25px;
   }
-  
+
   .choice-section.button-style .choice-text {
     font-size: 1rem;
   }

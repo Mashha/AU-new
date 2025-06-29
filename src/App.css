@@ -13,6 +13,9 @@
   --brand-black: #1e1e1e;
   --brand-red: #d22027;
   --brand-red-hover: #b91c1c;
+
+  --text-secondary: #e3e6ea;
+  --text-muted: #4b4b4b; 
 }
 
 body {

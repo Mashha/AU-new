@@ -189,7 +189,8 @@
             "text": "Overfishing is <strong>destroying ocean ecosystem</strong>s and pushing species to <strong>extinction</strong>. Massive trawlers tear up the ocean floor, while bycatch kills billions of non-target animals like turtles, dolphins, and seabirds."
           }
         }
-      }
+      },
+      "AnimalStories": "Farm Animal Stories With Happy Endings"
     },
     "eggs": {
       "title": "Eggs",
@@ -245,7 +246,8 @@
             "text": "Industrial egg farms contribute to <strong>ammonia pollution and waste runoff</strong>. The production of feed for hens consumes vast resources, while manure pollutes soil and waterways."
           }
         }
-      }
+      },
+      "AnimalStories": "Farm Animal Stories With Happy Endings"
     },
     "dairy": {
       "title": "Dairy",
@@ -302,6 +304,10 @@
             "text": "Dairy farms use enormous amounts of water and produce methane, a potent greenhouse gas. Waste from large-scale operations <strong>pollutes rivers and groundwater, harming ecosystems and communities.</strong>"
           }
         }
+      },
+      "AnimalStories": {
+        "title": "Farm Animal Stories With Happy Endings",
+        "link": "https://www.youtube.com/embed/fp5KJQ_xakU?si=CrKYrnAt6MzCBm_o"
       }
     }
   },

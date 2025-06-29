@@ -7,6 +7,7 @@ import BiggerPictureSection from "./sections/BiggerPicture/biggerPicture";
 import ChoiceSection from "./sections/Choice/choice";
 import Footer from "../../components/footer/footer";
 import Navigation from "../../components/header/Navigation";
+import FarmAnimalStoriesSection from "./sections/Sanctuary/sanctuary";
 
 const CategoryPage = () => {
   const { category } = useParams();
@@ -29,6 +30,9 @@ const CategoryPage = () => {
 
       {/* Bigger Picture */}
       <BiggerPictureSection data={data} />
+
+      {/* Happy story */}
+      <FarmAnimalStoriesSection data={data} />
 
       {/* Choice Section */}
       <ChoiceSection data={choicesData} />

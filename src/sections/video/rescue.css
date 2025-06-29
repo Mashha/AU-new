@@ -1,7 +1,7 @@
 .stories-of-hope-section {
   padding: 4rem 1rem;
   background-color: #fdfaf6;
-  color: #2e2e2e;
+  color: var(--brand-black);
   text-align: center;
 }
 
@@ -13,13 +13,13 @@
 .section-title {
   font-size: 2.25rem;
   margin-bottom: 0.75rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .section-subtitle {
   font-size: 1.125rem;
   margin-bottom: 2rem;
-  color: #555;
+  color: var(--text-muted);
 }
 
 .video-wrapper iframe {

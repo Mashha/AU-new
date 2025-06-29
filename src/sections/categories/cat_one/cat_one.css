@@ -61,7 +61,7 @@
   font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 40px;
-  color: #e5e5e5;
+  color: var(--text-secondary);
 }
 
 .category-button {

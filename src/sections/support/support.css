@@ -18,7 +18,7 @@
 
 .intro-text {
   font-size: clamp(1rem, 2.5vw, 1.3rem);
-  color: #333;
+  color: var(--text-muted);
   line-height: 1.6;
   margin: 0 0 2rem 0;
   font-weight: 400;
@@ -37,13 +37,14 @@
 
 .action-text p {
   font-size: clamp(1.1rem, 2.8vw, 1.4rem);
-  color: #333;
+  color: var(--text-muted);
   margin: 0.5rem 0;
   line-height: 1.5;
 }
 
 .closing-text {
   font-size: clamp(1rem, 2.5vw, 1.3rem);
+  color: var(--text-muted);
 }
 
 .closing-text-two {

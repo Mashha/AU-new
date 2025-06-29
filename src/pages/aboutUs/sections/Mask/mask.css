@@ -36,7 +36,6 @@
 
 .mask-content {
   max-width: 800px;
-  color: var(--brand-white);
   text-align: center;
   z-index: 100;
 }
@@ -45,6 +44,7 @@
   font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: 0.5px;
+  color: var(--text-secondary);
 }
 
 .secondary-text {
