@@ -359,37 +359,37 @@
         "key": "about",
         "label": "O nas",
         "type": "route",
-        "href": "/o-nas"
+        "href": "/about"
       },
       {
         "key": "meat",
         "label": "Meso",
         "type": "route",
-        "href": "/meso"
+        "href": "/meat"
       },
       {
         "key": "dairy",
         "label": "Mlečni izdelki",
         "type": "route",
-        "href": "/mleko"
+        "href": "/dairy"
       },
       {
         "key": "eggs",
         "label": "Jajca",
         "type": "route",
-        "href": "/jajca"
+        "href": "/eggs"
       },
       {
         "key": "fish",
         "label": "Ribe",
         "type": "route",
-        "href": "/ribe"
+        "href": "/fish"
       },
       {
         "key": "resources",
         "label": "Viri",
         "type": "route",
-        "href": "/viri"
+        "href": "/resources"
       }
     ]
   },
