@@ -63,7 +63,7 @@
     }
   },
   "categories": {
-    "meso": {
+    "meat": {
       "title": "Meso",
       "subtitle": "Cena obroka",
       "heroImage": "meat-hero.jpg",
@@ -139,9 +139,10 @@
         "sanctuary_name": "Sisu Refuge",
         "sanctuary_link": "https://sisurefuge.org/",
         "support": "Podpri"
-      }
+      },
+      "gallery": "Skrito pred vašimi očmi"
     },
-    "ribe": {
+    "fish": {
       "title": "Ribe",
       "subtitle": "Tiho zaduševanje",
       "heroImage": "fish-hero.jpg",
@@ -203,9 +204,10 @@
         "sanctuary_name": "Friends of Philip",
         "sanctuary_link": "https://www.friendsofphilipfishsanctuary.org/",
         "support": "Podpri"
-      }
+      },
+      "gallery": "Skrito pred vašimi očmi"
     },
-    "jajca": {
+    "eggs": {
       "title": "Jajca",
       "subtitle": "Cena jajc",
       "heroImage": "eggs-hero.jpg",
@@ -266,9 +268,10 @@
         "sanctuary_name": "Belle & Fleur",
         "sanctuary_link": "https://www.belleandfleur.org/supporting-the-gurls",
         "support": "Podpri"
-      }
+      },
+      "gallery": "Skrito pred vašimi očmi"
     },
-    "mleko": {
+    "dairy": {
       "title": "Mlečni izdelki",
       "subtitle": "Mati za mlekom",
       "heroImage": "dairy-hero.jpg",
@@ -330,7 +333,8 @@
         "sanctuary_name": "The Gentle Barn",
         "sanctuary_link": "https://www.gentlebarn.org/",
         "support": "Podpri"
-      }
+      },
+      "gallery": "Skrito pred vašimi očmi"
     }
   },
   "shared": {

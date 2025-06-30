@@ -139,7 +139,8 @@
         "sanctuary_name": "Sisu Refuge",
         "sanctuary_link": "https://sisurefuge.org/",
         "support": "Support"
-      }
+      },
+      "gallery": "Hidden from your eyes"
     },
     "fish": {
       "title": "Fish",
@@ -203,7 +204,8 @@
         "sanctuary_name": "Friends of Philip",
         "sanctuary_link": "https://www.friendsofphilipfishsanctuary.org/",
         "support": "Support"
-      }
+      },
+      "gallery": "Hidden from your eyes"
     },
     "eggs": {
       "title": "Eggs",
@@ -266,7 +268,8 @@
         "sanctuary_name": "Belle & Fleur",
         "sanctuary_link": "https://www.belleandfleur.org/supporting-the-gurls",
         "support": "Support"
-      }
+      },
+      "gallery": "Hidden from your eyes"
     },
     "dairy": {
       "title": "Dairy",
@@ -330,7 +333,8 @@
         "sanctuary_name": "The Gentle Barn",
         "sanctuary_link": "https://www.gentlebarn.org/",
         "support": "Support"
-      }
+      },
+      "gallery": "Hidden from your eyes"
     }
   },
   "shared": {

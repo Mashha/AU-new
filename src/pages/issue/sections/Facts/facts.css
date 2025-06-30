@@ -65,7 +65,6 @@
 .fact-box {
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid var(--brand-red);
-  border-radius: 10px;
   padding: 1.5rem;
   font-size: 1rem;
   max-width: 320px;
@@ -142,7 +141,6 @@
   background: linear-gradient(45deg, #ff4d4d, #ff6b6b);
   color: white;
   border: none;
-  border-radius: 25px;
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;

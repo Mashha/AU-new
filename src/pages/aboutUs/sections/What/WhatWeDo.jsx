@@ -9,7 +9,7 @@ const WhatWeDo = () => {
     <section className='what-we-do-section'>
       <div className='overlay'>
         <div className='what-we-do-container'>
-          <h2 className='section-title'>{t("about_us.whatWeDo.title")}</h2>
+          <h2 className='what-section-title'>{t("about_us.whatWeDo.title")}</h2>
           <div className='cards'>
             {sections.map((item, index) => (
               <div className='card' key={index}>

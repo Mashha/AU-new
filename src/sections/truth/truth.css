@@ -41,6 +41,15 @@
 }
 
 /* Responsive design */
+@media (max-width: 1000px) {
+  .text-section {
+    grid-column: 1 / -1;
+  }
+  .image-section {
+    grid-column: 1 / 4;
+  }
+}
+
 @media (max-width: 768px) {
   .protest-container {
     grid-template-columns: 1fr;

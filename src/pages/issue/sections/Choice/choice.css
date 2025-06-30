@@ -205,7 +205,6 @@
   background: linear-gradient(45deg, #e74c3c, #c0392b);
   color: white;
   text-decoration: none;
-  border-radius: 20px;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
 }
@@ -285,7 +284,6 @@
 
   .choice-section.button-style .choice-link {
     padding: 14px 28px;
-    border-radius: 22px;
   }
 
   .choice-section.button-style .choice-text {
@@ -370,7 +368,6 @@
 
   .choice-section.button-style .choice-link {
     padding: 15px 30px;
-    border-radius: 25px;
   }
 
   .choice-section.button-style .choice-text {

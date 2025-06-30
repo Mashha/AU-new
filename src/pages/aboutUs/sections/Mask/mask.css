@@ -45,6 +45,9 @@
   font-weight: 400;
   letter-spacing: 0.5px;
   color: var(--text-secondary);
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
 }
 
 .secondary-text {
@@ -62,6 +65,10 @@
 
 /* Responsive Design */
 @media (max-width: 1024px) {
+  .masked-hero {
+    flex-direction: column;
+    background-position: center top;
+  }
   .masked-hero {
     background-size: 250px;
   }
@@ -82,9 +89,7 @@
 @media (max-width: 768px) {
   .masked-hero {
     flex-direction: column;
-    min-height: 60vh;
     background-position: center top;
-    background-size: 150px;
   }
 
   .masked-hero::before {
@@ -117,17 +122,18 @@
 }
 
 @media (max-width: 480px) {
-  .masked-hero {
-    background-size: 120px;
-  }
-
   .mask-container {
     height: 150px;
     min-height: 150px;
   }
 
+  .mask-content {
+    padding-top: 150px;
+  }
+
   .main-text {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
+    padding: 0 16px;
   }
 
   .secondary-text {
