@@ -22,6 +22,7 @@ body {
   width: 100%;
   height: 100vh;
   font-family: "Libre Franklin", sans-serif;
+  background-color: var(--brand-black);
 }
 
 p {

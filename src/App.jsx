@@ -35,17 +35,15 @@ function HomePage() {
 
 function App() {
   return (
-    <PageTransition>
-      <Routes>
-        <Route path='/' element={<HomePage />} />
-        <Route path='/resources' element={<ResourcesPage />} />
-        <Route path='/viri' element={<ResourcesPage />} />
-        <Route path='/about' element={<AboutUsPage />} />
-        <Route path='/o-nas' element={<AboutUsPage />} />
-        <Route path='/:category' element={<CategoryPage />} />
-        <Route path='*' element={<HomePage />} /> {/* Fallback route */}
-      </Routes>
-    </PageTransition>
+    <Routes>
+      <Route path='/' element={<HomePage />} />
+      <Route path='/resources' element={<ResourcesPage />} />
+      <Route path='/viri' element={<ResourcesPage />} />
+      <Route path='/about' element={<AboutUsPage />} />
+      <Route path='/o-nas' element={<AboutUsPage />} />
+      <Route path='/:category' element={<CategoryPage />} />
+      <Route path='*' element={<HomePage />} /> {/* Fallback route */}
+    </Routes>
   );
 }
 

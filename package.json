@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.10",
+    "framer-motion": "^12.20.1",
     "i18next": "^25.2.1",
     "lucide-react": "^0.515.0",
     "react": "^19.1.0",
