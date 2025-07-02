@@ -94,25 +94,25 @@
       },
       "images": [
         {
-          "src": "../../../../assets/fish/HR-image.jpg",
+          "src": "/assets/fish/HR-image.jpg",
           "alt": "Factory farming conditions"
         },
         {
-          "src": "../../../../assets/fish/facts-image.jpg",
+          "src": "/assets/fish/facts-image.jpg",
           "alt": "Animal in distress"
         }
       ],
       "icons": [
         {
-          "src": "../../../../assets/icons/environment.png",
+          "src": "/assets/icons/environment.png",
           "alt": "environment icon"
         },
         {
-          "src": "../../../../assets/icons/heath.png",
+          "src": "/assets/icons/heath.png",
           "alt": "health icon"
         },
         {
-          "src": "../../../../assets/icons/suffering.png",
+          "src": "/assets/icons/suffering.png",
           "alt": "suffering icon"
         }
       ],
@@ -173,11 +173,11 @@
       },
       "images": [
         {
-          "src": "../../../../assets/fish/HR-image.jpg",
+          "src": "/assets/fish/HR-image.jpg",
           "alt": "Commercial fishing nets"
         },
         {
-          "src": "../../../../assets/fish/facts-image.jpg",
+          "src": "/assets/fish/facts-image.jpg",
           "alt": "Fish farm conditions"
         }
       ],
@@ -237,11 +237,11 @@
       },
       "images": [
         {
-          "src": "../../../../assets/eggs/HR-image.jpg",
+          "src": "/assets/eggs/HR-image.jpg",
           "alt": "Battery cage conditions"
         },
         {
-          "src": "eggs-2.jpg",
+          "src": "/assets/eggs/corpse-facts.jpg",
           "alt": "Free range reality"
         }
       ],
@@ -302,11 +302,11 @@
       },
       "images": [
         {
-          "src": "../../../../assets/dairy/HR-image.jpg",
+          "src": "/assets/dairy/HR-image.jpg",
           "alt": "Dead calf taken from mother"
         },
         {
-          "src": "dairy-2.jpg",
+          "src": "/assets/dairy/calf-facts.jpg",
           "alt": "Calf in veal crate"
         }
       ],
