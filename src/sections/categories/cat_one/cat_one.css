@@ -102,7 +102,7 @@
 
 .meat-image::after,
 .fish-image::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -119,33 +119,33 @@
     grid-template-rows: auto auto auto auto;
     height: auto;
   }
-  
+
   .meat-section {
     grid-column: 1;
     grid-row: 1;
   }
-  
+
   .meat-image {
     grid-column: 1;
     grid-row: 2;
     height: 50vh;
   }
-  
+
   .fish-image {
     grid-column: 1;
     grid-row: 4;
     height: 50vh;
   }
-  
+
   .fish-section {
     grid-column: 1;
     grid-row: 3;
   }
-  
+
   .category-title {
     font-size: 2.5rem;
   }
-  
+
   .category-text {
     font-size: 1.1rem;
   }
@@ -155,23 +155,24 @@
   .meat-section,
   .fish-section {
     padding: 40px 20px;
+    min-height: 320px;
   }
-  
+
   .category-title {
     font-size: 2rem;
     margin-bottom: 24px;
   }
-  
+
   .category-text {
     font-size: 1rem;
     margin-bottom: 32px;
   }
-  
+
   .category-button {
     padding: 10px 24px;
     font-size: 0.9rem;
   }
-  
+
   .meat-image,
   .fish-image {
     height: 40vh;
@@ -183,11 +184,11 @@
   .fish-section {
     padding: 30px 15px;
   }
-  
+
   .category-title {
     font-size: 1.75rem;
   }
-  
+
   .category-content {
     max-width: 100%;
   }

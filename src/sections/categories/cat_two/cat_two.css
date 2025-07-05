@@ -104,7 +104,7 @@
 /* Image overlay for better visual consistency */
 .eggs-image::after,
 .dairy-image::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -121,33 +121,33 @@
     grid-template-rows: auto auto auto auto;
     height: auto;
   }
-  
+
   .eggs-section {
     grid-column: 1;
     grid-row: 1;
   }
-  
+
   .eggs-image {
     grid-column: 1;
     grid-row: 2;
     height: 50vh;
   }
-  
+
   .dairy-image {
     grid-column: 1;
     grid-row: 4;
     height: 50vh;
   }
-  
+
   .dairy-section {
     grid-column: 1;
     grid-row: 3;
   }
-  
+
   .category-title {
     font-size: 2.5rem;
   }
-  
+
   .category-text {
     font-size: 1.1rem;
   }
@@ -157,23 +157,24 @@
   .eggs-section,
   .dairy-section {
     padding: 40px 20px;
+    min-height: 320px;
   }
-  
+
   .category-title {
     font-size: 2rem;
     margin-bottom: 24px;
   }
-  
+
   .category-text {
     font-size: 1rem;
     margin-bottom: 32px;
   }
-  
+
   .category-button {
     padding: 10px 24px;
     font-size: 0.9rem;
   }
-  
+
   .eggs-image,
   .dairy-image {
     height: 40vh;
@@ -185,11 +186,11 @@
   .dairy-section {
     padding: 30px 15px;
   }
-  
+
   .category-title {
     font-size: 1.75rem;
   }
-  
+
   .category-content {
     max-width: 100%;
   }
