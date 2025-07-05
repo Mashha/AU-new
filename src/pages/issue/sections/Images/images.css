@@ -21,7 +21,7 @@
 }
 
 .hidden-section__title {
-  font-size: 4rem;
+  font-size: 1.75rem;
   font-weight: 700;
   color: var(--brand-red);
   text-align: center;
@@ -88,24 +88,25 @@
   .hidden-section {
     padding: 4rem 0;
   }
-  
+
   .hidden-section__container {
     padding: 0 1.5rem;
   }
-  
+
   .hidden-section__title {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
   }
-  
+
   .hidden-section__scroll-container {
     gap: 1.25rem;
   }
-  
+
   .hidden-section__image-card {
     width: 320px;
     height: 220px;
   }
-  
+
   .hidden-section__description {
     font-size: 1.1rem;
     max-width: 28rem;
@@ -117,31 +118,31 @@
   .hidden-section {
     padding: 5rem 0;
   }
-  
+
   .hidden-section__container {
     max-width: 1200px;
     padding: 0 2rem;
   }
-  
+
   .hidden-section__title {
     font-size: 2.5rem;
     margin-bottom: 3rem;
   }
-  
+
   .hidden-section__scroll-container {
     gap: 1.5rem;
     animation-duration: 30s;
   }
-  
+
   .hidden-section__image-card {
     width: 350px;
     height: 240px;
   }
-  
+
   .hidden-section__text {
     margin-top: 3rem;
   }
-  
+
   .hidden-section__description {
     font-size: 1.125rem;
     max-width: 32rem;
@@ -153,21 +154,22 @@
   .hidden-section {
     padding: 6rem 0;
   }
-  
+
   .hidden-section__title {
+    font-size: 2.5rem;
     margin-bottom: 4rem;
   }
-  
+
   .hidden-section__scroll-container {
     gap: 2rem;
     animation-duration: 35s;
   }
-  
+
   .hidden-section__image-card {
     width: 380px;
     height: 260px;
   }
-  
+
   .hidden-section__description {
     max-width: 36rem;
   }
@@ -178,20 +180,20 @@
   .hidden-section__container {
     max-width: 1280px;
   }
-  
+
   .hidden-section__scroll-container {
     animation-duration: 40s;
   }
-  
+
   .hidden-section__image-card {
     width: 400px;
     height: 280px;
   }
-  
+
   .hidden-section__text {
     margin-top: 4rem;
   }
-  
+
   .hidden-section__description {
     font-size: 1.25rem;
     max-width: 42rem;
@@ -203,11 +205,7 @@
   .hidden-section__container {
     max-width: 1536px;
   }
-  
-  .hidden-section__title {
-    font-size: 5rem;
-  }
-  
+
   .hidden-section__image-card {
     width: 420px;
     height: 300px;
@@ -219,11 +217,11 @@
   .hidden-section__scroll-container {
     animation: none;
   }
-  
+
   .hidden-section__image-card {
     transition: none;
   }
-  
+
   .hidden-section__image {
     transition: none;
   }
@@ -234,8 +232,12 @@
   .hidden-section__image {
     filter: contrast(1.2) brightness(0.8);
   }
-  
+
   .hidden-section__image:hover {
     filter: contrast(1.2) brightness(1);
   }
 }
+
+
+
+

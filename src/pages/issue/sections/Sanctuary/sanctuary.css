@@ -19,5 +19,23 @@
 
 .rescue-content .section-title {
   margin-bottom: 4rem;
-  font-size: 2.5rem;
+  font-size: 1.75rem;
+}
+
+/* Small tablets (480px+) */
+@media (min-width: 480px) {
+  .rescue-content .section-title {
+    font-size: 2rem;
+  }
+}
+
+/* Tablets (768px+) */
+@media (min-width: 768px) {
+  .rescue-content .section-title {
+    font-size: 2.5rem;
+  }
+}
+
+/* Desktop (1024px+) */
+@media (min-width: 1024px) {
 }

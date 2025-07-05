@@ -62,7 +62,7 @@
     gap: 1rem;
   }
 
-  .title {
+  .text-area .title {
     grid-column: 1 / span 4;
     grid-row: 1;
     display: flex;
