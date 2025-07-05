@@ -1,15 +1,17 @@
 import "./rescue.css";
+import { useTranslation } from "react-i18next";
 
 const StoriesOfHopeSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section className='stories-of-hope-section white-section'>
       <div className='rescue-container'>
         <div className='rescue-content'>
-          <h2 className='rescue-section-title'>Stories of Hope and Healing</h2>
-          <p className='section-subtitle'>
-            Real stories of animals who were saved from abuse. Their resilience
-            reminds us that every life matters.
-          </p>
+          <h2 className='rescue-section-title'>
+            {t("homepage.stories.title")}
+          </h2>
+          <p className='section-subtitle'>{t("homepage.stories.sub")}</p>
         </div>
         <div className='video-wrapper'>
           <iframe

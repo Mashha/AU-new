@@ -12,17 +12,17 @@
     },
     "whoWeAre": {
       "title": "Kdo smo",
-      "description": "Smo oddolno gibanje <strong>aktivistov</strong> za pravice živali. Od leta 2018 izobražujemo javnost z resnično dokumentacijo iz farm in klavnic, prikazujemo <strong>skrito ceno</strong> mesa, mlečnih izdelkov, jajc, usnja in več. Leta 2023 smo ustanovili <strong>Anonimni za neslišane</strong>, rastoče gibanje, ki daje glas utišanim in zahteva pravičnost za vse živali."
+      "description": "Smo neodvisno gibanje aktivistov za <strong>pravice živali</strong>. Od leta 2018 ozaveščamo javnost s pomočjo <strong>resničnih posnetkov</strong> iz farm in klavnic ter razkrivamo skrito ceno mesa, mlečnih izdelkov, jajc, usnja in drugih živalskih proizvodov. Leta 2023 smo ustanovili gibanje <strong>Anonimni za neslišane</strong>, ki neprestano raste, daje glas utišanim in zahteva <strong>pravičnost za vsa čuteča bitja</strong>."
     },
     "whatWeBelieve": {
       "title": "V kaj verjamemo",
-      "description": "Vizijo imamo sveta, kjer živali niso več obravnavane kot blago, temveč kot <strong>čuteča</strong> bitja, vredna spoštovanja, svobode in miru. Z izobraževanjem in mirnim aktivizmom izzivamo norme in ponujamo boljšo pot naprej za vsa živa bitja.",
+      "description": "Naša vizija je svet, v katerem živali niso več obravnavane kot <strong>blago</strong>, temveč kot <strong>čuteča bitja</strong>, vredna spoštovanja, svobode in miru. Z <strong>izobraževanjem</strong> in miroljubnim aktivizmom izzivamo obstoječe norme ter odpiramo pot k <strong>sočutnejši prihodnosti za vsa živa bitja</strong>.",
       "values": ["Sočutje", "Pravičnost", "Osvoboditev"]
     },
     "categoryPreview": {
       "meat": {
         "title": "Meso",
-        "description": "Meso vidimo kot hrano, ne kot nečje telo. Toda vsak kos prihaja iz življenja, ki je hotelo živeti — ravno tako kot mi.",
+        "description": "Meso pogosto vidimo kot hrano, ne kot telo nekoga. A vsak kos izvira iz življenja, ki je želelo živeti, prav tako kot mi.",
         "button": "Poglejte več"
       },
       "fish": {
@@ -50,16 +50,20 @@
     },
     "cta": {
       "heading": "ZAČNE SE PRI VAS",
-      "description": "Sprememba se ne začne v vladah ali velikih industrijah. Začne se z <strong>eno osebo, ki se odloči, da ji je mar</strong> — da bo delovala.",
+      "description": "Sprememba se ne začne z močjo, temveč <strong>s sočutjem enega človeka</strong>, ki izbere, da bo ravnal drugače",
       "quote1": "Začne se s tem, kaj <strong>jeste</strong>",
       "quote2": "S tem, kaj <strong>nosite</strong>",
       "quote3": "S tem, za kaj se <strong>zavzemate</strong>",
       "invitation": "Ker vsaka sočutna izbira, ki jo naredite, pove svetu:",
-      "line": "Živali niso naše za uporabo",
+      "line": "Živali niso tukaj zato, da jih izkoriščamo",
       "vegan": "Poskusite rastlinski način",
       "vegan-link": "https://challenge22.com/",
       "help": "Rastlinski življenjski slog",
       "resources": "https://www.vegansociety.com/lifestyle"
+    },
+    "stories": {
+      "title": "Od bolečine do svobode",
+      "sub": "Resnične zgodbe živali, rešenih zlorabe. Njihova moč okrevanja nas opominja, da šteje vsako življenje."
     }
   },
   "categories": {
@@ -67,7 +71,6 @@
       "title": "Meso",
       "subtitle": "Cena obroka",
       "heroImage": "meat-hero.jpg",
-      "previewDescription": "Meso vidimo kot hrano, ne kot nečje telo. Toda vsak kos prihaja iz življenja, ki je hotelo živeti — ravno tako kot mi.",
       "hiddenReality": {
         "title": "Skrita resničnost",
         "start": "Si lahko predstavljate, da gledate, kako odvajajo druge od vas, enega za drugim?",
@@ -146,7 +149,6 @@
       "title": "Ribe",
       "subtitle": "Tiho zaduševanje",
       "heroImage": "fish-hero.jpg",
-      "previewDescription": "Ribe čutijo bolečino. Borijo se, zadušijo in izginjajo v milijardah — nevidne, neslišane.",
       "hiddenReality": {
         "title": "Skrita resničnost",
         "start": "Si lahko predstavljate, da se dušite pri polni zavesti?",
@@ -211,7 +213,6 @@
       "title": "Jajca",
       "subtitle": "Cena jajc",
       "heroImage": "eggs-hero.jpg",
-      "previewDescription": "Jajca se zdijo nedolžna. Toda za vsako škatlo se skriva zgodba o trpljenju, utišanih cvrgoljenjih in zavrženih življenjih.",
       "hiddenReality": {
         "title": "Skrita resničnost",
         "start": "Si lahko predstavljate, da bi se rodili v svet, kjer se vaša vrednost meri le po tem, kar lahko proizvedete?",
@@ -275,7 +276,6 @@
       "title": "Mlečni izdelki",
       "subtitle": "Mati za mlekom",
       "heroImage": "dairy-hero.jpg",
-      "previewDescription": "Večina nas je odraščala z vero, da so mlečni izdelki običajni, potrebni in naravni. Nikoli nam niso pokazali resničnosti za kozarcem mleka.",
       "hiddenReality": {
         "title": "Skrita resničnost",
         "start": "Si lahko predstavljate, da vam vzamejo vaše otroke, ponovno in ponovno, le zato, da lahko drugi pijejo vaše mleko?",

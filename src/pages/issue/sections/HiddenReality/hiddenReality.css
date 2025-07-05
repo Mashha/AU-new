@@ -40,6 +40,10 @@
   font-weight: 600;
 }
 
+.hidden-reality-text .start {
+  margin-bottom: 1.5rem;
+}
+
 .hidden-reality-image {
   overflow: hidden;
   order: 1;
