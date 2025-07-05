@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 const TeamSection = () => {
   const { t } = useTranslation();
   return (
-    <section className='team-section'>
+    <section className='team-section white-section'>
       <div className='team-wrapper'>
         <div className='text-area'>
           <div className='title'>

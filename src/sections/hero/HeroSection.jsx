@@ -1,9 +1,19 @@
 import "./hero.css";
 import bg from "/assets/hero-bg.jpg";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
 const HeroSection = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
+
+  const handleInternalNavigation = () => {
+    navigate("/meat");
+  };
+
+  const googleForm =
+    "https://docs.google.com/forms/d/e/1FAIpQLSfQlRnnPz06qrr-316pQa94KfcV0SKBOKUhqGIOEQACZAkkkA/viewform";
+
   return (
     <section className='heroSection'>
       <div
@@ -20,12 +30,20 @@ const HeroSection = () => {
           <h1 className='title'>{t("homepage.hero.title")}</h1>
           <p className='subtitle'>{t("homepage.hero.subtitle")}</p>
           <div className='buttonContainer'>
-            <button className='primaryButton'>
+            <button
+              className='primaryButton'
+              onClick={handleInternalNavigation}
+            >
               {t("homepage.hero.buttonOne")}
             </button>
-            <button className='secondaryButton'>
+            <a
+              href={googleForm}
+              target='_blank'
+              rel='noopener noreferrer'
+              className='secondaryButton'
+            >
               {t("homepage.hero.buttonTwo")}
-            </button>
+            </a>
           </div>
         </div>
       </div>

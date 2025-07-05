@@ -21,7 +21,7 @@
 }
 
 .hidden-section__title {
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 700;
   color: var(--brand-red);
   text-align: center;
@@ -156,8 +156,7 @@
   }
   
   .hidden-section__title {
-    font-size: 4rem;
-    margin-bottom: 3.5rem;
+    margin-bottom: 4rem;
   }
   
   .hidden-section__scroll-container {
@@ -179,11 +178,6 @@
 @media (min-width: 1280px) {
   .hidden-section__container {
     max-width: 1280px;
-  }
-  
-  .hidden-section__title {
-    font-size: 4.5rem;
-    margin-bottom: 4rem;
   }
   
   .hidden-section__scroll-container {

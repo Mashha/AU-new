@@ -16,8 +16,8 @@
   order: 2;
 }
 
-.hidden-reality-text h1 {
-  font-size: 2rem;
+.hidden-reality-text h2 {
+  font-size: 2.5rem;
   font-weight: 700;
   color: var(--brand-black);
   line-height: 1.2;
@@ -38,11 +38,9 @@
 .hidden-reality-text .start {
   font-size: 1.1rem;
   font-weight: 600;
-  margin-top: 1rem;
 }
 
 .hidden-reality-image {
-  min-height: 400px;
   overflow: hidden;
   order: 1;
 }
@@ -71,7 +69,6 @@
   .hidden-reality-text .end,
   .hidden-reality-text .start {
     font-size: 1.2rem;
-    margin-top: 1.5rem;
   }
 }
 
@@ -85,7 +82,7 @@
     flex: 1;
     padding: 4rem;
     gap: 24px;
-    order: 1; /* Text first on desktop */
+    order: 1;
   }
 
   .hidden-reality-text h1 {
@@ -100,7 +97,6 @@
   .hidden-reality-text .end,
   .hidden-reality-text .start {
     font-size: 1.4rem;
-    margin-top: 2rem;
   }
 
   .hidden-reality-image {

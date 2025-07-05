@@ -2,7 +2,7 @@ import "./sanctuary.css";
 
 const FarmAnimalStoriesSection = ({ data }) => {
   return (
-    <section className='stories-of-hope-section'>
+    <section className='stories-of-hope-section white-section'>
       <div className='rescue-container'>
         <div className='rescue-content'>
           <h2 className='section-title'>{data.AnimalStories.title}</h2>
@@ -26,7 +26,7 @@ const FarmAnimalStoriesSection = ({ data }) => {
               rel='noopener noreferrer'
               className='sanctuary-link'
             >
-              💚 {data.AnimalStories.support} {data.AnimalStories.sanctuary_name}
+              🤍 {data.AnimalStories.support} {data.AnimalStories.sanctuary_name}
             </a>
           </div>
         )}

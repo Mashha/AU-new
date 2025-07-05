@@ -1,7 +1,7 @@
 .bigger-picture-section {
   background-color: #f8f9fa;
   padding: 3rem 1rem;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
 }
@@ -32,7 +32,6 @@
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   border: 1px solid #e2e8f0;
-  transition: all 0.3s ease;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -98,8 +97,8 @@
   }
 
   .icon-container {
-    width: 75px;
-    height: 75px;
+    width: 64px;
+    height: 64px;
     margin-bottom: 2rem;
   }
 
@@ -115,7 +114,7 @@
   }
 
   .bigger-picture-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 3.5rem;
   }
 
@@ -127,11 +126,6 @@
   .picture-card {
     padding: 3rem 2rem;
   }
-
-  .icon-container {
-    width: 80px;
-    height: 80px;
-  }
 }
 
 /* Desktop - 1200px and up */
@@ -141,7 +135,7 @@
   }
 
   .bigger-picture-title {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin-bottom: 4rem;
   }
 

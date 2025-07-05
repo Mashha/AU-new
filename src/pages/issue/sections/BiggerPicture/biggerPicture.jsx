@@ -6,7 +6,7 @@ const BiggerPictureSection = ({ data }) => {
   const entries = Object.entries(data.biggerPicture.items);
 
   return (
-    <section className='bigger-picture-section'>
+    <section className='bigger-picture-section white-section'>
       <div className='bg-section-container'>
         <h2 className='bigger-picture-title'>{data.biggerPicture.title}</h2>
 

@@ -6,7 +6,7 @@ export default function AboutSection() {
   const { t } = useTranslation();
   const values = t("homepage.whatWeBelieve.values", { returnObjects: true });
   return (
-    <section className='about-section'>
+    <section className='about-section white-section'>
       <div className='background-split'>
         <div className='left-bg' />
         <div className='right-bg' />

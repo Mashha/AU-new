@@ -4,7 +4,7 @@ import { useTranslation, Trans } from "react-i18next";
 const Support = () => {
   const { t } = useTranslation();
   return (
-    <section className='it-starts-section'>
+    <section className='it-starts-section white-section'>
       <div className='text-content'>
         <p className='intro-text'>
           <Trans

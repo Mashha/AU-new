@@ -2,10 +2,10 @@ import "./rescue.css";
 
 const StoriesOfHopeSection = () => {
   return (
-    <section className='stories-of-hope-section'>
+    <section className='stories-of-hope-section white-section'>
       <div className='rescue-container'>
         <div className='rescue-content'>
-          <h2 className='section-title'>Stories of Hope and Healing</h2>
+          <h2 className='rescue-section-title'>Stories of Hope and Healing</h2>
           <p className='section-subtitle'>
             Real stories of animals who were saved from abuse. Their resilience
             reminds us that every life matters.

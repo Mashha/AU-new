@@ -1,12 +1,12 @@
 .sanctuary-support {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 .sanctuary-link {
   display: inline-block;
   padding: 12px 24px;
-  background-color: #28a745;
+  background-color: var(--brand-red);
   color: white;
   text-decoration: none;
   font-weight: 500;
@@ -14,5 +14,10 @@
 }
 
 .sanctuary-link:hover {
-  background-color: #218838;
+  background-color: var(--brand-red-hover);
+}
+
+.rescue-content .section-title {
+  margin-bottom: 4rem;
+  font-size: 2.5rem;
 }

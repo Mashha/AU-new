@@ -80,6 +80,7 @@
   letter-spacing: 0.1em;
   transition: background-color 0.3s ease;
   cursor: pointer;
+  font-size: 1rem;
 }
 
 .primaryButton:hover {
@@ -88,6 +89,7 @@
 
 .secondaryButton {
   background-color: transparent;
+  text-decoration: none;
   border: 2px solid var(--brand-white);
   color: var(--brand-white);
   padding: 12px 32px;
