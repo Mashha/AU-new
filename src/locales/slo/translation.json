@@ -1,7 +1,7 @@
 {
   "homepage": {
     "hero": {
-      "title": "Če bi lahko govorile, kaj bi rekle?",
+      "title": "Če bi jim lahko prisluhnili, kaj bi slišali?",
       "subtitle": "Ozaveščamo o izkoriščanju živali z ulično aktivnostjo in pogovori, temelječimi na resnici",
       "buttonOne": "Raziščite resnico",
       "buttonTwo": "Pridružite se gibanju"
@@ -73,11 +73,11 @@
       "heroImage": "meat-hero.jpg",
       "hiddenReality": {
         "title": "Skrita resničnost",
-        "start": "Si lahko predstavljate, da gledate, kako odvajajo druge od vas, enega za drugim?",
+        "start": "Si lahko predstavljate, da stojite v vrsti in opazujete, kako pred vašimi očmi enega za drugim ubijajo vaše najbližje?",
         "content": [
           "Slišite <strong>krike</strong>. Vonjate <strong>kri</strong>. Vidite <strong>paniko</strong>. Ne razumete, kaj se dogaja — toda veste, da je nekaj hudo narobe.",
-          "Če se poskušate upreti, vas <strong>pretepejo ali šokirajo</strong> z električno palico. Potiskajo vas naprej, korak za korakom, proti isti usodi.",
-          "To je resničnost za živali, ki se uporabljajo za meso — <strong>za vse</strong>. Ne le prašiči, krave ali ovce — vsa bitja, vzrejena za zakol, <strong>se soočajo s strahom, nasiljem in smrtjo</strong>."
+          "Če se poskušate upreti, vas <strong>pretepejo ali šokirajo</strong> z električno palico. Silijo vas naprej, korak za korakom, proti istemu koncu.",
+          "To je resničnost za živali, ki se uporabljajo za meso — <strong>za vse</strong>. Ne le za prašiče, krave ali ovce — vsako bitje, vzrejeno za zakol, <strong>se srečuje s strahom, nasiljem in smrtjo</strong>."
         ],
         "end": "Ni končno čas, da postavimo pod vprašaj to tradicijo?"
       },
@@ -86,12 +86,12 @@
         "items": {
           "left": [
             "Vsako leto je za meso ubitih več kot 70 milijard kopenskih živali",
-            "Mnoge so le mladiči, ko jih zakoljejo",
-            "\"Humanen zakol\" se še vedno konča z ustrahnjeno smrtjo"
+            "Mnoge od njih so še mladiči, ko jih zakoljejo",
+            "Tako imenovani \"Humanen zakol\" se še vedno konča v strahu, bolečini in smrti"
           ],
           "right": [
-            "Prašiči so tako pametni kot psi — in kričijo ravno tako glasno",
-            "Živali pogosto gledajo, kako umirajo njihovi tovariši pred njimi"
+            "Prašiči so po inteligenci primerljivi s psi — in kričijo ravno tako glasno",
+            "Živali pogosto gledajo, kako umirajo tiste pred njimi"
           ]
         }
       },
@@ -128,11 +128,11 @@
           },
           "health": {
             "title": "Zdravje",
-            "text": "Visoka poraba mesa je povezana s <strong>srčnimi boleznimi, rakom in odpornostjo proti antibiotikom.</strong> Večina današnjega mesa prihaja od živali, napolnjenih z <strong>zdravili in hormoni,</strong> kar vpliva na naše zdravje na nevidne načine."
+            "text": "Visoka poraba mesa je povezana s <strong>srčnimi boleznimi, rakom in odpornostjo proti antibiotikom.</strong> Večina današnjega mesa prihaja od živali, napolnjenih z <strong>zdravili in hormoni,</strong> kar vpliva na naše zdravje."
           },
           "environment": {
             "title": "Okolje",
-            "text": "Živinoreja je glavni vzrok <strong>krčenja gozdov, izpustov metana in onesnaženosti vode</strong>. Gozdovi so uničeni za krmo za živali, medtem ko gredo milijoni litrov vode v proizvodnjo <strong>samo enega zrezka</strong>."
+            "text": "Živinoreja je glavni vzrok <strong>krčenja gozdov, izpustov metana in onesnaženosti vode</strong>. Gozdovi se uničujejo za pridelavo krme, medtem ko <strong>ena sama porcija mesa</strong> zahteva na <strong>tisoče litrov</strong> vode."
           }
         }
       },
@@ -153,23 +153,23 @@
         "title": "Skrita resničnost",
         "start": "Si lahko predstavljate, da se dušite pri polni zavesti?",
         "content": [
-          "To je tisto, kar <strong>triljoni</strong> rib prestanejo vsako leto.",
-          "Izvlečene iz oceana v velikih mrežah so pomečkane, poškodovane in prepuščene <strong>počasnemu zaduševanju</strong> na krovih ladij — še vedno pri zavesti, še vedno čutijo bolečino.",
+          "To je realnost, ki jo vsako leto doživijo <strong>triljoni</strong> rib.",
+          "Izvlečene iz vode, stisnjene v mrežah, zmečkane in ranjene, <strong>počasi umirajo</strong> na krovih ladij, pogosto brez kakršnekoli omame — še vedno pri zavesti, še vedno čutijo <strong>bolečino</strong>.",
           "Druge preživijo svoja kratka življenja ujete <strong>v umazanih, prenatrpanih ribjih farmah</strong>, plavajo v krogih, okužene in nevidne."
         ],
-        "end": "Nikoli ne slišimo njihovih krikov. Toda to ne pomeni, da ne trpijo."
+        "end": "Nikoli ne slišimo njihovih krikov. A to še ne pomeni, da ne trpijo."
       },
       "facts": {
         "title": "Ali ste vedeli?",
         "items": {
           "left": [
-            "Ribe čutijo bolečino, ravno tako kot mačke ali psi",
+            "Ribe čutijo bolečino enako kot sesalci — tudi mačke in psi",
             "Vsako leto je ubitih več rib kot vseh drugih živali skupaj",
             "Večina ni omamljena pred smrtjo — zadušijo se ali so razrezane žive"
           ],
           "right": [
-            "Vzrejene ribe živijo v umaznih, prenatrpanih kletkah, polnih bolezni",
-            "Ribe imajo posamezne osebnosti in lahko celo prepoznajo obraze"
+            "Ribe v gojilnicah živijo v nečistih, prenatrpanih razmerah",
+            "Ribe imajo osebnosti, prepoznajo obraze in se učijo"
           ]
         }
       },
@@ -188,15 +188,15 @@
         "items": {
           "animalSuffering": {
             "title": "Trpljenje živali",
-            "text": "Ribe so <strong>občutljiva, inteligentna bitja</strong> — vendar njihovo trpljenje redko priznamo. Zmečkajo jih mreže, <strong>razrežejo jih pri zavesti</strong> ali jih pustijo počasi dušiti. Na ribjih farmah prenašajo osamitev, bolezni in zanemarjanje."
+            "text": "Ribe so <strong>občutljiva, inteligentna bitja</strong>, a njihovo trpljenje pogosto ostaja nevidno. Zmečkajo jih mreže, <strong>razrežejo jih pri zavesti</strong> ali jih pustijo počasi dušiti. Na ribjih farmah prenašajo osamitev, bolezni in zanemarjanje."
           },
           "health": {
             "title": "Zdravje",
-            "text": "Ribe absorbirajo <strong>strupene snovi</strong> iz voda, v katerih živijo. Od <strong>živega srebra in težkih kovin</strong> do <strong>mikroplastike in parazitov</strong> — ti onesnaževalci vstopijo tudi v vaše telo, ko uživate ribe ali morske sadeže."
+            "text": "Ribe absorbirajo <strong>strupene snovi</strong> iz voda, v katerih živijo. Od <strong>živega srebra in težkih kovin</strong> do <strong>mikroplastike in parazitov</strong>, ki se prenesejo tudi na človeka. Pogosto se oglašujejo kot “zdrava izbira”, vendar to ne drži vedno."
           },
           "environment": {
             "title": "Okolje",
-            "text": "Prekomeren ribolov <strong>uničuje oceanske ekosisteme</strong> in potiska vrste v <strong>izumrtje</strong>. Ogromni ribiški čolni trgajo morsko dno, medtem ko prilovek ubije milijarde netargentnih živali, kot so želve, delfini in morski ptički."
+            "text": "Prekomeren ribolov <strong>uničuje oceanske ekosisteme</strong>, potiska vrste v izumrtje in povzroča <Strong>masovno uničenje morskega dna</strong>. Prilov ubije milijarde delfinov, želv, ptic in drugih morskih živali."
           }
         }
       },
@@ -217,18 +217,18 @@
         "title": "Skrita resničnost",
         "start": "Si lahko predstavljate, da bi se rodili v svet, kjer se vaša vrednost meri le po tem, kar lahko proizvedete?",
         "content": [
-          "Za kokoši se življenje začne v <strong>temi</strong>. Če ste samec, vas <strong>zmeljejo ali zastrupijo prvi dan</strong> — ker ne morete nesti jajc.",
-          "Če ste samica, vas <strong>omejijo, pohabijo</strong> in potisnejo do skrajnih meja, dokler vaše telo ne odda. Odřežejo vam kljun. Nikoli ne razprostrete kril. Vaša pesem ostane neslišana."
+          "Za kokoši se življenje začne v <strong>temi</strong>. Če ste samec, vas <strong>prvi dan zmeljejo</strong> — ker ne morete nesti jajc.",
+          "Če ste samica, vas <strong>omejijo, pohabijo</strong> in izčrpavajo do zadnje kaplje energije. <strong>Odrežejo</strong> vam kljun. Nikoli ne razprostrete kril. Vaša pesem ostane neslišana."
         ],
-        "end": "Za vsako škatlo jajc se skriva življenje, ki je zmanjšano na stroj — dokler se ne pokvari."
+        "end": "Za vsako škatlo jajc stoji življenje, spremenjeno v stroj — dokler se ne izrabi."
       },
       "facts": {
         "title": "Ali ste vedeli?",
         "items": {
           "left": [
-            "Moški piščanci so živi zmeljeni prvi dan življenja",
-            "Tudi prosto gojene kokoši pogosto živijo v prenatrpanih hlevih",
-            "Kokoši so gensko prirejene, da nesejo daleč več jajc, kot je naravno"
+            "Moški piščanci so živi zmleti že prvi dan življenja",
+            "Tudi “prosto rejene” kokoši pogosto živijo v prenatrpanih hlevih",
+            "Genetsko so spremenjene, da nesejo nenaravno količino jajc"
           ],
           "right": [
             "Njihova telesa se pogosto porušijo zaradi prekomerne proizvodnje",
@@ -278,9 +278,9 @@
       "heroImage": "dairy-hero.jpg",
       "hiddenReality": {
         "title": "Skrita resničnost",
-        "start": "Si lahko predstavljate, da vam vzamejo vaše otroke, ponovno in ponovno, le zato, da lahko drugi pijejo vaše mleko?",
+        "start": "Si lahko predstavljate, da vam znova in znova <strong>odvzamejo vašega otroka</strong> — le zato, da bi drugi pili vaše mleko?",
         "content": [
-          "V mlečni industriji krave niso le izkoriščane — so matere, oropane materinstva.",
+          "V mlečni industriji krave niso le izkoriščane — so matere, ki jim odvzamejo materinstvo.",
           "Cele dneve <strong>jokajo</strong>, ko jim vzamejo teleta. Mleko, namenjeno njihovim otrokom, je <strong>vzeto za ljudi</strong>.",
           "Njihova telesa so <strong>potisnjena do skrajnosti</strong> z nenehnimi cikli <strong>prisilne nosečnosti</strong> in izgube."
         ],
@@ -295,7 +295,7 @@
             "Samci so pogosto ubiti za teletino — stranski proizvod mlečne industrije"
           ],
           "right": [
-            "Mlečne krave so vedno znova oplojevane, da mleko teče naprej",
+            "Krave so vedno znova umetno oplojene, da ostanejo “produktivne”",
             "Večina jih je zaklanih okoli 5. leta — njihova naravna življenjska doba je 20 let"
           ]
         }
@@ -315,7 +315,7 @@
         "items": {
           "animalSuffering": {
             "title": "Trpljenje živali",
-            "text": "Krave v mlečni industriji prenašajo <strong>ponovne prisilne nosečnosti</strong> in <strong>travmo izgube telet</strong>. Njihova telesa so potisnjena k <strong>nenaravnim mejam</strong> in so <strong>zaklane</strong>, ko niso več dobičkonosne."
+            "text": "Krave v mlečni industriji prenašajo <strong>prisilne nosečnosti</strong> in <strong>travmo izgube telet</strong>. Njihova telesa so potisnjena k <strong>nenaravnim mejam</strong> in so <strong>zaklane</strong>, ko niso več dobičkonosne."
           },
           "health": {
             "title": "Zdravje",
