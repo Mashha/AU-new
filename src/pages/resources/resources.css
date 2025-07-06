@@ -10,21 +10,21 @@
 }
 
 .resources-page h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   color: var(--brand-red);
 }
 
 .resource-category {
-  margin-bottom: 3rem;
-  padding: 1.5rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
   background-color: #1f1f1f;
 }
 
 .resource-category h2 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin-bottom: 1rem;
   border-bottom: 2px solid var(--brand-red);
   padding-bottom: 0.5rem;
@@ -49,7 +49,54 @@
   transition: all 0.2s ease;
 }
 
-.resource-category a:hover {
-  border-bottom: 1px solid var(--brand-red);
-  color: var(--brand-red-hover);
+/* Small Mobile */
+@media (min-width: 480px) {
+  .resources-inner {
+    padding: 4rem 1rem;
+  }
+
+  .resources-page h1 {
+    font-size: 2.25rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .resource-category {
+    padding: 1.25rem;
+  }
+
+  .resource-category h2 {
+    font-size: 1.375rem;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .resources-inner {
+    padding: 5rem 1rem;
+  }
+
+  .resources-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .resource-category {
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+  }
+
+  .resource-category h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .resources-inner {
+    padding: 6rem 1rem;
+  }
+
+  .resource-category a:hover {
+    border-bottom: 1px solid var(--brand-red);
+    color: var(--brand-red-hover);
+  }
 }

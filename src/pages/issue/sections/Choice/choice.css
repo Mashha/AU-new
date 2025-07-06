@@ -1,3 +1,4 @@
+/* Mobile First - Base Styles */
 .choice-section {
   padding: 4rem 1rem;
   background: var(--brand-black);
@@ -45,10 +46,6 @@
   border-bottom: none;
 }
 
-.choice-card:hover {
-  z-index: 2;
-}
-
 .choice-link {
   display: block;
   text-decoration: none;
@@ -64,11 +61,6 @@
   object-fit: cover;
   transition: all 0.4s ease;
   filter: grayscale(0.7) brightness(0.8);
-}
-
-.choice-card:hover .choice-image {
-  transform: scale(1.05);
-  filter: grayscale(0) brightness(1);
 }
 
 /* Image Overlay */
@@ -89,16 +81,7 @@
   z-index: 1;
 }
 
-.choice-card:hover .choice-link::before {
-  opacity: 0.3;
-  background: linear-gradient(
-    135deg,
-    rgba(231, 76, 60, 0.4) 0%,
-    rgba(192, 57, 43, 0.6) 100%
-  );
-}
-
-/* Choice Text - Smaller on mobile */
+/* Choice Text - Mobile base styling */
 .choice-text {
   position: absolute;
   top: 50%;
@@ -115,56 +98,6 @@
   white-space: nowrap;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   transition: all 0.4s ease;
-}
-
-.choice-card:hover .choice-text {
-  transform: translate(-50%, -50%) scale(1.05);
-  color: #ffffff;
-  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9);
-}
-
-/* Alternative: Minimalist Style */
-.choice-section.minimalist {
-  background: #f8f8f8;
-  color: #333;
-}
-
-.choice-section.minimalist h2 {
-  color: #333;
-  font-weight: 400;
-}
-
-.choice-section.minimalist .choice-card {
-  background: white;
-  border: 1px solid #e0e0e0;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.choice-section.minimalist .choice-card:hover {
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
-}
-
-.choice-section.minimalist .choice-text {
-  color: #333;
-  background: rgba(255, 255, 255, 0.95);
-}
-
-/* Alternative: Card with Text Below Image */
-.choice-card.text-below {
-  background: white;
-  color: #333;
-}
-
-.choice-card.text-below .choice-text {
-  position: static;
-  background: none;
-  padding: 1rem;
-  color: #333;
-  border-top: 3px solid #e74c3c;
-}
-
-.choice-card.text-below .choice-link::before {
-  display: none;
 }
 
 /* Animation on Scroll */
@@ -191,7 +124,47 @@
   }
 }
 
-/* Alternative: Button Style */
+/* Alternative Styles */
+.choice-section.minimalist {
+  background: #f8f8f8;
+  color: #333;
+}
+
+.choice-section.minimalist h2 {
+  color: #333;
+  font-weight: 400;
+}
+
+.choice-section.minimalist .choice-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.choice-section.minimalist .choice-text {
+  color: #333;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+/* Card with Text Below Image */
+.choice-card.text-below {
+  background: white;
+  color: #333;
+}
+
+.choice-card.text-below .choice-text {
+  position: static;
+  background: none;
+  padding: 1rem;
+  color: #333;
+  border-top: 3px solid #e74c3c;
+}
+
+.choice-card.text-below .choice-link::before {
+  display: none;
+}
+
+/* Button Style */
 .choice-section.button-style .choice-card {
   background: none;
   box-shadow: none;
@@ -207,12 +180,6 @@
   text-decoration: none;
   transition: all 0.3s ease;
   box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
-}
-
-.choice-section.button-style .choice-link:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(231, 76, 60, 0.4);
-  background: linear-gradient(45deg, #c0392b, #a93226);
 }
 
 .choice-section.button-style .choice-image {
@@ -321,10 +288,6 @@
     border-right: none;
   }
 
-  .choice-card:hover {
-    flex: 1.2;
-  }
-
   .choice-image {
     height: 350px;
   }
@@ -333,10 +296,6 @@
     letter-spacing: 2px;
     padding: 1.2rem;
     white-space: nowrap;
-  }
-
-  .choice-card:hover .choice-text {
-    transform: translate(-50%, -50%) scale(1.1);
   }
 
   /* Connected cards animation */
@@ -358,10 +317,6 @@
     z-index: 3;
   }
 
-  .choice-card:hover::after {
-    opacity: 1;
-  }
-
   .choice-card:last-child::after {
     display: none;
   }
@@ -372,5 +327,45 @@
 
   .choice-section.button-style .choice-text {
     font-size: 1rem;
+  }
+
+  /* ALL HOVER EFFECTS - Only active on desktop 1024px+ */
+  .choice-card:hover {
+    z-index: 2;
+    flex: 1.2;
+  }
+
+  .choice-card:hover .choice-image {
+    transform: scale(1.05);
+    filter: grayscale(0) brightness(1);
+  }
+
+  .choice-card:hover .choice-link::before {
+    opacity: 0.3;
+    background: linear-gradient(
+      135deg,
+      rgba(231, 76, 60, 0.4) 0%,
+      rgba(192, 57, 43, 0.6) 100%
+    );
+  }
+
+  .choice-card:hover .choice-text {
+    transform: translate(-50%, -50%) scale(1.1);
+    color: #ffffff;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9);
+  }
+
+  .choice-card:hover::after {
+    opacity: 1;
+  }
+
+  .choice-section.minimalist .choice-card:hover {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .choice-section.button-style .choice-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(231, 76, 60, 0.4);
+    background: linear-gradient(45deg, #c0392b, #a93226);
   }
 }

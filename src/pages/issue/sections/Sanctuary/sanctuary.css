@@ -13,10 +13,6 @@
   transition: background-color 0.3s ease;
 }
 
-.sanctuary-link:hover {
-  background-color: var(--brand-red-hover);
-}
-
 .rescue-content .section-title {
   margin-bottom: 4rem;
   font-size: 1.75rem;
@@ -38,4 +34,7 @@
 
 /* Desktop (1024px+) */
 @media (min-width: 1024px) {
+  .sanctuary-link:hover {
+    background-color: var(--brand-red-hover);
+  }
 }

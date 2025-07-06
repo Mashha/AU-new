@@ -5,9 +5,10 @@
 
 .categories-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto;
   gap: 0;
+  height: auto;
 }
 
 .meat-section {
@@ -16,18 +17,20 @@
 }
 
 .meat-image {
-  grid-column: 2;
-  grid-row: 1;
+  grid-column: 1;
+  grid-row: 2;
+  height: 40vh;
+}
+
+.fish-section {
+  grid-column: 1;
+  grid-row: 3;
 }
 
 .fish-image {
   grid-column: 1;
-  grid-row: 2;
-}
-
-.fish-section {
-  grid-column: 2;
-  grid-row: 2;
+  grid-row: 4;
+  height: 40vh;
 }
 
 .category-item {
@@ -42,25 +45,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 60px 40px;
+  padding: 30px 15px;
+  min-height: 320px;
 }
 
 .category-content {
   text-align: center;
-  max-width: 400px;
+  max-width: 100%;
 }
 
 .category-title {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   font-weight: 700;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
   line-height: 1.1;
 }
 
 .category-text {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.6;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
   color: var(--text-secondary);
 }
 
@@ -68,18 +72,12 @@
   background: transparent;
   border: 2px solid white;
   color: white;
-  padding: 12px 32px;
-  font-size: 1rem;
+  padding: 10px 24px;
+  font-size: 0.9rem;
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
   text-transform: none;
-}
-
-.category-button:hover {
-  background: white;
-  color: #1a1a1a;
-  transform: translateY(-2px);
 }
 
 .meat-image,
@@ -96,10 +94,6 @@
   transition: transform 0.5s ease;
 }
 
-.category-item:hover .category-img {
-  transform: scale(1.05);
-}
-
 .meat-image::after,
 .fish-image::after {
   content: "";
@@ -112,11 +106,55 @@
   pointer-events: none;
 }
 
-/* Responsive design */
-@media (max-width: 1024px) {
+/* Small Mobile */
+@media (min-width: 480px) {
+  .meat-section,
+  .fish-section {
+    padding: 40px 20px;
+  }
+
+  .category-title {
+    font-size: 2rem;
+  }
+
+  .category-button {
+    padding: 12px 32px;
+    font-size: 1rem;
+  }
+
+  .category-content {
+    max-width: 400px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .meat-section,
+  .fish-section {
+    padding: 60px 40px;
+  }
+
+  .category-title {
+    font-size: 2.5rem;
+    margin-bottom: 32px;
+  }
+
+  .category-text {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+  }
+
+  .meat-image,
+  .fish-image {
+    height: 50vh;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
   .categories-grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     height: auto;
   }
 
@@ -126,70 +164,33 @@
   }
 
   .meat-image {
+    grid-column: 2;
+    grid-row: 1;
+    height: auto;
+  }
+
+  .fish-image {
     grid-column: 1;
     grid-row: 2;
-    height: 50vh;
-  }
-
-  .fish-image {
-    grid-column: 1;
-    grid-row: 4;
-    height: 50vh;
+    height: auto;
   }
 
   .fish-section {
-    grid-column: 1;
-    grid-row: 3;
-  }
-
-  .category-title {
-    font-size: 2.5rem;
+    grid-column: 2;
+    grid-row: 2;
   }
 
   .category-text {
-    font-size: 1.1rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .meat-section,
-  .fish-section {
-    padding: 40px 20px;
-    min-height: 320px;
+    font-size: 1.2rem;
   }
 
-  .category-title {
-    font-size: 2rem;
-    margin-bottom: 24px;
+  .category-button:hover {
+    background: white;
+    color: #1a1a1a;
+    transform: translateY(-2px);
   }
 
-  .category-text {
-    font-size: 1rem;
-    margin-bottom: 32px;
-  }
-
-  .category-button {
-    padding: 10px 24px;
-    font-size: 0.9rem;
-  }
-
-  .meat-image,
-  .fish-image {
-    height: 40vh;
-  }
-}
-
-@media (max-width: 480px) {
-  .meat-section,
-  .fish-section {
-    padding: 30px 15px;
-  }
-
-  .category-title {
-    font-size: 1.75rem;
-  }
-
-  .category-content {
-    max-width: 100%;
+  .category-item:hover .category-img {
+    transform: scale(1.05);
   }
 }

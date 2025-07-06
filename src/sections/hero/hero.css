@@ -1,4 +1,3 @@
-
 .heroSection {
   position: relative;
   height: 100vh;
@@ -27,7 +26,11 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to bottom, rgba(26, 23, 23, 0.5), rgba(26, 23, 23, 0.7));
+  background: linear-gradient(
+    to bottom,
+    rgba(26, 23, 23, 0.5),
+    rgba(26, 23, 23, 0.7)
+  );
   z-index: 10;
 }
 
@@ -83,10 +86,6 @@
   font-size: 1rem;
 }
 
-.primaryButton:hover {
-  background-color: var(--brand-red-hover);
-}
-
 .secondaryButton {
   background-color: transparent;
   text-decoration: none;
@@ -102,11 +101,6 @@
   text-align: center;
 }
 
-.secondaryButton:hover {
-  background-color: var(--brand-white);
-  color: var(--brand-black);
-}
-
 /* Responsive styles */
 @media (min-width: 640px) {
   .buttonContainer {
@@ -118,8 +112,18 @@
   .title {
     font-size: 4.5rem;
   }
-  
+
   .subtitle {
     font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .primaryButton:hover {
+    background-color: var(--brand-red-hover);
+  }
+  .secondaryButton:hover {
+    background-color: var(--brand-white);
+    color: var(--brand-black);
   }
 }
