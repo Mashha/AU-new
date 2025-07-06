@@ -17,7 +17,7 @@
   height: 64px;
 }
 
-.logo {
+.navInner .logo {
   height: 64px;
   object-fit: cover;
 }
