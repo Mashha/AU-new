@@ -90,6 +90,8 @@
   margin-bottom: 12px;
   background: transparent;
   border: none;
+  width: 100%;
+  text-align: left;
 }
 
 .mobileNavLink:hover {
