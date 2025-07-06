@@ -806,5 +806,10 @@
       "text1": "Maska predstavlja solidarnost — z živalmi, z resnico in z vsakim bojem proti krivici. Usmerja pozornost z aktivista na sporočilo:",
       "text2": "živali so posamezniki, ne blago"
     }
+  },
+  "404": {
+    "title": "Tukaj ni ničesar...",
+    "sub": "...morda stran, ki jo iščete, ne obstaja",
+    "btn": "Domov"
   }
 }

@@ -749,5 +749,10 @@
       "text1": "The mask represents solidarity — with the animals, with the truth, and with every fight against injustice. It redirects focus from the activist to the message:",
       "text2": "animals are individuals, not commodities"
     }
+  },
+  "404": {
+    "title": "There's nothing here...",
+    "sub": "...maybe the page you are looking for doesn't exist",
+    "btn": "Go home"
   }
 }

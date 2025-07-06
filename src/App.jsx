@@ -14,6 +14,7 @@ import ResourcesPage from "./pages/resources/resources";
 import AboutUsPage from "./pages/aboutUs/aboutUs";
 import PageTransition from "./components/pageTransition/PageTransition";
 import StoriesOfHopeSection from "./sections/video/Rescue";
+import NotFound from "./pages/404/404";
 
 function HomePage() {
   return (
@@ -42,7 +43,7 @@ function App() {
       <Route path='/about' element={<AboutUsPage />} />
       <Route path='/o-nas' element={<AboutUsPage />} />
       <Route path='/:category' element={<CategoryPage />} />
-      <Route path='*' element={<HomePage />} /> {/* Fallback route */}
+      <Route path='*' element={<NotFound />} />
     </Routes>
   );
 }
