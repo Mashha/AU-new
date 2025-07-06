@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 const NotFound = () => {
   const { t } = useTranslation();
   return (
-    <div className='notfound'>
+    <div className='not-found'>
       <img src={logo} alt='Logo' className='logo' />
       <h1>404</h1>
       <div className='text'>

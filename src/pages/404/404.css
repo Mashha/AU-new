@@ -1,4 +1,4 @@
-.notfound {
+.not-found {
   min-height: 100vh;
   background-color: var(--brand-black);
   color: white;
@@ -10,7 +10,7 @@
   padding: 40px 20px;
 }
 
-.logo {
+.not-found .logo {
   max-width: 140px;
   margin-bottom: 40px;
 }
@@ -37,7 +37,9 @@ p {
   transition: all 0.3s ease;
 }
 
-.home-button:hover {
-  background: white;
-  color: #1a1a1a;
+@media (min-width: 1024px) {
+  .home-button:hover {
+    background: white;
+    color: #1a1a1a;
+  }
 }
