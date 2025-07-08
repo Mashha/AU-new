@@ -783,27 +783,27 @@
       "sections": [
         {
           "title": "Kocka resnice",
-          "text": "Miroljuben ulični protest z uporabo resničnih posnetkov in odprtih pogovorov, da pokažemo, kaj skrivajo živalske industrije — in si predstavljamo drugačno prihodnost."
+          "text": "Miroljuben ulični protest, pri katerem z resničnimi posnetki in odprtimi pogovori razkrivamo, kaj prikrivajo živalske industrije — ter skupaj predstavljamo bolj sočutno prihodnost."
         },
         {
           "title": "Ulični aktivizem",
-          "text": "S sočutjem se pogovarjamo s mimoidočimi, izzivamo norme in ponujamo vire za podporo etičnim odločitvam, kot je veganstvo."
+          "text": "S sočutjem nagovarjamo mimoidoče, postavljamo vprašanja, ki izzivajo norme, in ponujamo vire za podporo etičnim življenjskim odločitvam, kot je veganstvo."
         }
       ]
     },
     "whyThisExists": {
       "title": "Zakaj to obstaja",
-      "text1": "Vsak dan milijarde živali trpijo v tišini. Obstajamo, da prekinemo to tišino — preko izobraževanja, prisotnosti in miroljubnega upora.",
-      "text2": "Verjamemo, da živali niso izdelki, in njihova življenja si zaslužijo več kot tradicije, temelječe na priložnosti."
+      "text1": "Vsak dan v tišini trpijo milijarde živali. Tukaj smo, da to tišino prekinemo — z izobraževanjem, prisotnostjo in miroljubnim uporom.",
+      "text2": "Verjamemo, da živali niso izdelki, in njihova življenja si zaslužijo več kot tradicije, ki temeljijo na udobju ali navadi."
     },
     "team": {
       "title": "Naš pristop",
-      "text1-first": "Ne kričimo. Ne sramotimo.",
-      "text1-sec": "Vabimo, obveščamo in navdihujemo",
-      "text2": "Z resnico, prijaznostjo in sočutjem pomagamo ljudem povezati njihove vrednote z njihovimi odločitvami."
+      "text_top-first": "Ne kričimo. Ne sramotimo.",
+      "text_top-sec": "Vabimo, obveščamo in navdihujemo",
+      "text_bottom": "Z resnico, prijaznostjo in sočutjem pomagamo ljudem povezati njihove vrednote z njihovimi odločitvami."
     },
     "mask": {
-      "text1": "Maska predstavlja solidarnost — z živalmi, z resnico in z vsakim bojem proti krivici. Usmerja pozornost z aktivista na sporočilo:",
+      "text1": "Maska predstavlja solidarnost — z živalmi, z resnico in z vsemi, ki se borijo proti krivici. Usmerja pozornost z aktivista na sporočilo:",
       "text2": "živali so posamezniki, ne blago"
     }
   },

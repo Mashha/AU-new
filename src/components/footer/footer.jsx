@@ -94,7 +94,7 @@ const Footer = () => {
             </button>
           ))}
         </nav>
-        <p class='credit'>
+        <p className='credit'>
           Photography by{" "}
           <a href='https://andrewskowron.org/' target='_blank' rel='noopener'>
             Andrew Skowron
