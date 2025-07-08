@@ -41,13 +41,17 @@ const Navigation = () => {
     setIsMenuOpen(false);
   };
 
+  function navigateToHome() {
+    navigate("/");
+  }
+
   return (
     <nav className='nav'>
       <div className='container'>
         <div className='navInner'>
-          <a href='/'>
+          <button onClick={navigateToHome} className="logoButton" >
             <img src={logo} alt='Logo' className='logo' />
-          </a>
+          </button>
 
           {/* Desktop Menu */}
           <div className='desktopMenu'>
