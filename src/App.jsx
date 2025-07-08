@@ -12,9 +12,9 @@ import Footer from "./components/footer/footer";
 import CategoryPage from "./pages/issue/issue";
 import ResourcesPage from "./pages/resources/resources";
 import AboutUsPage from "./pages/aboutUs/aboutUs";
-import PageTransition from "./components/pageTransition/PageTransition";
 import StoriesOfHopeSection from "./sections/video/Rescue";
 import NotFound from "./pages/404/404";
+import useScrollToTopOnReroute from "./components/utils/useScrollToTopOnReroute";
 
 function HomePage() {
   return (
@@ -35,6 +35,9 @@ function HomePage() {
 }
 
 function App() {
+
+  useScrollToTopOnReroute();
+
   return (
     <Routes>
       <Route path='/' element={<HomePage />} />
