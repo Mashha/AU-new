@@ -78,7 +78,8 @@
 }
 
 .language-option.active {
-  background: rgba(210, 32, 39, 0.1); /* light red tint */
+  background: rgba(210, 32, 39, 0.1);
+  /* light red tint */
   color: var(--brand-red);
 }
 
@@ -155,7 +156,9 @@
   cursor: pointer;
   text-align: center;
   font-size: 0.9rem;
-  transition: background-color 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
   position: relative;
   flex: 1;
   color: var(--brand-white);
@@ -163,6 +166,7 @@
 
 .mobile-language-option:hover {
   background: #f8f9fa;
+  color: black;
 }
 
 .mobile-language-option.active {
