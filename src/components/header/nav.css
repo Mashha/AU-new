@@ -1,5 +1,6 @@
 .nav {
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(12px);
+  background-color: rgba(0, 0, 0, 0.416);
   position: fixed;
   width: 100%;
   top: 0;
@@ -15,6 +16,13 @@
   justify-content: space-between;
   align-items: center;
   height: 64px;
+}
+
+.navInner .logoButton {
+  appearance: none;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .navInner .logo {
