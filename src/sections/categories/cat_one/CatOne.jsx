@@ -6,19 +6,19 @@ const CategoriesSection = () => {
   const navigate = useNavigate();
   const { t } = useTranslation();
   return (
-    <section className='categories-section'>
-      <div className='categories-grid'>
+    <section className="categories-section">
+      <div className="categories-grid">
         {/* Meat Section - Top Left */}
-        <div className='category-item meat-section'>
-          <div className='category-content'>
-            <h2 className='category-title'>
+        <div className="category-item meat-section">
+          <div className="category-content">
+            <h2 className="category-title">
               {t("homepage.categoryPreview.meat.title")}
             </h2>
-            <p className='category-text'>
+            <p className="category-text">
               {t("homepage.categoryPreview.meat.description")}
             </p>
             <button
-              className='category-button'
+              className="category-button"
               onClick={() => navigate("/meat")}
             >
               {t("homepage.categoryPreview.meat.button")}

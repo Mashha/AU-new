@@ -1,4 +1,3 @@
-import { useTranslation } from "react-i18next";
 import Footer from "../../components/footer/footer";
 import Navigation from "../../components/header/Navigation";
 import WhatWeDo from "./sections/What/WhatWeDo";
@@ -8,8 +7,6 @@ import TeamSection from "./sections/Team/Team";
 import MaskSection from "./sections/Mask/Mask";
 
 const AboutUsPage = () => {
-  const { t } = useTranslation();
-
   return (
     <div>
       <Navigation />
