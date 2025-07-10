@@ -12,16 +12,17 @@ const TeamSection = () => {
         <div className='text-area'>
           <div className='title'>
             <h2>
-              We don't shout. We don't shame. <br />
-              <span className='highlight'>We invite, inform, and inspire.</span>
+              {t("about_us.team.text_top-first")}
+              <br />
+              <span className='highlight'>
+                {t("about_us.team.text_top-sec")}
+              </span>
             </h2>
           </div>
           <img src={teamImage} alt='Team' className='team-image' />
           <div className='overlay-box'>
             <img src={heart} alt='' />
-            <p>
-              {t("about_us.team.text2")}
-            </p>
+            <p>{t("about_us.team.text_bottom")}</p>
           </div>
         </div>
       </div>
