@@ -18,7 +18,7 @@ import useScrollToTopOnReroute from "./components/utils/useScrollToTopOnReroute"
 
 function HomePage() {
   return (
-    <div className='min-h-screen'>
+    <div className="min-h-screen">
       <Navigation />
       <HeroSection />
       <QuoteSection />
@@ -35,18 +35,27 @@ function HomePage() {
 }
 
 function App() {
-
   useScrollToTopOnReroute();
 
   return (
     <Routes>
-      <Route path='/' element={<HomePage />} />
-      <Route path='/resources' element={<ResourcesPage />} />
-      <Route path='/viri' element={<ResourcesPage />} />
-      <Route path='/about' element={<AboutUsPage />} />
-      <Route path='/o-nas' element={<AboutUsPage />} />
-      <Route path='/:category' element={<CategoryPage />} />
-      <Route path='*' element={<NotFound />} />
+      <Route path="/" element={<HomePage />} />
+
+      <Route path="/resources" element={<ResourcesPage />} />
+      <Route path="/about" element={<AboutUsPage />} />
+      <Route path="/meat" element={<CategoryPage category="meat" />} />
+      <Route path="/dairy" element={<CategoryPage category="dairy" />} />
+      <Route path="/fish" element={<CategoryPage category="fish" />} />
+      <Route path="/eggs" element={<CategoryPage category="eggs" />} />
+
+      <Route path="/o-nas" element={<AboutUsPage />} />
+      <Route path="/viri" element={<ResourcesPage />} />
+      <Route path="/meso" element={<CategoryPage category="meat" />} />
+      <Route path="/mleko" element={<CategoryPage category="dairy" />} />
+      <Route path="/ribe" element={<CategoryPage category="fish" />} />
+      <Route path="/jajca" element={<CategoryPage category="eggs" />} />
+
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 }
