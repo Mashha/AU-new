@@ -1,16 +1,22 @@
 import "./hero.css";
+import { motion } from "framer-motion";
 
 const CategoryHero = ({ data }) => {
   return (
     <section className='category-hero'>
       <div className='hero-overlay'>
         <div className='hero-content'>
-          <h1 className='hero-title'>{data.subtitle}</h1>
+          <motion.h1 
+            key={data.subtitle}
+            className='hero-title'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+          >
+            {data.subtitle}
+          </motion.h1>
         </div>
       </div>
-      {/* {image && (
-        <img src={`/images/${image}`} alt={title} className='hero-image' />
-      )} */}
     </section>
   );
 };

@@ -1,5 +1,6 @@
 import "./hero.css";
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
 
 const AboutHero = () => {
   const { t } = useTranslation();
@@ -7,12 +8,17 @@ const AboutHero = () => {
     <section className='category-hero'>
       <div className='hero-overlay'>
         <div className='hero-content'>
-          <h1 className='hero-title'>{t("about_us.hero.title")}</h1>
+         <motion.h1 
+            key={t("about_us.hero.title")}
+            className='hero-title'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+          >
+            {t("about_us.hero.title")}
+          </motion.h1>
         </div>
       </div>
-      {/* {image && (
-        <img src={`/images/${image}`} alt={title} className='hero-image' />
-      )} */}
     </section>
   );
 };
