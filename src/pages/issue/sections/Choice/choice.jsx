@@ -6,8 +6,7 @@ const ChoiceSection = ({ data }) => {
   const { t } = useTranslation();
   return (
     <section className='choice-section'>
-      <h2>{data.title}</h2>
-      <p>{data.subtitle}</p>
+      <p>{data.title}</p>
       <div className='choices-grid'>
         {cards.map((choice, index) => (
           <div key={index} className='choice-card'>
