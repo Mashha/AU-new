@@ -1,4 +1,3 @@
-import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import HeroSection from "./sections/CategoryHero/hero";
 import HiddenRealitySection from "./sections/HiddenReality/hiddenReality";
@@ -10,8 +9,7 @@ import Navigation from "../../components/header/Navigation";
 import FarmAnimalStoriesSection from "./sections/Sanctuary/sanctuary";
 import ImagesSection from "./sections/Images/Images";
 
-const CategoryPage = () => {
-  const { category } = useParams();
+const CategoryPage = ({ category }) => {
   const { t } = useTranslation();
   const data = t(`categories.${category}`, { returnObjects: true });
   const choicesData = t("shared.choices", { returnObjects: true });
