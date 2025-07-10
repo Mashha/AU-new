@@ -1,3 +1,4 @@
+import AnimatedImage from "../../components/image/AnimatedImage";
 import "./truth.css";
 import truthImg from "/assets/truth.jpg";
 import { useTranslation } from "react-i18next";
@@ -11,7 +12,7 @@ const FactoryFarmingProtest = () => {
       </div>
 
       <div className='image-section'>
-        <img
+        <AnimatedImage
           src={truthImg}
           alt='Protesters in masks holding signs at a demonstration'
           className='protest-image'

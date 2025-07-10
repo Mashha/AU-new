@@ -3,6 +3,7 @@ import "./team.css";
 import teamImage from "/assets/team.png";
 import heart from "/assets/heart_team.png";
 import { useTranslation } from "react-i18next";
+import AnimatedImage from "../../../../components/image/AnimatedImage";
 
 const TeamSection = () => {
   const { t } = useTranslation();
@@ -19,9 +20,14 @@ const TeamSection = () => {
               </span>
             </h2>
           </div>
-          <img src={teamImage} alt='Team' className='team-image' />
-          <div className='overlay-box'>
-            <img src={heart} alt='' />
+          <AnimatedImage
+            animName="slideFromLeft"
+            src={teamImage}
+            alt="Team"
+            className="team-image"
+          />
+          <div className="overlay-box">
+            <img src={heart} alt="" />
             <p>{t("about_us.team.text_bottom")}</p>
           </div>
         </div>
