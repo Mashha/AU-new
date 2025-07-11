@@ -6,7 +6,7 @@ const useScrollToTopOnReroute = () => {
 
   useEffect(() => {
     // Scroll to the top of the page
-    window.scrollTo({ top: 0, behavior: "smooth" }); // or behavior: 'auto'
+    window.scrollTo({ top: 0, behavior: "instant" }); // or behavior: 'auto'
   }, [location.pathname]);
 };
 
