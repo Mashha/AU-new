@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import "./cat_two.css";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
@@ -6,12 +7,19 @@ import { useNavigate } from "react-router-dom";
 const CategoriesSectionTwo = () => {
   const navigate = useNavigate();
   const { t } = useTranslation();
+
   return (
     <section className='categories-section-two'>
       <div className='categories-grid-two'>
         {/* Eggs Section - Top Left */}
         <div className='category-item eggs-section'>
-          <div className='category-content'>
+          <motion.div
+            className='category-content'
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ amount: 0.5 }}
+            transition={{ duration: 0.8 }}
+          >
             <h2 className='category-title'>
               {t("homepage.categoryPreview.eggs.title")}
             </h2>
@@ -24,9 +32,8 @@ const CategoriesSectionTwo = () => {
             >
               {t("homepage.categoryPreview.eggs.button")}
             </button>
-          </div>
+          </motion.div>
         </div>
-
         {/* Eggs Image - Top Right */}
         <div className='category-item eggs-image'>
           <img
@@ -35,7 +42,6 @@ const CategoriesSectionTwo = () => {
             className='category-img'
           />
         </div>
-
         {/* Dairy Image - Bottom Left */}
         <div className='category-item dairy-image'>
           <img
@@ -44,10 +50,15 @@ const CategoriesSectionTwo = () => {
             className='category-img'
           />
         </div>
-
         {/* Dairy Section - Bottom Right */}
         <div className='category-item dairy-section'>
-          <div className='category-content'>
+          <motion.div
+            className='category-content'
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ amount: 0.5 }}
+            transition={{ duration: 0.8 }}
+          >
             <h2 className='category-title'>
               {t("homepage.categoryPreview.dairy.title")}
             </h2>
@@ -60,7 +71,7 @@ const CategoriesSectionTwo = () => {
             >
               {t("homepage.categoryPreview.dairy.button")}
             </button>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

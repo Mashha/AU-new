@@ -1,12 +1,19 @@
 import "./rescue.css";
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
 
 const StoriesOfHopeSection = () => {
   const { t } = useTranslation();
 
   return (
     <section className='stories-of-hope-section white-section'>
-      <div className='rescue-container'>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0.8 }}
+        className='rescue-container'
+      >
         <div className='rescue-content'>
           <h2 className='rescue-section-title'>
             {t("homepage.stories.title")}
@@ -24,7 +31,7 @@ const StoriesOfHopeSection = () => {
             allowFullScreen
           />
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };

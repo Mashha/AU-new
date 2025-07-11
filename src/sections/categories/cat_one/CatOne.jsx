@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import "./cat_one.css";
 import { useTranslation } from "react-i18next";
 import { useNavigate } from "react-router-dom";
@@ -5,27 +6,33 @@ import { useNavigate } from "react-router-dom";
 const CategoriesSection = () => {
   const navigate = useNavigate();
   const { t } = useTranslation();
+
   return (
-    <section className="categories-section">
-      <div className="categories-grid">
+    <section className='categories-section'>
+      <div className='categories-grid'>
         {/* Meat Section - Top Left */}
-        <div className="category-item meat-section">
-          <div className="category-content">
-            <h2 className="category-title">
+        <div className='category-item meat-section'>
+          <motion.div
+            className='category-content'
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.8 }}
+          >
+            <h2 className='category-title'>
               {t("homepage.categoryPreview.meat.title")}
             </h2>
-            <p className="category-text">
+            <p className='category-text'>
               {t("homepage.categoryPreview.meat.description")}
             </p>
             <button
-              className="category-button"
+              className='category-button'
               onClick={() => navigate("/meat")}
             >
               {t("homepage.categoryPreview.meat.button")}
             </button>
-          </div>
+          </motion.div>
         </div>
-
         {/* Meat Image - Top Right */}
         <div className='category-item meat-image'>
           <img
@@ -34,7 +41,6 @@ const CategoriesSection = () => {
             className='category-img'
           />
         </div>
-
         {/* Fish Image - Bottom Left */}
         <div className='category-item fish-image'>
           <img
@@ -43,10 +49,15 @@ const CategoriesSection = () => {
             className='category-img'
           />
         </div>
-
         {/* Fish Section - Bottom Right */}
         <div className='category-item fish-section'>
-          <div className='category-content'>
+          <motion.div
+            className='category-content'
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true, amount: 0.5 }}
+            transition={{ duration: 0.8 }}
+          >
             <h2 className='category-title'>
               {t("homepage.categoryPreview.fish.title")}
             </h2>
@@ -59,7 +70,7 @@ const CategoriesSection = () => {
             >
               {t("homepage.categoryPreview.fish.button")}
             </button>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

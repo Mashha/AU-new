@@ -1,11 +1,18 @@
 import "./support.css";
 import { useTranslation, Trans } from "react-i18next";
+import { motion } from "framer-motion";
 
 const Support = () => {
   const { t } = useTranslation();
   return (
     <section className='it-starts-section white-section'>
-      <div className='text-content'>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0.8 }}
+        className='text-content'
+      >
         <p className='intro-text'>
           <Trans
             i18nKey='homepage.cta.description'
@@ -39,9 +46,15 @@ const Support = () => {
           <p className='closing-text'>{t("homepage.cta.invitation")}</p>
           <p className='closing-text-two'>{t("homepage.cta.line")}</p>
         </div>
-      </div>
+      </motion.div>
 
-      <div className='action-panels'>
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 0.8 }}
+        className='action-panels'
+      >
         <div className='panel veg-panel'>
           <div className='panel-overlay'>
             <a
@@ -67,7 +80,7 @@ const Support = () => {
             </a>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };
