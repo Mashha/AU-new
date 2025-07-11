@@ -9,6 +9,10 @@
   overflow: hidden;
 }
 
+body:has(.loader-wrapper) {
+  overflow: hidden;
+}
+
 .loader-logo {
   width: 440px;
   height: auto;
