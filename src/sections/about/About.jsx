@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import AnimatedImage from "../../components/image/AnimatedImage";
 import "./about.css";
 import image from "/assets/street_activism1.jpg";
@@ -6,49 +7,63 @@ import { useTranslation, Trans } from "react-i18next";
 export default function AboutSection() {
   const { t } = useTranslation();
   const values = t("homepage.whatWeBelieve.values", { returnObjects: true });
-  return (
-    <section className="about-section white-section">
-      <div className="background-split">
-        <div className="left-bg" />
-        <div className="right-bg" />
-      </div>
 
-      <div className="content-grid">
-        <div className="who-we-are">
+  return (
+    <section className='about-section white-section'>
+      <div className='background-split'>
+        <div className='left-bg' />
+        <div className='right-bg' />
+      </div>
+      <div className='content-grid'>
+        <motion.div
+          className='who-we-are'
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ amount: 0.5 }}
+          transition={{ duration: 0.8 }}
+        >
           <h2>{t("homepage.whoWeAre.title")}</h2>
           <p>
             <Trans
-              i18nKey="homepage.whoWeAre.description"
+              i18nKey='homepage.whoWeAre.description'
               components={{ strong: <strong /> }}
             />
           </p>
-        </div>
+        </motion.div>
 
-        <div className="image-area">
+        <div className='image-area'>
           <AnimatedImage
-            animName="slideFromBottom"
+            animName='slideFromBottom'
             src={image}
-            alt="Anonymous for the Unheard"
+            alt='Anonymous for the Unheard'
           />
         </div>
 
-        <div className="values-floating">
+        <motion.div
+          className='values-floating'
+        >
           {values.map((value, index) => (
-            <p className="value" key={index}>
+            <p className='value' key={index}>
               {value.toUpperCase()}
             </p>
           ))}
-        </div>
+        </motion.div>
 
-        <div className="what-we-believe">
+        <motion.div
+          className='what-we-believe'
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ amount: 0.5 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+        >
           <h2>{t("homepage.whatWeBelieve.title")}</h2>
           <p>
             <Trans
-              i18nKey="homepage.whatWeBelieve.description"
+              i18nKey='homepage.whatWeBelieve.description'
               components={{ strong: <strong /> }}
             />
           </p>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

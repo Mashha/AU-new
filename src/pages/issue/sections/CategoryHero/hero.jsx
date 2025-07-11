@@ -7,7 +7,6 @@ const CategoryHero = ({ data }) => {
       <div className='hero-overlay'>
         <div className='hero-content'>
           <motion.h1 
-            key={data.subtitle}
             className='hero-title'
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

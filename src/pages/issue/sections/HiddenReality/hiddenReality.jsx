@@ -11,7 +11,6 @@ const HiddenRealitySection = ({ data }) => {
     <section className='hidden-reality-section'>
       <div className='hidden-reality-text'>
         <motion.h2
-          key={data.hiddenReality.title}
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ amount: 0.3 }}

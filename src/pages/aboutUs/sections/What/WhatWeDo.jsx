@@ -1,5 +1,6 @@
 import "./whatWeDo.css";
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
 
 const WhatWeDo = () => {
   const { t } = useTranslation();
@@ -8,7 +9,13 @@ const WhatWeDo = () => {
   return (
     <section className='what-we-do-section'>
       <div className='overlay'>
-        <div className='what-we-do-container'>
+        <motion.div
+          className='what-we-do-container'
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ amount: 0.5 }}
+          transition={{ duration: 0.8 }}
+        >
           <h2 className='what-section-title'>{t("about_us.whatWeDo.title")}</h2>
           <div className='cards'>
             {sections.map((item, index) => (
@@ -18,7 +25,7 @@ const WhatWeDo = () => {
               </div>
             ))}
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

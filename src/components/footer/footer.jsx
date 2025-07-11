@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import "./footer.css";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -38,14 +39,19 @@ const Footer = () => {
   };
 
   return (
-    <footer className='footer'>
+    <motion.footer
+      className='footer'
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ amount: 0.5 }}
+      transition={{ duration: 0.8 }}
+    >
       <div className='footer-content'>
         <div className='logo-section'>
           <div className='logo-container'>
             <img src={logoBig} alt='Anonymous For The Unheard Logo' />
           </div>
         </div>
-
         <div className='social-icons'>
           <a
             href='https://www.facebook.com/profile.php?id=100091701833498'
@@ -82,7 +88,6 @@ const Footer = () => {
             <img src={tikIcon} alt='' className='social-icon' />
           </a>
         </div>
-
         <nav className='footer-nav'>
           {navItems.map((item) => (
             <button
@@ -101,7 +106,6 @@ const Footer = () => {
           </a>
         </p>
       </div>
-
       <div className='footer-bottom'>
         <div className='copyright'>
           <span>
@@ -116,7 +120,7 @@ const Footer = () => {
           <span>{t("footer.createdBy", "Created by Orelia")}</span>
         </div>
       </div>
-    </footer>
+    </motion.footer>
   );
 };
 

@@ -15,7 +15,7 @@ const CategoryPage = ({ category }) => {
   const choicesData = t("shared.choices", { returnObjects: true });
 
   return (
-    <div>
+    <div key={category}>
       <Navigation />
 
       {/* Hero Section */}

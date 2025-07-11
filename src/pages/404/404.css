@@ -1,6 +1,6 @@
 .not-found {
   min-height: 100vh;
-  background-color: var(--brand-black);
+  background-color: var(--text-muted);
   color: white;
   display: flex;
   flex-direction: column;
@@ -10,8 +10,8 @@
   padding: 40px 20px;
 }
 
-.not-found .logo {
-  max-width: 140px;
+.not-found .logo-404 {
+  max-width: 340px;
   margin-bottom: 40px;
 }
 
@@ -22,7 +22,7 @@ h1 {
 
 p {
   font-size: 1.25rem;
-  color: #aaa;
+  color: var(--brand-white);
   max-width: 600px;
   margin-bottom: 40px;
 }

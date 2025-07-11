@@ -97,25 +97,25 @@
       },
       "images": [
         {
-          "src": "../../../../assets/fish/HR-image.jpg",
+          "src": "/assets/fish/HR-image.jpg",
           "alt": "Razmere v tovarniški reji"
         },
         {
-          "src": "../../../../assets/fish/facts-image.jpg",
+          "src": "/assets/fish/facts-image.jpg",
           "alt": "Žival v stiski"
         }
       ],
       "icons": [
         {
-          "src": "../../../../assets/icons/environment.png",
+          "src": "/assets/icons/environment.png",
           "alt": "ikona okolja"
         },
         {
-          "src": "../../../../assets/icons/heath.png",
+          "src": "/assets/icons/heath.png",
           "alt": "ikona zdravja"
         },
         {
-          "src": "../../../../assets/icons/suffering.png",
+          "src": "/assets/icons/suffering.png",
           "alt": "ikona trpljenja"
         }
       ],
@@ -302,11 +302,11 @@
       },
       "images": [
         {
-          "src": "../../../../assets/dairy/HR-image.jpg",
+          "src": "/assets/dairy/HR-image.jpg",
           "alt": "Mrtvo tele, vzeto od matere"
         },
         {
-          "src": "dairy-2.jpg",
+          "src": "/assets/dairy/calf-facts.jpg",
           "alt": "Tele v kletki za teletino"
         }
       ],

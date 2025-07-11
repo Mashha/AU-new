@@ -7,7 +7,7 @@ const NotFound = () => {
   const { t } = useTranslation();
   return (
     <div className='not-found'>
-      <img src={logo} alt='Logo' className='logo' />
+      <img src={logo} alt='Logo' className='logo-404' />
       <h1>404</h1>
       <div className='text'>
         <p>{t("404.title")}</p>

@@ -91,7 +91,6 @@
   position: relative;
   grid-column: 1;
   grid-row: 4;
-  color: var(--brand-black);
   pointer-events: none;
   display: flex;
   flex-direction: row;
@@ -99,7 +98,6 @@
   justify-content: center;
   gap: 1rem;
   padding: 1rem;
-  opacity: 0.6;
 }
 
 .values-floating .value {
@@ -107,6 +105,8 @@
   font-weight: 600;
   letter-spacing: 0.05em;
   line-height: 1.2;
+  color: var(--brand-black);
+  opacity: 0.4;
 }
 
 /* Desktop styles - above 820px */
@@ -165,14 +165,14 @@
     transform: none;
     grid-column: unset;
     grid-row: unset;
-    color: white;
     flex-direction: column;
     gap: 0.75rem;
     padding-bottom: 2rem;
-    opacity: 0.15;
   }
 
   .values-floating .value {
     font-size: 5rem;
+    color: white;
+    opacity: 0.15;
   }
 }
