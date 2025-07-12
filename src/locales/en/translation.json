@@ -98,11 +98,11 @@
       },
       "images": [
         {
-          "src": "/assets/fish/HR-image.jpg",
+          "src": "/assets/meat/HR-image.jpg",
           "alt": "Factory farming conditions"
         },
         {
-          "src": "/assets/fish/facts-image.jpg",
+          "src": "/assets/meat/facts-image.jpg",
           "alt": "Animal in distress"
         }
       ],

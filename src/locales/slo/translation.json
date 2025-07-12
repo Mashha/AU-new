@@ -97,11 +97,11 @@
       },
       "images": [
         {
-          "src": "/assets/fish/HR-image.jpg",
+          "src": "/assets/meat/HR-image.jpg",
           "alt": "Razmere v tovarniški reji"
         },
         {
-          "src": "/assets/fish/facts-image.jpg",
+          "src": "/assets/meat/facts-image.jpg",
           "alt": "Žival v stiski"
         }
       ],
@@ -294,7 +294,7 @@
           "alt": "Razmere v baterijskih kletkah"
         },
         {
-          "src": "eggs-2.jpg",
+          "src": "/assets/eggs/corpse-facts.jpg",
           "alt": "Resničnost prosto gojenih"
         }
       ],
