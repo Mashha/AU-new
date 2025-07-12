@@ -15,7 +15,7 @@
   --brand-red-hover: #b91c1c;
 
   --text-secondary: #e3e6ea;
-  --text-muted: #4b4b4b; 
+  --text-muted: #4b4b4b;
 }
 
 body {
@@ -23,6 +23,11 @@ body {
   height: 100vh;
   font-family: "Libre Franklin", sans-serif;
   background-color: var(--brand-black);
+}
+
+html,
+body {
+  overflow-x: hidden;
 }
 
 p {
