@@ -29,8 +29,8 @@ const Loader = ({ onFinish }) => {
     if (isLoaded) {
       const timer = setTimeout(() => {
         setShowLoader(false);
-        onFinish();
-      }, 1200); 
+        onFinish?.();
+      }, 1200);
 
       return () => clearTimeout(timer);
     }
@@ -40,18 +40,18 @@ const Loader = ({ onFinish }) => {
     <AnimatePresence>
       {showLoader && (
         <motion.div
-          className='loader-wrapper'
+          className="loader-wrapper"
           initial={{ y: 0 }}
           transition={{
             duration: 1.2,
             ease: [0.65, 0, 0.35, 1],
-            delay: isLoaded ? 0.3 : 0, 
+            delay: isLoaded ? 0.3 : 0,
           }}
         >
           <motion.img
             src={logo}
-            alt='Logo'
-            className='loader-logo'
+            alt="Logo"
+            className="loader-logo"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{
               opacity: 1,
