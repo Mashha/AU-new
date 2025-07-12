@@ -31,7 +31,7 @@ const CategoryPage = ({ category }) => {
       <BiggerPictureSection data={data} />
 
       {/* Images section */}
-      <ImagesSection />
+      <ImagesSection data={data} />
 
       {/* Happy story */}
       <FarmAnimalStoriesSection data={data} />

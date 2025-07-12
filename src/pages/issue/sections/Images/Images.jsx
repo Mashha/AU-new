@@ -2,18 +2,10 @@ import "./images.css";
 import AnimatedImage from "../../../../components/image/AnimatedImage";
 import { useTranslation } from "react-i18next";
 
-const ImagesSection = () => {
+const ImagesSection = ({data}) => {
   const { t } = useTranslation();
-  const images = [
-    "https://picsum.photos/400/300?random=1",
-    "https://picsum.photos/400/300?random=2",
-    "https://picsum.photos/400/300?random=3",
-    "https://picsum.photos/400/300?random=4",
-    "https://picsum.photos/400/300?random=5",
-    "https://picsum.photos/400/300?random=6",
-    "https://picsum.photos/400/300?random=7",
-    "https://picsum.photos/400/300?random=8",
-  ];
+  console.log(data.hiddenSection)
+  const imageArray = data.hiddenSection
 
   return (
     <section className='hidden-section'>
@@ -24,10 +16,10 @@ const ImagesSection = () => {
 
         <div className='hidden-section__scroll-wrapper'>
           <div className='images-grid'>
-            {images.map((image, index) => (
+            {imageArray.map((image, index) => (
               <AnimatedImage
                 key={index}
-                src={image}
+                src={image.src}
                 alt={`Hidden image ${index + 1}`}
                 animName={index % 2 === 0 ? "slideFromLeft" : "slideFromRight"}
                 className='grid-image'

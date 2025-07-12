@@ -119,6 +119,32 @@
           "alt": "ikona trpljenja"
         }
       ],
+      "hiddenSection": [
+        {
+          "src": "/assets/meat/image_one.jpg",
+          "alt": "Meat"
+        },
+        {
+          "src": "/assets/meat/image_two.jpg",
+          "alt": "Meat"
+        },
+        {
+          "src": "/assets/meat/image_three.jpg",
+          "alt": "Meat"
+        },
+        {
+          "src": "/assets/meat/image_four.jpg",
+          "alt": "Meat"
+        },
+        {
+          "src": "/assets/meat/image_five.jpg",
+          "alt": "Meat"
+        },
+        {
+          "src": "/assets/meat/image_six.jpg",
+          "alt": "Meat"
+        }
+      ],
       "biggerPicture": {
         "title": "Širša slika",
         "items": {
@@ -175,12 +201,38 @@
       },
       "images": [
         {
-          "src": "../../../../assets/fish/HR-image.jpg",
+          "src": "/assets/fish/HR-image.jpg",
           "alt": "Komercialne ribiške mreže"
         },
         {
-          "src": "../../../../assets/fish/facts-image.jpg",
+          "src": "/assets/fish/facts-image.jpg",
           "alt": "Razmere na ribjih farmah"
+        }
+      ],
+      "hiddenSection": [
+        {
+          "src": "/assets/fish/image_one.jpg",
+          "alt": "Fish farming"
+        },
+        {
+          "src": "/assets/fish/image_two.jpg",
+          "alt": "Fish farming"
+        },
+        {
+          "src": "/assets/fish/image_three.jpg",
+          "alt": "Fish farming"
+        },
+        {
+          "src": "/assets/fish/image_four.jpg",
+          "alt": "Fish farming"
+        },
+        {
+          "src": "/assets/fish/image_five.jpg",
+          "alt": "Fish farming"
+        },
+        {
+          "src": "/assets/fish/image_six.jpg",
+          "alt": "Fish farming"
         }
       ],
       "biggerPicture": {
@@ -238,12 +290,38 @@
       },
       "images": [
         {
-          "src": "../../../../assets/eggs/HR-image.jpg",
+          "src": "/assets/eggs/HR-image.jpg",
           "alt": "Razmere v baterijskih kletkah"
         },
         {
           "src": "eggs-2.jpg",
           "alt": "Resničnost prosto gojenih"
+        }
+      ],
+      "hiddenSection": [
+        {
+          "src": "/assets/eggs/image_one.jpg",
+          "alt": "Egg industry"
+        },
+        {
+          "src": "/assets/eggs/image_two.jpg",
+          "alt": "Egg industry"
+        },
+        {
+          "src": "/assets/eggs/image_three.jpg",
+          "alt": "Egg industry"
+        },
+        {
+          "src": "/assets/eggs/image_four.jpg",
+          "alt": "Egg industry"
+        },
+        {
+          "src": "/assets/eggs/image_five.jpg",
+          "alt": "Egg industry"
+        },
+        {
+          "src": "/assets/eggs/image_six.jpg",
+          "alt": "Egg industry"
         }
       ],
       "biggerPicture": {
@@ -308,6 +386,32 @@
         {
           "src": "/assets/dairy/calf-facts.jpg",
           "alt": "Tele v kletki za teletino"
+        }
+      ],
+      "hiddenSection": [
+        {
+          "src": "/assets/dairy/image_one.jpg",
+          "alt": "Dairy industry"
+        },
+        {
+          "src": "/assets/dairy/image_two.jpg",
+          "alt": "Dairy industry"
+        },
+        {
+          "src": "/assets/dairy/image_three.jpg",
+          "alt": "Dairy industry"
+        },
+        {
+          "src": "/assets/dairy/image_four.jpg",
+          "alt": "Dairy industry"
+        },
+        {
+          "src": "/assets/dairy/image_five.jpg",
+          "alt": "Dairy industry"
+        },
+        {
+          "src": "/assets/dairy/image_six.jpg",
+          "alt": "Dairy industry"
         }
       ],
       "biggerPicture": {

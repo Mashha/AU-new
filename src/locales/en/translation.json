@@ -120,6 +120,32 @@
           "alt": "suffering icon"
         }
       ],
+      "hiddenSection": [
+        {
+          "src": "/assets/meat/image_one.jpg",
+          "alt": "Meat"
+        },
+        {
+          "src": "/assets/meat/image_two.jpg",
+          "alt": "Meat"
+        },
+        {
+          "src": "/assets/meat/image_three.jpg",
+          "alt": "Meat"
+        },
+        {
+          "src": "/assets/meat/image_four.jpg",
+          "alt": "Meat"
+        },
+        {
+          "src": "/assets/meat/image_five.jpg",
+          "alt": "Meat"
+        },
+        {
+          "src": "/assets/meat/image_six.jpg",
+          "alt": "Meat"
+        }
+      ],
       "biggerPicture": {
         "title": "The bigger picture",
         "items": {
@@ -183,6 +209,32 @@
         {
           "src": "/assets/fish/facts-image.jpg",
           "alt": "Fish farm conditions"
+        }
+      ],
+      "hiddenSection": [
+        {
+          "src": "/assets/fish/image_one.jpg",
+          "alt": "Fish farming"
+        },
+        {
+          "src": "/assets/fish/image_two.jpg",
+          "alt": "Fish farming"
+        },
+        {
+          "src": "/assets/fish/image_three.jpg",
+          "alt": "Fish farming"
+        },
+        {
+          "src": "/assets/fish/image_four.jpg",
+          "alt": "Fish farming"
+        },
+        {
+          "src": "/assets/fish/image_five.jpg",
+          "alt": "Fish farming"
+        },
+        {
+          "src": "/assets/fish/image_six.jpg",
+          "alt": "Fish farming"
         }
       ],
       "biggerPicture": {
@@ -249,6 +301,32 @@
           "alt": "Free range reality"
         }
       ],
+      "hiddenSection": [
+        {
+          "src": "/assets/eggs/image_one.jpg",
+          "alt": "Egg industry"
+        },
+        {
+          "src": "/assets/eggs/image_two.jpg",
+          "alt": "Egg industry"
+        },
+        {
+          "src": "/assets/eggs/image_three.jpg",
+          "alt": "Egg industry"
+        },
+        {
+          "src": "/assets/eggs/image_four.jpg",
+          "alt": "Egg industry"
+        },
+        {
+          "src": "/assets/eggs/image_five.jpg",
+          "alt": "Egg industry"
+        },
+        {
+          "src": "/assets/eggs/image_six.jpg",
+          "alt": "Egg industry"
+        }
+      ],
       "biggerPicture": {
         "title": "The bigger picture",
         "items": {
@@ -312,6 +390,32 @@
         {
           "src": "/assets/dairy/calf-facts.jpg",
           "alt": "Calf in veal crate"
+        }
+      ],
+      "hiddenSection": [
+        {
+          "src": "/assets/dairy/image_one.jpg",
+          "alt": "Dairy industry"
+        },
+        {
+          "src": "/assets/dairy/image_two.jpg",
+          "alt": "Dairy industry"
+        },
+        {
+          "src": "/assets/dairy/image_three.jpg",
+          "alt": "Dairy industry"
+        },
+        {
+          "src": "/assets/dairy/image_four.jpg",
+          "alt": "Dairy industry"
+        },
+        {
+          "src": "/assets/dairy/image_five.jpg",
+          "alt": "Dairy industry"
+        },
+        {
+          "src": "/assets/dairy/image_six.jpg",
+          "alt": "Dairy industry"
         }
       ],
       "biggerPicture": {
