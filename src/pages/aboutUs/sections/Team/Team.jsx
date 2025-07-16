@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./team.css";
-import teamImage from "/assets/team.png";
+import teamImage from "/assets/team_img.jpg";
 import heart from "/assets/heart_team.png";
 import { useTranslation } from "react-i18next";
 import AnimatedImage from "../../../../components/image/AnimatedImage";
