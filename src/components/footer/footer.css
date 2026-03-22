@@ -98,6 +98,10 @@
   color: var(--text-secondary);
 }
 
+.created-by span a {
+   color: var(--text-secondary);
+}
+
 .animal-silhouettes {
   margin-left: 0;
   justify-content: center;

@@ -14,7 +14,7 @@ const AppWrapper = () => {
   return (
     <>
       {showLoader ? <Loader /> : null}
-      <App />;
+      <App />
     </>
   );
 };

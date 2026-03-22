@@ -100,7 +100,7 @@ const Footer = () => {
           ))}
         </nav>
         <p className='credit'>
-          Photography by{" "}
+          {t("footer.photosBy")}{" "}
           <a href='https://andrewskowron.org/' target='_blank' rel='noopener'>
             Andrew Skowron
           </a>
@@ -109,15 +109,13 @@ const Footer = () => {
       <div className='footer-bottom'>
         <div className='copyright'>
           <span>
-            {t(
-              "footer.copyright",
-              "© All right reserved | Anonymous For The Unheard"
-            )}
+            {t("footer.copyright")}
           </span>
         </div>
         <div className='created-by'>
           <img src={heart} alt='Heart' />
-          <span>{t("footer.createdBy", "Created by Orelia")}</span>
+          <span>{t("footer.createdBy")}<a href="https://orelia.framer.website/" target='_blank'>Orelia</a>
+          </span>
         </div>
       </div>
     </motion.footer>

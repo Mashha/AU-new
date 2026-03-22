@@ -915,5 +915,10 @@
     "title": "Tukaj ni ničesar...",
     "sub": "...morda stran, ki jo iščete, ne obstaja",
     "btn": "Domov"
+  },
+   "footer": {
+    "copyright": "© Vse pravice pridržane | Anonymous For The Unheard",
+    "createdBy": "Ustvarila",
+    "photosBy": "Fotografija"
   }
 }

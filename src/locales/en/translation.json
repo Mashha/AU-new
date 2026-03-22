@@ -858,5 +858,10 @@
     "title": "There's nothing here...",
     "sub": "...maybe the page you are looking for doesn't exist",
     "btn": "Go home"
+  },
+  "footer": {
+    "copyright": "© All right reserved | Anonymous For The Unheard",
+    "createdBy": "Created by",
+    "photosBy": "Photography by"
   }
 }
